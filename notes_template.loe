@@ -1,0 +1,35 @@
+\addvspace {10\p@ }
+\contentsline {definition}{\ifthmt@listswap \MakeUppercase {d}efinition\nobreakspace {}1.1\else \numberline {1.1}\MakeUppercase {d}efinition\fi \thmtformatoptarg {standard form}}{7}{definition.1.1}%
+\contentsline {example}{\ifthmt@listswap \MakeUppercase {e}xample\nobreakspace {}1.1\else \numberline {1.1}\MakeUppercase {e}xample\fi \thmtformatoptarg {Multiperiod planning of electric power capacity}}{8}{example.1.1}%
+\contentsline {example}{\ifthmt@listswap \MakeUppercase {e}xample\nobreakspace {}1.2\else \numberline {1.2}\MakeUppercase {e}xample\fi \thmtformatoptarg {multicommodity flow problem}}{9}{example.1.2}%
+\contentsline {definition}{\ifthmt@listswap \MakeUppercase {d}efinition\nobreakspace {}1.2\else \numberline {1.2}\MakeUppercase {d}efinition\fi \thmtformatoptarg {convex \& concave}}{10}{definition.1.2}%
+\contentsline {theorem}{\ifthmt@listswap \MakeUppercase {t}heorem\nobreakspace {}1.1\else \numberline {1.1}\MakeUppercase {t}heorem\fi \thmtformatoptarg {convexity of the maximum of convex functions}}{10}{theorem.1.1}%
+\contentsline {example}{\ifthmt@listswap \MakeUppercase {e}xample\nobreakspace {}1.3\else \numberline {1.3}\MakeUppercase {e}xample\fi \thmtformatoptarg {Problems involving absolute values}}{11}{example.1.3}%
+\addvspace {10\p@ }
+\contentsline {theorem}{\ifthmt@listswap \MakeUppercase {t}heorem\nobreakspace {}2.1\else \numberline {2.1}\MakeUppercase {t}heorem\fi }{15}{theorem.2.1}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}2.2\else \numberline {2.2}\MakeUppercase {c}orollary\fi }{15}{corollary.2.2}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}2.3\else \numberline {2.3}\MakeUppercase {c}orollary\fi \thmtformatoptarg {Fundamental Theorem of Linear Algebra}}{15}{corollary.2.3}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}2.4\else \numberline {2.4}\MakeUppercase {c}orollary\fi \thmtformatoptarg {inhomogeneous system}}{15}{corollary.2.4}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}2.5\else \numberline {2.5}\MakeUppercase {c}orollary\fi }{15}{corollary.2.5}%
+\contentsline {theorem}{\ifthmt@listswap \MakeUppercase {t}heorem\nobreakspace {}2.6\else \numberline {2.6}\MakeUppercase {t}heorem\fi \thmtformatoptarg {Size of Determinant of a Matrix}}{16}{theorem.2.6}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}2.7\else \numberline {2.7}\MakeUppercase {c}orollary\fi }{16}{corollary.2.7}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}2.8\else \numberline {2.8}\MakeUppercase {c}orollary\fi }{16}{corollary.2.8}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}2.9\else \numberline {2.9}\MakeUppercase {c}orollary\fi }{17}{corollary.2.9}%
+\contentsline {theorem}{\ifthmt@listswap \MakeUppercase {t}heorem\nobreakspace {}2.10\else \numberline {2.10}\MakeUppercase {t}heorem\fi \thmtformatoptarg {Gaussian Elimination Method Running Time}}{17}{theorem.2.10}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}2.11\else \numberline {2.11}\MakeUppercase {c}orollary\fi }{18}{corollary.2.11}%
+\addvspace {10\p@ }
+\contentsline {theorem}{\ifthmt@listswap \MakeUppercase {t}heorem\nobreakspace {}3.1\else \numberline {3.1}\MakeUppercase {t}heorem\fi \thmtformatoptarg {Hermite normal form theorem}}{19}{theorem.3.1}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}3.2\else \numberline {3.2}\MakeUppercase {c}orollary\fi \thmtformatoptarg {Kronecker's approximation theorem}}{19}{corollary.3.2}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}3.3\else \numberline {3.3}\MakeUppercase {c}orollary\fi }{20}{corollary.3.3}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}3.4\else \numberline {3.4}\MakeUppercase {c}orollary\fi }{20}{corollary.3.4}%
+\contentsline {theorem}{\ifthmt@listswap \MakeUppercase {t}heorem\nobreakspace {}3.5\else \numberline {3.5}\MakeUppercase {t}heorem\fi \thmtformatoptarg {Uniqueness of the Hermite Normal Form}}{21}{theorem.3.5}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}3.6\else \numberline {3.6}\MakeUppercase {c}orollary\fi }{21}{corollary.3.6}%
+\contentsline {theorem}{\ifthmt@listswap \MakeUppercase {t}heorem\nobreakspace {}3.7\else \numberline {3.7}\MakeUppercase {t}heorem\fi \thmtformatoptarg {unimodular and ralations}}{21}{theorem.3.7}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}3.8\else \numberline {3.8}\MakeUppercase {c}orollary\fi }{21}{corollary.3.8}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}3.9\else \numberline {3.9}\MakeUppercase {c}orollary\fi }{21}{corollary.3.9}%
+\addvspace {10\p@ }
+\contentsline {theorem}{\ifthmt@listswap \MakeUppercase {t}heorem\nobreakspace {}4.1\else \numberline {4.1}\MakeUppercase {t}heorem\fi \thmtformatoptarg {Euclidean Algorithm Terminates in Polynomial Time}}{24}{theorem.4.1}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}4.2\else \numberline {4.2}\MakeUppercase {c}orollary\fi }{24}{corollary.4.2}%
+\contentsline {theorem}{\ifthmt@listswap \MakeUppercase {t}heorem\nobreakspace {}4.3\else \numberline {4.3}\MakeUppercase {t}heorem\fi \thmtformatoptarg {good characterizations}}{24}{theorem.4.3}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}4.4\else \numberline {4.4}\MakeUppercase {c}orollary\fi }{25}{corollary.4.4}%
+\contentsline {corollary}{\ifthmt@listswap \MakeUppercase {c}orollary\nobreakspace {}4.5\else \numberline {4.5}\MakeUppercase {c}orollary\fi }{25}{corollary.4.5}%
