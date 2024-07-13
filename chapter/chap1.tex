@@ -1,4 +1,34 @@
 % !TEX root = ../notes_template.tex
-\chapter{}
+\chapter{THE ECONOMICS OF DENSITY: EVIDENCE FROM THE BERLIN WALL}
 
-\section{Some Theory}
+\section{THEORETICAL MODEL}
+
+The city consists of a set of discrete locations, index by $i = 1, \ldots, S$. Each block has an effective supply of floor space $L_i$. Floor space can be used commercially or residentially, and we denote the endogenous fractions of floor space allocated to commercial and residential use by $\theta_i$ and $1 - \theta_i$. City is populated by an endogenous measure of $H$ workers, who are perfectly mobile within the city and the larger economy, which provides a reservation level of utility $\overline{U}$. Workers decide whether or not to move to the city before observing idiosyncratic utility shocks for each possible pair of residence and employment blocks within the city.
+
+\subsection{Workers}
+
+Workers are risk neutral and have preferences that are linear in a consumption index: $U_{ijo} = C_{ijo}$, where $C_{ijo}$ denotes the consumption index for worker $o$ residing in block $i$ and working in block $j$. This consumption index depends on consumption of the single final good $c_{ijo}$; consumption of residential floor space ($\ell_{ijo}$); residential amenities ($B_i$) that capture common characteristics that make a block a more or less attractive place to live; the disutility from commuting from residence block $i$ to workplace block $j$ ($d_{ij} \geq 1$); and an idiosyncratic shock that is specific to individual workers and varies with the worker's blocks of employment and residence $(z_{ijo}$). This idiosyncratic shock captures the idea that individual workers can have idiosyncratic reasons for living and working in different parts of the city. In particular, the aggregate consumption index is assumed to take the Cobb-Douglas form:
+
+\begin{equation}
+    C_{ijo} = \frac{B_i z_{ijo}}{d_{ij}} (\frac{c_{ijo}}{\beta})^{\beta} (\frac{\ell_{ijo}}{1 - \beta})^{1 - \beta}, 0 < \beta < 1
+\end{equation}
+
+where the iceberg communiting cost $d_{ij} = e^{\kappa \tau_{ij}} \in [1, \infty)$ increases with the travel time $(\tau_{ij})$ between blocks $i$ and $j$. The parameter $\kappa$ controls the size of commuting costs.
+
+For each worker $o$ living in block $i$ and commuting to block $j$, the idiosyncratic component of utility $(z_{ijo})$ is drawn from an independent Frechet distribution:
+
+\begin{equation}
+    F(z_{ijo}) = e^{-T_i E_j z_{ijo}^{-\varepsilon}}, T_i, E_j > 0, \varepsilon > 1
+\end{equation}
+
+where the scale parameter $T_i > 0$ determines the average utility derived from living in block $i$; the scale parameter $E_j$ determines the average utility derived from working in block $j$; and the shape parameter $\varepsilon > 1$ controls the dispersion of idiosyncratic utility.
+
+The indirect utility from residing in block $i$ and working in block $j$ can be expressed in terms of the wage paid at this workplace $(w_j)$, commuting costs $(d_{ij})$, the residential floor price $(Q_i)$, the common component of amenities $(B_i)$, and the idiosyncratic shock $(z_{ijo})$:
+
+\begin{equation}
+    u_{ijo} = \frac{z_{ijo} B_i w_j Q_i^{\beta - 1}}{d_{ij}}
+\end{equation}
+
+where we have used utility maximization and the choice of the final good as numeraire.
+
+page 13
