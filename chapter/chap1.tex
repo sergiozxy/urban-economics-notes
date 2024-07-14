@@ -29,6 +29,18 @@ The indirect utility from residing in block $i$ and working in block $j$ can be 
     u_{ijo} = \frac{z_{ijo} B_i w_j Q_i^{\beta - 1}}{d_{ij}}
 \end{equation}
 
-where we have used utility maximization and the choice of the final good as numeraire.
+where we have used utility maximization and the choice of the final good as numeraire. Although we model commuting costs in terms of utility, there is an isomorphic formulation in terms of a reduction in effective units of labor, because the iceberg commuting cost $d_{ij} = e^{\kappa \tau_{ij}}$ enters the indirect utility function multiplicatively. As a result, commuting costs are proportional to wages, and this specification captures changes over time in the opportunity cost of travel time.
 
-page 13
+Since indirect utility is a monotonic function of the idiosyncratic shock $(z_{ijo})$, whch has a Frechet distribution, it follows that indirect utility for workers living in block $i$ and working in block $j$ also has a Frechet distribution. Each worker chooses the bilateral commute that offers her the maximum utility, where the maximum of Frechet distributed random variables is itself Frechet distributed. Using these distributions of utility, the probability that a worker choose to  live in block $i$ and work in block $j$ is:
+
+\begin{equation}
+    \pi_{ij} = \frac{T_i E_j(d_{ij} Q_i^{1 - \beta})^{-\varepsilon} (B_i w_j)^{\varepsilon}}{\sum_{r=1}^S \sum_{s=1}^S T_r E_s(d_{rs}Q_r^{1 - \beta})^{-\varepsilon} (B_r w_s)^{\varepsilon}} \equiv \frac{\Phi_{ij}}{\Phi}.
+\end{equation}
+
+Summing these probabilities across workplaces for a given residence, we obtain the overall probability that a worker resides in block $i(\pi_{Ri})$, while summing these probabilities across residences for a given workplace, we obtain the overall probability that a worker works in block $j(\pi_{Mi})$:
+
+\begin{equation}
+    \pi_{Ri} = \sum_{j=1}^s \pi_{ij} = \frac{\sum_{j=1}^s \Phi_{ij}}{\Phi}, \pi_{Mj} = \sum_{i=1}^S \pi_{ij} = \frac{\sum_{i=1}^S \Phi_{ij}}{\Phi}
+\end{equation}
+
+These residential and workplace choice probabilities have an intuitive interpretation. The idiosyncratic shock to preferences $z_{ijo}$ implies that individual workers choose different bilateral commutes when faced with the same prices $\{Q_i, w_j\}$, commuting costs $\{d_{ij}\}$ and location characteristics $\{B_i, T_i, E_j\}$.
