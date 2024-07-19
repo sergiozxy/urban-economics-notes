@@ -43,4 +43,38 @@ Summing these probabilities across workplaces for a given residence, we obtain t
     \pi_{Ri} = \sum_{j=1}^s \pi_{ij} = \frac{\sum_{j=1}^s \Phi_{ij}}{\Phi}, \pi_{Mj} = \sum_{i=1}^S \pi_{ij} = \frac{\sum_{i=1}^S \Phi_{ij}}{\Phi}
 \end{equation}
 
-These residential and workplace choice probabilities have an intuitive interpretation. The idiosyncratic shock to preferences $z_{ijo}$ implies that individual workers choose different bilateral commutes when faced with the same prices $\{Q_i, w_j\}$, commuting costs $\{d_{ij}\}$ and location characteristics $\{B_i, T_i, E_j\}$.
+These residential and workplace choice probabilities have an intuitive interpretation. The idiosyncratic shock to preferences $z_{ijo}$ implies that individual workers choose different bilateral commutes when faced with the same prices $\{Q_i, w_j\}$, commuting costs $\{d_{ij}\}$ and location characteristics $\{B_i, T_i, E_j\}$. Other things equal, the more attractive its amenities $B_i$, the higher its average idiosyncratic utility determined by $T_i$, the lower its residential floor prices $Q_i$, and the lower its commuting costs $d_{ij}$ to employment locations.
+
+Conditional on living in block $i$, the probability that a worker commutes to block $j$ is:
+
+\begin{equation}
+  \pi_{ij \mid i} = \frac{E_j(w_j / d_{ij})^\varepsilon}{\sum_{s=1}^S E_s(w_s / d_{is})^\varepsilon}
+\end{equation}
+
+where the terms in $\{Q_i, T_i, B_i\}$ have cancelled from the numerator and denominator. Therefore, the probability of commuting to block $j$ conditional on living in block $i$ depends on wage $(w_j)$, average utility draw $(E_j)$, and commuting costs $(d_{ij})$ of employment location $j$ in the numerator as well as teh wage $(w_s)$, average utility draw $(E_s)$ and commuting costs $(d_{is})$ for all other possible employment locations $s$ in the denominator.
+
+Using the conditional commuting probabilities, we obtain the following commuting market clearing condition that equates the measure of worker employed in block $j (H_{M_j})$ with the measure of workers choosing to commute to block $j$:
+
+\begin{equation}
+  H_{M_j} = \sum_{s=1}^S \frac{E_j(w_j / d_{ij})^{\varepsilon}}{\sum_{s=1}^S E_s(w_s / d_{is})^{\varepsilon}} H_{R_i}
+\end{equation}
+
+where $H_{R_i}$ is the measure of residents in block $i$. Since there is a continuous measure of workers residing in each location, there is no uncertainty in the supply of workers to each employment location.
+
+Expected worker income conditional on living in block $i$ is equal to the wages in all possible employment location weighted by the probabilities of commuting to choose those locations conditional on living in $i$:
+
+\begin{equation}
+  E[w_j \mid i] = \sum_{j=1}^S \frac{E_j(w_j / d_{ij})^\varepsilon}{\sum_{s=1}^S E_s(w_s / d_{is})^\varepsilon} w_j
+\end{equation}
+
+Finally, population mobility implies that the expected utility from moving to the city is equal to the reservation level of utility in the wider economy $(\tilde{U})$:
+
+\begin{equation}
+  E[u] = \gamma [\sum_{r=1}^S \sum_{s=1}^S T_r E_s(d_{rs} Q_r^{1-\beta})^{-\varepsilon} (B_r w_s)^{\varepsilon}]^{1/\varepsilon} = \tilde{U}
+\end{equation}
+
+where $E$ is the expectation operator and expectation is taken over the distribution for the idiosyncratic component of utility: $\gamma = \Gamma(\frac{\varepsilon - 1}{\varepsilon})$ and $\Gamma(\cdot)$ is the Gamma function.
+
+\subsection{Production}
+
+Production of the tradable final good occurs under conditions of perfectly competition and constant returns to scale.
