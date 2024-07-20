@@ -77,4 +77,146 @@ where $E$ is the expectation operator and expectation is taken over the distribu
 
 \subsection{Production}
 
-Production of the tradable final good occurs under conditions of perfectly competition and constant returns to scale.
+Production of the tradable final good occurs under conditions of perfectly competition and constant returns to scale. We can assume the production technology takes the CD-form
+
+\begin{equation}
+  y_j = A_j H_{M_j}^{\alpha} L_{M_j}^{1 - \alpha}
+\end{equation}
+
+where $A_j$ is final goods productivity and $L_{M_j}$ is the measure of floor space used commercially. Firms choose their block of production and their inputs of workers and commercial floor space to maximize profits, taking as given final goods productivity $A_j$, the distribution of idiosyncratic utility, goods and factor prices, and the location decisions of other firms and workers. Profit maximization implies that equlibrium employment in block $j$ is increasing in productivity ($A_j$), decreasing in wage ($w_j$), and increasing in commercial floor space ($L_{M_j}$).
+
+\begin{equation}
+  H_{M_j} = (\frac{\alpha A_j}{w_j})^{1/(1-\alpha)} L_{M_j}
+\end{equation}
+
+where the equilibrium wage is determined by the requirement that the demand for workers in each employment location equals the supply of workers to that location.
+
+From the first order conditions for maximization and zero profit, equilibrium commercial floor prices ($q_j$) in each block with positive employment must satisfy:
+
+\begin{equation}
+  q_j = (1 - \alpha) (\frac{\alpha}{w_j})^{\alpha / (1 - \alpha)} A_j^{1/(1 - \alpha)} L_{M_j}^{-1/(1 - \alpha)}
+\end{equation}
+
+\subsection{Land Market Cleaning}
+
+Land market equilibrium requires no-arbitrage conditions between the commercial and residential use of floor space after the tax equivalence of land use regulations. The share of floor space used commercially $(\theta_i)$ is:
+
+\begin{equation}
+  \begin{aligned}
+    \theta_i & = 1 \text{ if } q_i > \xi_i Q_i \\
+    \theta_i & \in [0, 1] \text{ if } q_i = \xi_i Q_i
+    \theta_i & = 0 \text{ if } q_i < \xi_i Q_i
+  \end{aligned}
+\end{equation}
+
+where $\xi_i \geq 1$ captures one plus the tax equivalent of land use regulations that restrict commercial land use relative to residential land use. We assume that the observed price of floor spaces in the data is the maximum of the commercial and residential price of floor space: $\mathbb{Q} = \max\{q_i, Q_i\}$. Hence the relationship between observed, commercial, and residential floor prices can be summarized as:
+
+\begin{equation}
+  \begin{aligned}
+  \mathbb{Q}_i & = q_i, q_i > \xi_i Q_i, \theta_i = 1 \\
+  \mathbb{Q}_i & = q_i, q_i = \xi_i Q_i, \theta_i \in [0, 1] \\
+  \mathbb{Q}_i = Q_i, q_i < \xi_i Q_i, \theta_i = 0
+\end{aligned}
+\end{equation}
+
+We follow the standard approach in the urban literature of assuming that floor space $L$ is supplied by a competitive construction sector that uses land $K$ and capital $M$ a inputs. We assume that the production function takes the CD-form: $L_i = M_i^{\mu} K_i^{1 - \mu}$. Therefore, the corresponding dual cost function for floor space is $\mathbb{Q}_i = \mu^{-\mu}(1 - \mu)^{-(1 - \mu)} \mathbb{P}^{\mu} \mathbb{R}^{1 - \mu}_i$, where $\mathbb{Q}_i = \max\{q_i, Q_i\}$ is the price for floor space, $\mathbb{P}$ is the common price for capital across all blocks, and $\mathbb{R}_i$ is the price for land. Since the price for capital is the same across all locations, the relationship between the quantities and prices of floor space and land can be summarized as:
+
+\begin{equation}
+  L_i = \phi_i K_i^{1 - \mu}
+\end{equation}
+
+\begin{equation}
+  \mathbb{Q}_i = \chi \mathbb{R}_i^{1 - \mu}
+\end{equation}
+
+where we refer to $\phi_i = M_i^{\mu}$ as the density of development and $\chi$ is a constant. Residential land market clearing implies that the demand for residential floor space equals the supply of floor space allocated to residential use in each location: $(1 - \theta_i)L_i$. Maximization for each worker and taking expectation over the distribution for idiosyncratic utility, the residential land market clearing condition can be expressed as:
+
+\begin{equation}
+  \mathbb{E}[\ell_i] H_{R_i} = (1 - \beta) \frac{\mathbb{E}[w_s \mid i] H_{R_i}}{Q_i} = (1 - \theta_i)L_i.
+\end{equation}
+
+Commercial land market cleaning requires that the demand for commercial floor space equals the supply of floor space allocated to commercial use in each location: $\theta_j L_j$. Using the FOC for profit maximization, the commercial land market clearing condition can be expressed as:
+
+\begin{equation}
+  (\frac{(1 - \alpha) A_j}{q_j})^{1/\alpha} H_{M_j} = \theta_j L_j
+\end{equation}
+
+We both residential and commercial land market clearing are satisfied, total demand for floor space equals the total supply of floor space:
+
+\begin{equation}
+  (1 - \theta_i)L_i + \theta_i L_i = L_i = \phi_i K_i^{1 - \mu}
+\end{equation}
+
+\subsection{General Equilibrium With Exogenous Location characteristics}
+
+Given the model's parameters $\{\alpha, \beta, \mu, \varepsilon, \kappa\}$, the reservation level of utility in the wider economy $\overline{U}$, and vectors of exogenous location characteristics $\{T, E, A, B, \phi, K, \xi, \tau\}$, the general equilibrium is referred with six vectors $\{\pi_M, \pi_R, Q, q, w, \theta\}$ and total city population $H$.
+
+\begin{proposition}
+  Assuming exogenous finite, and strictly location characteristics $(T_i \in (0, \infty), E_i \in (0, \infty), \phi_i \in (0, \infty), K_i \in (0, \infty), \xi_i \in (0, \infty), \tau_{ij} \in (0, \infty) \times (0, \infty))$, and exogenous, finite and nonnegative final goods productivity $A_i \in [0, \infty)$ and residential amnetities $B_i \in [0, \infty)$, there exists a unique general equilibrium vector $\{\pi_M, \pi_R, Q, q, w, \theta\}$
+\end{proposition}
+
+\begin{proof}
+  The proof can be decomposed into two parts: firstly, we show that under the assumptions that all blocks have strictly positive, finite, and exogenous location and we allow some blocks to be more attractive than others in terms of these characteristics. But workers draw idiosyncratic preferences from a Frechet distribution for pairs of residence and workplace locations, and therefore, since teh Frechet distribution is unbounded from above, any block with strictly positive characteristics has a positive measure of workers that prefer that location as a residence or workplace at a positive and finite price. Hence, all blocks with finite positive wages attract a positive measure of workers, and all blocks with finite positive floor prices attract a positive measure of residents.
+
+  Then We next show that blocks with strictly positive, finite, and exogenous location characteristics must have strictly positive and finite values of both wages and floor prices in equilibrium.
+\end{proof}
+
+\subsection{Introducing Agglomenration Forces}
+
+We now introduce endogenous agglomenration forces. We allow final goods productivity to depend on production fundamentals $(a_j)$ and production externalities $(Y_j)$. Production fundamentals capture features of physical geography that make a location more or less productive independently of the surrounding density of economic activity. Production externalities impose structure on how the productivity of a given block is affected by the characteristics of other blocks. Specifically, we follow the standard approach in urban economics of modeling these externalities as depending on the travel-time weighted sum of workplace employment density in surrounding blocks:
+
+\begin{equation}
+  A_j = a_j Y_j^{\lambda}, Y_j \equiv \sum_{s=1}^S e^{-\delta \tau_{js}} (\frac{H_{M_s}}{K_s}),
+\end{equation}
+
+where $H_{Ms}/K_s$ is workplace employment density per unit of land area; production externalities decline with travel time $(\tau_{js})$ through the iceberg factor $e^{-\delta \tau_{js})} \in (0, 1]$; $\delta$ determines their rate of spatial decay, and $\lambda$ controls their relative importance in determining overall productivity.
+
+We model the externalities in workers' residential choices analygously to the externalities in firms' production choices. We allow residential amenities to depend on residential fundamentals $(b_i)$ and residential externalities $(\Omega_i)$. Residential fundamentals capture features of physical geography that make a location a more or less attractive place to live independently of the surrounding density of economic activity. Residential externalities again impose structure on how the amenities in a given block are affected by the characteristics of other blocks. Specifically, we adopt a symmetric specification as for production externalities, and model residential externalities as depending on the travel time weighted sum of residential employment density in surrounding blocks:
+
+\begin{equation}
+  B_i = b_i \Omega_i^{\eta}, \Omega_i \equiv \sum_{r=1}^S e^{-\rho \tau_{ir}} (\frac{H_{Rr}}{K_r})
+\end{equation}
+
+where $H_{Rr} / K_r$ is residence employment density per unit of land area; residential externalities decline with travel time $(\tau_{ir})$ through the iceberg factor $e^{-\rho \tau_{ir}} \in (0, 1]$; $\rho$ determines their rate of spatial decay; and $\eta$ controls their relative importance in overall residential amenities. The parameter $\eta$ captures the net effect of residence employment density on amenities, including negative spillover such as air pollution and crime, and positive externalities through the availability of urban amenities. Although $\eta$ captures the direct effect of higher residence employment density on utility through amenities, there are clearly other general equilibrium effects through floor prices, commuting times and wages.
+
+\subsection{Recovering Location Characteristics}
+
+We now show that there is a unique mapping from the observed variables to unobserved location characteristics. Since a number of these unobserved variables enter the model isomorphically, we define the following composites denoted bya tilde:
+
+\begin{equation*}
+  \begin{aligned}
+    \tilde{A}_i & = A_i E_i^{\alpha / \varepsilon}, \tilde{a}_i = a_i E_i^{\alpha / \varepsilon} \\
+    \tilde{B}_i & = B_i T_i^{1/\varepsilon} \zeta_{Ri}^{1 - \beta}, \tilde{b}_i = b_i T_i^{1 / \varepsilon} \zeta_{Ri}^{1 - \beta} \\
+    \tilde{w}_i & = w_i E_i^{1 / \varepsilon} \\
+    \tilde{\phi}_i & = \tilde{\phi}_i(\phi_i, E_i^{1 / \varepsilon}, \xi_i)
+  \end{aligned}
+\end{equation*}
+
+where we use $i$ to index all blocks, and the function $\tilde{\phi}_i(\cdot)$ is a defined function; $\zeta_{Ri} = 1$ for completely specialized residential blocks; and $\zeta_{Ri} = \zeta_i$ for residential blocks with some commercial land use.
+
+In the labor market, the adjusted wage for each employment location $(\tilde{w}_i)$ captures the wage $(w_i)$ and the Frechet scale parameter for the location $(E_i^{1 / \varepsilon})$, because these both affect the relative attractiveness of an employment location to workers. On the production side, adjusted productivity for each employment location $(\tilde{A}_i)$ captures productivity $(A_i)$ and the Frechet scale parameter for the location $(E_i^{\alpha / \varepsilon})$ because these both affect the adjusted wage consistent with zero profits. Adjusted production fundamentals are defined analogously. On the consumption side, adjusted amenities for each residence location $(\tilde{B}_i)$ capture amenities $(B_i)$, the Frechet scale parameter for that location $(T_i^{1 / ]\varepsilon})$ and the relationship between observed and residential floor prices $(\zeta_{Ri} \in \{1, \zeta_i\})$, because these all affect the relative attractiveness of a location consistent with population mobility. Adjusted residential fundamentals are defined analogously. Finally, in the land market, the adjusted density of development $(\tilde{\phi}_i)$ includes the density of development $(\phi_i)$ and other production and residential parameters that affect land market clearing.
+
+\begin{proposition}
+  \begin{enumerate}
+    \item Given known values for the parameters $\{\alpha, \beta, \mu, \varepsilon, \kappa\}$ and the observed data $\{\mathbb{Q}, \bf{H}_M, \bf{H}_R, \bf{K}, \bf{\tau}\}$ there exists unique vectors of the unobserved location characteristics $\{\tilde{\bf{A}}^*, \tilde{\bf{B}}^*, \tilde{\bf{\phi}}^*\}$ that are consistent with the data being an equilibrium of the model.
+    \item Given known values for the parameters $\{\alpha, \beta, \mu, \varepsilon, \kappa, \lambda, \delta, \eta, \rho\}$ and the observed data $\{\mathbb{Q}, \bf{H}_M, \bf{H}_R, \bf{K}, \bf{\tau}\}$ there exists a unique vectors of the unobserved location characteristics $\{\tilde{\bf{a}}^*, \tilde{\bf{b}}^*, \tilde{\bf{\phi}}^*\}$ that are consistent with the data being an equilibrium of the model.
+  \end{enumerate}
+\end{proposition}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
