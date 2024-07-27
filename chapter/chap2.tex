@@ -1,0 +1,43 @@
+\chapter{THE MAKING OF THE MODERN METROPOLIS: EVIDENCE FROM LONDON}
+
+\section{Theoretical Framework}
+
+We consider a city embedded in a wider economy (Great Britain). The economy as a whole consists of a discrete set of locations $\mathbb{M}$. Greater London is a subset of these locations $\mathbb{N} \subset \mathbb{M}$, Time is discrete and is indexed by $t$. The economy as a whole is populated by an exogenous continuous measure $L_{\mathbb{M}t}$ of workers, who are geographically mobile and wndowed with one unit of labor that is supplied inelastically. Workers simultaneously choose their preferred residence $n$ and workplace $i$ given their idiosyncratic draws. We denote the endogenous measure of workers who choose a residence-workplace pair in Greater London by $L_{\mathbb{N}t}$. We allow locations to differ from one another in terms of their attractiveness for production and residence, as determined by productivity, amenities, the supply of floor space, and transport connections, where each of these location characteristics can evolve over time.
+
+\subsection{Preferences}
+
+We assume that preferences take the CD-form, such that the indirect utility for a worker $\omega$ residing in $n$ and working in $i$ is:
+
+\begin{equation}
+    U_{ni}(\omega) = \frac{B_{ni}b_{ni}(\omega)w_i}{\kappa_{ni}P_n^{\alpha} Q_n^{1 - \alpha}}, 0 < \alpha < 1
+\end{equation}
+
+where we suppress the time subscript from now on; $P_n$ is the price index for consumption goods, which may include both tradeable and nontradeable consumption goods; $Q_n$ is the price of residential floor space; $w_i$ is the wage, $\kappa_{ni}$ is an iceberg commuting cost; $B_{ni}$ captures amenities from the bilateral commute from residence $n$ to workplace $i$ that are common across all workers; and $b_{ni}(\omega)$ is an idiosyncratic amenity draw that captures all the idiosyncratic factors that can cause an individual to live and work in particular locations in the city.
+
+We assume that idiosyncratic amenities $(b_{ni}(\omega))$ are drawn from an independent extreme value (Frechet) distribution for each residence-workplace pair and each worker:
+
+\begin{equation}
+    G(b) = e^{-b^{-\varepsilon}}, \varepsilon > 1 \label{eq:frechet}
+\end{equation}
+
+where we normalize the Frechet scale parameter in \eqref{eq:frechet} to $1$ because it enters worker choice probabilities isomorphically to common bilateral amenities $B_{ni}$. The Frechet shape parameter $\varepsilon$ regulates the dispersion of idiosyncratic amenities, which controls the sensitivity of worker location decisions to economic variables. The smaller the shape parameter $\varepsilon$, the greater the heterogeneity in idiosyncratic amenities, and the less sensitive are worker location decisions to economic variables.
+
+We decompose the bilateral common amenities parameter $(B_{ni})$ into a residence component common across all workplaces $(B_n^{\mathcal{R}})$, a workplace component common across all residences $(B_i^L)$, and an idiosyncratic component $(B_{ni}^I)$ specific to an individual residence-workplace pair:
+
+\begin{equation}
+    B_{ni} = B_n^{\mathcal{R}}B_i^L B_{ni}^I, \quad B_n^{\mathcal{R}}, B_i^L, B_{ni}^I > 0
+\end{equation}
+
+We allow the levels of $B_n^{\mathcal{R}}, B_i^I$ and $B_{ni}^I$ to differ across residences $n$ and workplace $i$, although when we examine the impact of the construction of railway network, we assume that $B_i^L$ and $B_{ni}^I$ are time-invariant. In contrast, we allow $B_n^{\mathcal{R}}$ to change over time, and for those changes to be potentially endogenous to the evolution of the surrounding concentration of economic activity through agglomeration forces.
+
+Conditional on choosing a residence-workplace pair in Greater London, we know that the probability a worker chooses to reside in location $n \in \mathbb{N}$ and work in location $i \in \mathbb{N}$ is given by:
+
+\begin{equation}
+    \begin{aligned}
+        \lambda_{ni} & = \frac{L_{ni}}{L_{\mathbb{M}}} \frac{L_{\mathbb{M}}}{L_{\mathbb{N}}} = \frac{L_{ni}}{L_{\mathbb{N}}} \\
+        & = \frac{(B_{ni} w_i)^{\varepsilon} (\kappa_{ni} P_n^{\alpha} Q_n^{1 - \alpha})^{-\varepsilon}}{\sum_{k \in \mathbb{N}} \sum_{\ell \in \mathbb{N}} (B_{k\ell}w_{\ell})^{\varepsilon} (\kappa_{k\ell} P_{k}^{\alpha} Q_k^{1 - \alpha})^{-\varepsilon} }, n,  i \in \mathbb{N}
+    \end{aligned}
+\end{equation}
+
+where $L_{ni}$ is the measure of commuters from $n$ to $i$.
+
