@@ -41,3 +41,81 @@ Conditional on choosing a residence-workplace pair in Greater London, we know th
 
 where $L_{ni}$ is the measure of commuters from $n$ to $i$.
 
+The probability of commuting between residence $n$ and workplace $i$ depends on the characteristics of that residence $n$, the attributes of that workplace $i$ and bilateral commuting costs and amenities. Summing across workplaces $i \in \mathbb{N}$, we obtain the probability that a worker lives in residence $n \in \mathbb{N}$, conditional on choosing a residence-workplace pair in Greater London $(\lambda_n^R = \frac{R_n}{L_{\mathbb{N}}})$. Similarly, summing across residences $n \in \mathbb{N}$, we obtain the probability that a worker is employed in workplace $i \in \mathbb{N}$, conditional on choosing a residence-workplace pair in Greater London $(\lambda_i^L = \frac{L_i}{L_{\mathbb{N}}})$
+
+\begin{equation}
+    \begin{aligned}
+        \lambda_n^R & = \frac{\sum_{i \in \mathbb{N}} (B_{ni} w_i)^\varepsilon (\kappa_{ni} P_n^{\alpha} Q_n^{1 - \alpha})^{-\varepsilon}}{\sum_{k \in \mathbb{N}} \sum_{\ell \in \mathbb{N}} (B_{k\ell} w_{\ell})^{\varepsilon} (\kappa_{k\ell} P_k^{\alpha} Q_k^{1 - \alpha})^{-\varepsilon}     } \\
+        \lambda_i^L & = \frac{\sum_{n \in \mathbb{N}} (B_{ni} w_i)^{\varepsilon} (\kappa_{ni} P_n^{\alpha} Q_n^{1 - \alpha})^{-\varepsilon}}{\sum_{k \in \mathbb{N}} \sum_{\ell \in \mathbb{N}} (B_{k\ell} w_{\ell})^{\varepsilon} (\kappa_{k\ell} P_k^{\alpha} Q_k^{1 - \alpha})^{-\varepsilon}}
+    \end{aligned}
+\end{equation}
+
+where $R_n$ denotes employment by residence in location $n$ and $L_i$ denotes employment by workplace in location $i$. A second implication of our extreme value specification is that expected utility conditional on choosing a residence workplace pair $(\overline{U})$ is the same across all residence-workplace pairs in the economy:
+
+\begin{equation}
+    \overline{U} = v\left[ \sum_{k \in \mathbb{M}} \sum_{\ell \in \mathbb{M}} (B_{k\ell}w_{k\ell})^{\varepsilon} (\kappa_{k\ell} P_k^{\alpha} Q_k^{1 - \alpha})^{-\varepsilon} \right]^{\frac{1}{\varepsilon}} 
+\end{equation}
+
+where the expectation is taken over the distribution for idiosyncratic amenities; $v \equiv \Gamma(\frac{\varepsilon - 1}{\varepsilon})$; $\Gamma(\cdot)$ is the gamma function. Using the probability that a worker chooses a residence-workplace pair in Greater London $(\frac{L_{\mathbb{N}}}{L_{\mathbb{M}}})$, we can rewrite this probability mobility condition as:
+
+\begin{equation}
+    \overline{U}(\frac{L_{\mathbb{N}}}{L_{\mathbb{M}}})^{\frac{1}{\varepsilon}} = v\left[ \sum_{k \in \mathbb{N}} \sum_{\ell \in \mathbb{N}} (B_{k\ell} w_{k\ell})^{\varepsilon} (\kappa_{k\ell} P_k^{\alpha} Q_k^{1 - \alpha})^{-\varepsilon} \right]^{\frac{1}{\varepsilon}}
+\end{equation}
+
+where only the limits of the summations differ on the right hand sides of the equations.
+
+Intuitively, for a given common level of expected utility in the economy $(\overline{U})$, locations in Greater London must offer higher real wages adjusted for common amenities $(B_{ni})$ and commuting costs $(\kappa_{ni})$ to attract workers with lower idiosyncratic draws with an elasticity determined by the parameter $\varepsilon$.
+
+\subsection{Production}
+
+We assume that consumption goods are produced according to a Cobb-Douglas technology using labor, machinery capital, and commercial floor space, where commercial floor space includes both building capital and land. Cost minimization and zero profits imply that payments for labor, commercial floor space, and machinery are constant shares of revenue ($X_i$):
+
+\begin{equation}
+    w_i L_i = \beta^L X_i, q_i H_i^L = \beta^H X_i, rM_i = \beta^M X_i, \beta^L + \beta^H + \beta^M = 1
+\end{equation}
+
+where $q_i$ is the price of commercial floor space; $H_i^L$ is commercial floor space use; $M_i$ is machinery use; and machinery is assumed to be perfectly mobile across locations with a common price $r$ determined in the wider economy. We allow the price of commercial floor space $(q_i)$ to potentially depart from the price of residential floor space $(Q_i)$ in each location $i$ through a location-specific wedge $(\xi_i)$:
+
+\begin{equation}
+    q_i = \xi_i Q_i.
+\end{equation}
+
+From the relationship between factor payments and revenue in equation, payments for commercial floor space are proportional to workplace income $(w_i L_i)$:
+
+\begin{equation}
+    q_i H_i^L = \frac{\beta^H}{\beta^L} w_i L_i
+\end{equation}
+
+\subsection{Commuter Market Clearing}
+
+commuter market clearing implies that the measure of workers employed in each location $(L_i)$ equals the measure of workers chooosing to commute to that location:
+
+\begin{equation}
+    L_i = \sum_{n \in \mathbb{N}} \lambda_{ni \mid n}^R R_n
+\end{equation}
+
+where $\lambda_{ni \mid n}^R$ is the probability of commuting to workplace $i$ conditional on living in residence $n$:
+
+\begin{equation}
+    \lambda_{ni \mid n}^R = \frac{\lambda_{ni}}{\lambda_{n}^R} = \frac{ (\frac{B_{ni} w_i}{\kappa_{ni}^{\varepsilon}   }{  \sum_{\ell \in \mathbb{N}} (\frac{B_{n\ell} w_{\ell}}{\kappa_{n\ell})^{\varepsilon}  }
+\end{equation}
+
+where all characteristics of residence $n$ have canceled from the above equation because they do not vary across workplaces for a given residence.
+
+Commuter market clearing also implies that per capita income by residence $(v_n)$ is a weighted average of the wages in all locations, where the weights are these conditional commuting probabilities by residences $(\lambda_{ni \mid n}^R)$:
+
+\begin{equation}
+    v_n = \sum_{i \in \mathbb{N}} \lambda_{ni \mid n}^R w_i.
+\end{equation}
+
+\subsection{Land Market Clearing}
+
+We assume that floor space is owned by landlords, who receive payments from the residential and commercial use of floor space and consume only consumption goods. Land market clearing implies that total income from the ownership of floor space equals the sum of payments for residential and commercial floor space use:
+
+\begin{equation}
+    \mathbb{Q}_n = Q_n H_n^R q_n H_n^L = (1 - \alpha) \left[ \sum_{i \in \mathbb{N}} \lambda_{ni \mid n}^R w_i \right] R_n + \frac{\beta^H}{\beta^L} w_n L_n
+\end{equation}
+
+where $H_n^R$ is residential floor space use; rateable values $(\mathbb{Q}_n)$ equals the sum of prices times quantities for residential floor space $(Q_n H_n^R)$ and commercial floor space $(q_n H_n^L)$; and we have used the expression for per capita income by residence $(v_n)$ from commuter market clearing.
+
+From the combined land and commuter market-clearing condition, payments for residential floor space are a constant multiple of residence income $(v_n R_n)$, and payments for commercial floor space are a constant multiple of workplace income $(w_n L_n)$. Importantly, we allow the supplies of residential floor space $(H_n^R)$ and commercial floor space $(H_n^L)$ to be endogenous, and we allow the prices of residential and commercial floor space to potentially differ from one another through the location-specific wedge $\xi_i(q_i = \xi_i Q_i)$. In our baseline quantitative analysis below, we are not required to make assumptions about these supplies of residential and commercial floor space or this wedge between commercial and residential floor prices. The reason is that we condition on the observed rateable values in the data $(\mathbb{Q}_n)$ and the supplies and prices for residential and commercial floor space $(H_n^R, H_n^L, Q_n, q_n)$ only after the land market-clearing condition.
