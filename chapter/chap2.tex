@@ -119,3 +119,31 @@ We assume that floor space is owned by landlords, who receive payments from the 
 where $H_n^R$ is residential floor space use; rateable values $(\mathbb{Q}_n)$ equals the sum of prices times quantities for residential floor space $(Q_n H_n^R)$ and commercial floor space $(q_n H_n^L)$; and we have used the expression for per capita income by residence $(v_n)$ from commuter market clearing.
 
 From the combined land and commuter market-clearing condition, payments for residential floor space are a constant multiple of residence income $(v_n R_n)$, and payments for commercial floor space are a constant multiple of workplace income $(w_n L_n)$. Importantly, we allow the supplies of residential floor space $(H_n^R)$ and commercial floor space $(H_n^L)$ to be endogenous, and we allow the prices of residential and commercial floor space to potentially differ from one another through the location-specific wedge $\xi_i(q_i = \xi_i Q_i)$. In our baseline quantitative analysis below, we are not required to make assumptions about these supplies of residential and commercial floor space or this wedge between commercial and residential floor prices. The reason is that we condition on the observed rateable values in the data $(\mathbb{Q}_n)$ and the supplies and prices for residential and commercial floor space $(H_n^R, H_n^L, Q_n, q_n)$ only after the land market-clearing condition.
+
+\section{Quantitative Analysis}
+
+\subsection{Combined Land and Commuter Market Clearing}
+
+We evaluate the effect of changes in the transport network by using an "exact hat algebra" approach. In particular, we rewrite our combined land and commuter market clearing condition for another year $\tau \neq t$ in terms of the values of variables in a baseline year $t$ and the relative changes of variables between years $\tau$ and $t$:
+
+\begin{equation}
+    \hat{\mathbb{Q}}_{nt} \mathbb{Q}_{nt} = (1 - \alpha) \hat{v}_{nt} v_{nt} \hat{R}_{nt} R_{nt} + \frac{\beta^H}{\beta^L} \hat{w}_{nt} w_{nt} \hat{L}_{nt} L_{nt}
+\end{equation}
+
+where $\hat{x}_{nt} = \frac{x_{n\tau}}{x_{nt}}$ for the variable $x_{nt}$ and we now make explicit the time subscripts. The relative change in employment $(\hat{L}_{it})$ and the relative change in average per capita income by residence $(\hat{v}_{nt})$ for year $\tau$ can be expressed as:
+
+\begin{equation}
+    \hat{L}_{it} L_{it} = \sum_{n \in \mathbb{N}} \frac{\lambda_{nit\mid n}^R \hat{w}_{it}^{\varepsilon} \hat{\kappa}_{nit}^{-\varepsilon}}{\sum_{\ell \in \mathbb{N}} \lambda_{n\ell t \mid n}^R \hat{w}_{\ell t}^{\varepsilon} \hat{\kappa}_{n\ell t}^{-\varepsilon}  } \hat{R}_{nt} R_{nt} 
+\end{equation}
+
+\begin{equation}
+    \hat{v}_{nt} v_{nt} = \sum_{i \in \mathbb{N}} \frac{\lambda_{nit \mid n}^R \hat{w}_{it}}{\sum_{\ell \in \mathbb{N}} \lambda_{n\ell t \mid n}^R \hat{w}_{\ell t}^{\varepsilon} \hat{\kappa}_{n\ell t}^{-\varepsilon}  } \hat{w}_{it} w_{it}
+\end{equation}
+
+where these equations include terms in change in wages $(\hat{w}_{n})$ and commuting costs $(\hat{\kappa}_{ni})$ but not in amenities, because we assume that the workplace and bilateral components of amenities are constant $(\hat{B}_{it}^L = 1$ and $\hat{B}_{nit}^I = 1)$, and changes in the residential component of amenities $(\hat{B}_{nt}^R \neq 1)$ cancel from the numerator and denominator of the fractions.
+
+substituting the expressions to the market clearing conditions for year $\tau$ we can get the result.
+
+\begin{lemma}
+    Suppose that $(\hat{\mathbb{Q}}_{nt}, \hat{R}_{nt}, L_{nit}, \lambda_{nit \mid n}^R, \mathbb{Q}_{nt}, v_{nt}, R_{nt}, w_{nt}, L_{nt})$ are known. Given known values for model parameters $\{\alpha, \beta^L, \beta^H, \varepsilon\}$ and the change in bilateral commuting costs $(\hat{\kappa}_{nit}^{-\varepsilon})$, the combined land and commuter market clearing condition determines a unique vector of relative changes in wages $(\hat{w}_{it})$ in each location.
+\end{lemma}
