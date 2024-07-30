@@ -1,3 +1,8 @@
 \addvspace {10\p@ }
 \contentsline {proposition}{\ifthmt@listswap \MakeUppercase {p}roposition\nobreakspace {}1.1\else \numberline {1.1}\MakeUppercase {p}roposition\fi }{10}{proposition.1.1}%
 \contentsline {proposition}{\ifthmt@listswap \MakeUppercase {p}roposition\nobreakspace {}1.2\else \numberline {1.2}\MakeUppercase {p}roposition\fi }{12}{proposition.1.2}%
+\addvspace {10\p@ }
+\contentsline {lemma}{\ifthmt@listswap \MakeUppercase {l}emma\nobreakspace {}2.1\else \numberline {2.1}\MakeUppercase {l}emma\fi }{16}{lemma.2.1}%
+\addvspace {10\p@ }
+\contentsline {assumption}{\ifthmt@listswap \MakeUppercase {a}ssumption\nobreakspace {}3.1\else \numberline {3.1}\MakeUppercase {a}ssumption\fi }{20}{assumption.3.1}%
+\contentsline {assumption}{\ifthmt@listswap \MakeUppercase {a}ssumption\nobreakspace {}3.2\else \numberline {3.2}\MakeUppercase {a}ssumption\fi }{21}{assumption.3.2}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.27)  29 JUL 2024 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.27)  30 JUL 2024 09:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -690,19 +690,20 @@ Package: thm-amsthm 2020/08/01 v0.72
 \c@proposition=\count342
 \c@claim=\count343
 \c@conjecture=\count344
-\c@definition=\count345
-\c@problem=\count346
-\c@example=\count347
-\c@exercise=\count348
-\c@observation=\count349
-\c@fact=\count350
-\c@construction=\count351
-\c@remark=\count352
-\c@question=\count353
+\c@assumption=\count345
+\c@definition=\count346
+\c@problem=\count347
+\c@example=\count348
+\c@exercise=\count349
+\c@observation=\count350
+\c@fact=\count351
+\c@construction=\count352
+\c@remark=\count353
+\c@question=\count354
  (/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count354
-\cp@tempcnt=\count355
+\c@cp@cntr=\count355
+\cp@tempcnt=\count356
 LaTeX Info: Redefining \checkoddpage on input line 59.
 )
 
@@ -725,8 +726,8 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidthlast=\dimen278
 \titlewidthfirst=\dimen279
 )
-\c@ttlp@side=\count356
-\ttlp@side=\count357
+\c@ttlp@side=\count357
+\ttlp@side=\count358
  (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip100
@@ -742,52 +743,52 @@ Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footer
 Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count358
+\lrq@indent=\count359
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count359
-\c@listtotal=\count360
-\c@listcount=\count361
-\c@liststart=\count362
-\c@liststop=\count363
-\c@citecount=\count364
-\c@citetotal=\count365
-\c@multicitecount=\count366
-\c@multicitetotal=\count367
-\c@instcount=\count368
-\c@maxnames=\count369
-\c@minnames=\count370
-\c@maxitems=\count371
-\c@minitems=\count372
-\c@citecounter=\count373
-\c@maxcitecounter=\count374
-\c@savedcitecounter=\count375
-\c@uniquelist=\count376
-\c@uniquename=\count377
-\c@refsection=\count378
-\c@refsegment=\count379
-\c@maxextratitle=\count380
-\c@maxextratitleyear=\count381
-\c@maxextraname=\count382
-\c@maxextradate=\count383
-\c@maxextraalpha=\count384
-\c@abbrvpenalty=\count385
-\c@highnamepenalty=\count386
-\c@lownamepenalty=\count387
-\c@maxparens=\count388
-\c@parenlevel=\count389
-\blx@tempcnta=\count390
-\blx@tempcntb=\count391
-\blx@tempcntc=\count392
-\c@blx@maxsection=\count393
-\c@blx@maxsegment@0=\count394
-\blx@notetype=\count395
-\blx@parenlevel@text=\count396
-\blx@parenlevel@foot=\count397
-\c@blx@sectionciteorder@0=\count398
-\blx@entrysetcounter=\count399
-\blx@biblioinstance=\count400
+\c@tabx@nest=\count360
+\c@listtotal=\count361
+\c@listcount=\count362
+\c@liststart=\count363
+\c@liststop=\count364
+\c@citecount=\count365
+\c@citetotal=\count366
+\c@multicitecount=\count367
+\c@multicitetotal=\count368
+\c@instcount=\count369
+\c@maxnames=\count370
+\c@minnames=\count371
+\c@maxitems=\count372
+\c@minitems=\count373
+\c@citecounter=\count374
+\c@maxcitecounter=\count375
+\c@savedcitecounter=\count376
+\c@uniquelist=\count377
+\c@uniquename=\count378
+\c@refsection=\count379
+\c@refsegment=\count380
+\c@maxextratitle=\count381
+\c@maxextratitleyear=\count382
+\c@maxextraname=\count383
+\c@maxextradate=\count384
+\c@maxextraalpha=\count385
+\c@abbrvpenalty=\count386
+\c@highnamepenalty=\count387
+\c@lownamepenalty=\count388
+\c@maxparens=\count389
+\c@parenlevel=\count390
+\blx@tempcnta=\count391
+\blx@tempcntb=\count392
+\blx@tempcntc=\count393
+\c@blx@maxsection=\count394
+\c@blx@maxsegment@0=\count395
+\blx@notetype=\count396
+\blx@parenlevel@text=\count397
+\blx@parenlevel@foot=\count398
+\c@blx@sectionciteorder@0=\count399
+\blx@entrysetcounter=\count400
+\blx@biblioinstance=\count401
 \labelnumberwidth=\skip109
 \labelalphawidth=\skip110
 \biblabelsep=\skip111
@@ -799,9 +800,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read2
 \blx@bcfout=\write5
 \blx@langwohyphens=\language87
-\c@mincomprange=\count401
-\c@maxcomprange=\count402
-\c@mincompwidth=\count403
+\c@mincomprange=\count402
+\c@maxcomprange=\count403
+\c@mincompwidth=\count404
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -811,74 +812,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'alphabetic.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count404
-\c@savedafterword=\count405
-\c@annotator=\count406
-\c@savedannotator=\count407
-\c@author=\count408
-\c@savedauthor=\count409
-\c@bookauthor=\count410
-\c@savedbookauthor=\count411
-\c@commentator=\count412
-\c@savedcommentator=\count413
-\c@editor=\count414
-\c@savededitor=\count415
-\c@editora=\count416
-\c@savededitora=\count417
-\c@editorb=\count418
-\c@savededitorb=\count419
-\c@editorc=\count420
-\c@savededitorc=\count421
-\c@foreword=\count422
-\c@savedforeword=\count423
-\c@holder=\count424
-\c@savedholder=\count425
-\c@introduction=\count426
-\c@savedintroduction=\count427
-\c@namea=\count428
-\c@savednamea=\count429
-\c@nameb=\count430
-\c@savednameb=\count431
-\c@namec=\count432
-\c@savednamec=\count433
-\c@translator=\count434
-\c@savedtranslator=\count435
-\c@shortauthor=\count436
-\c@savedshortauthor=\count437
-\c@shorteditor=\count438
-\c@savedshorteditor=\count439
-\c@labelname=\count440
-\c@savedlabelname=\count441
-\c@institution=\count442
-\c@savedinstitution=\count443
-\c@lista=\count444
-\c@savedlista=\count445
-\c@listb=\count446
-\c@savedlistb=\count447
-\c@listc=\count448
-\c@savedlistc=\count449
-\c@listd=\count450
-\c@savedlistd=\count451
-\c@liste=\count452
-\c@savedliste=\count453
-\c@listf=\count454
-\c@savedlistf=\count455
-\c@location=\count456
-\c@savedlocation=\count457
-\c@organization=\count458
-\c@savedorganization=\count459
-\c@origlocation=\count460
-\c@savedoriglocation=\count461
-\c@origpublisher=\count462
-\c@savedorigpublisher=\count463
-\c@publisher=\count464
-\c@savedpublisher=\count465
-\c@language=\count466
-\c@savedlanguage=\count467
-\c@origlanguage=\count468
-\c@savedoriglanguage=\count469
-\c@pageref=\count470
-\c@savedpageref=\count471
+\c@afterword=\count405
+\c@savedafterword=\count406
+\c@annotator=\count407
+\c@savedannotator=\count408
+\c@author=\count409
+\c@savedauthor=\count410
+\c@bookauthor=\count411
+\c@savedbookauthor=\count412
+\c@commentator=\count413
+\c@savedcommentator=\count414
+\c@editor=\count415
+\c@savededitor=\count416
+\c@editora=\count417
+\c@savededitora=\count418
+\c@editorb=\count419
+\c@savededitorb=\count420
+\c@editorc=\count421
+\c@savededitorc=\count422
+\c@foreword=\count423
+\c@savedforeword=\count424
+\c@holder=\count425
+\c@savedholder=\count426
+\c@introduction=\count427
+\c@savedintroduction=\count428
+\c@namea=\count429
+\c@savednamea=\count430
+\c@nameb=\count431
+\c@savednameb=\count432
+\c@namec=\count433
+\c@savednamec=\count434
+\c@translator=\count435
+\c@savedtranslator=\count436
+\c@shortauthor=\count437
+\c@savedshortauthor=\count438
+\c@shorteditor=\count439
+\c@savedshorteditor=\count440
+\c@labelname=\count441
+\c@savedlabelname=\count442
+\c@institution=\count443
+\c@savedinstitution=\count444
+\c@lista=\count445
+\c@savedlista=\count446
+\c@listb=\count447
+\c@savedlistb=\count448
+\c@listc=\count449
+\c@savedlistc=\count450
+\c@listd=\count451
+\c@savedlistd=\count452
+\c@liste=\count453
+\c@savedliste=\count454
+\c@listf=\count455
+\c@savedlistf=\count456
+\c@location=\count457
+\c@savedlocation=\count458
+\c@organization=\count459
+\c@savedorganization=\count460
+\c@origlocation=\count461
+\c@savedoriglocation=\count462
+\c@origpublisher=\count463
+\c@savedorigpublisher=\count464
+\c@publisher=\count465
+\c@savedpublisher=\count466
+\c@language=\count467
+\c@savedlanguage=\count468
+\c@origlanguage=\count469
+\c@savedoriglanguage=\count470
+\c@pageref=\count471
+\c@savedpageref=\count472
 \shorthandwidth=\skip117
 \shortjournalwidth=\skip118
 \shortserieswidth=\skip119
@@ -902,19 +903,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-\c@textcitecount=\count472
-\c@textcitetotal=\count473
-\c@textcitemaxnames=\count474
-\c@biburlbigbreakpenalty=\count475
-\c@biburlbreakpenalty=\count476
-\c@biburlnumpenalty=\count477
-\c@biburlucpenalty=\count478
-\c@biburllcpenalty=\count479
+\c@textcitecount=\count473
+\c@textcitetotal=\count474
+\c@textcitemaxnames=\count475
+\c@biburlbigbreakpenalty=\count476
+\c@biburlbreakpenalty=\count477
+\c@biburlnumpenalty=\count478
+\c@biburlucpenalty=\count479
+\c@biburllcpenalty=\count480
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count480
+\c@smartand=\count481
 )
 Package biblatex Info: Trying to load bibliography style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.bbx' found.
@@ -924,8 +925,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count481
-\c@bbx:relatedtotal=\count482
+\c@bbx:relatedcount=\count482
+\c@bbx:relatedtotal=\count483
 ))
 Package biblatex Info: Trying to load citation style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.cbx' found.
@@ -969,25 +970,25 @@ Package: xfor 2009/02/05 v1.05 (NLCT)
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
  (/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count483
+\c@su@anzahl=\count484
 ) (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
  (/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
  `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count484
+\actioncount=\count485
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count485
-\FP@xia=\count486
-\FP@xib=\count487
-\FP@xfa=\count488
-\FP@xfb=\count489
-\FP@rega=\count490
-\FP@regb=\count491
-\FP@regs=\count492
-\FP@times=\count493
+\FP@xs=\count486
+\FP@xia=\count487
+\FP@xib=\count488
+\FP@xfa=\count489
+\FP@xfb=\count490
+\FP@rega=\count491
+\FP@regb=\count492
+\FP@regs=\count493
+\FP@times=\count494
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
@@ -1000,7 +1001,7 @@ Package: fp-trigo 1995/04/14
 Package: fp-pas 1994/08/29
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count494
+\FPseed=\count495
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
@@ -1009,18 +1010,18 @@ Package: fp-upn 1996/10/21
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks45
-\@dtl@tmpcount=\count495
+\@dtl@tmpcount=\count496
 \dtl@tmplength=\skip131
-\dtl@sortresult=\count496
-\@dtl@numgrpsepcount=\count497
-\@dtl@datatype=\count498
-\dtl@codeA=\count499
-\dtl@codeB=\count500
-\@dtl@foreach@level=\count501
+\dtl@sortresult=\count497
+\@dtl@numgrpsepcount=\count498
+\@dtl@datatype=\count499
+\dtl@codeA=\count500
+\dtl@codeB=\count501
+\@dtl@foreach@level=\count502
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
 Package: glossaries-compatible-307 2021/11/01 v4.49 (NLCT)
 )
-\gls@level=\count502
+\gls@level=\count503
 \@gls@tmpb=\toks46
 \gls@tmplen=\skip132
 \glskeylisttok=\toks47
@@ -1040,17 +1041,17 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTright=\skip135
 \LTpre=\skip136
 \LTpost=\skip137
-\LTchunksize=\count503
+\LTchunksize=\count504
 \LTcapwidth=\dimen280
 \LT@head=\box121
 \LT@firsthead=\box122
 \LT@foot=\box123
 \LT@lastfoot=\box124
 \LT@gbox=\box125
-\LT@cols=\count504
-\LT@rows=\count505
-\c@LT@tables=\count506
-\c@LT@chunks=\count507
+\LT@cols=\count505
+\LT@rows=\count506
+\c@LT@tables=\count507
+\c@LT@chunks=\count508
 \LT@p@ftn=\toks51
 )
 \glsdescwidth=\skip138
@@ -1059,7 +1060,7 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 Package: glossary-super 2021/11/01 v4.49 (NLCT)
  (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count508
+\c@tracingst=\count509
 \ST@wd=\dimen281
 \ST@rightskip=\skip140
 \ST@leftskip=\skip141
@@ -1088,49 +1089,49 @@ Package glossaries Info: Writing glossary file notes_template.glo on input line 
 
 Package glossaries Info: Writing glossary file notes_template.acn on input line 6.
 ) (./macros.tex)
-\@quotelevel=\count509
-\@quotereset=\count510
-LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF on input line 185.
+\@quotelevel=\count510
+\@quotereset=\count511
+LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF on input line 186.
  (/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd
 File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 185.
+(Font)              scaled to size 10.95pt on input line 186.
  (./notes_template.aux)
 \openout1 = `notes_template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-\c@mv@tabular=\count511
-\c@mv@boldtabular=\count512
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+\c@mv@tabular=\count512
+\c@mv@boldtabular=\count513
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count513
+\scratchcounter=\count514
 \scratchdimen=\dimen291
 \scratchbox=\box127
-\nofMPsegments=\count514
-\nofMParguments=\count515
+\nofMPsegments=\count515
+\nofMParguments=\count516
 \everyMPshowfont=\toks52
-\MPscratchCnt=\count516
+\MPscratchCnt=\count517
 \MPscratchDim=\dimen292
-\MPnumerator=\count517
-\makeMPintoPDFobject=\count518
+\MPnumerator=\count518
+\makeMPintoPDFobject=\count519
 \everyMPtoPDFconversion=\toks53
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1138,7 +1139,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@lstlisting=\count519
+\c@lstlisting=\count520
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: changepage package is loaded.
 \caption@adjustwidth@hsize=\dimen293
@@ -1184,7 +1185,7 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-Package hyperref Info: Link coloring ON on input line 185.
+Package hyperref Info: Link coloring ON on input line 186.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1192,11 +1193,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count520
+\c@section@level=\count521
 )
-LaTeX Info: Redefining \ref on input line 185.
-LaTeX Info: Redefining \pageref on input line 185.
-LaTeX Info: Redefining \nameref on input line 185.
+LaTeX Info: Redefining \ref on input line 186.
+LaTeX Info: Redefining \pageref on input line 186.
+LaTeX Info: Redefining \nameref on input line 186.
  (./notes_template.out) (./notes_template.out)
 \@outlinefile=\write9
 \openout9 = `notes_template.out'.
@@ -1255,25 +1256,25 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'notes_template.bbl' found.
  (./notes_template.bbl)
-Package biblatex Info: Reference section=0 on input line 185.
-Package biblatex Info: Reference segment=0 on input line 185.
+Package biblatex Info: Reference section=0 on input line 186.
+Package biblatex Info: Reference segment=0 on input line 186.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 191.
+(Font)              scaled to size 17.28pt on input line 192.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 191.
+(Font)              scaled to size 17.28pt on input line 192.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 191.
+(Font)              scaled to size 20.74pt on input line 192.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 191.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 191.
+(Font)              scaled to size 12.0pt on input line 192.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 192.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 191.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 192.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 191.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 192.
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
@@ -1283,21 +1284,34 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM notes_template.toc on input line 196.
+(minitoc)             PREPARING MINITOCS FROM notes_template.toc on input line 197.
 Package minitoc Info: I0033
 (minitoc)             Writing notes_template.mtc1.
 \openout3 = `notes_template.mtc1'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing notes_template.mtc2.
+\openout3 = `notes_template.mtc2'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing notes_template.mtc3.
+\openout3 = `notes_template.mtc3'.
+
  [2]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 197.
+(Font)              scaled to size 20.74pt on input line 198.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 197.
+(Font)              scaled to size 24.88pt on input line 198.
  (./notes_template.toc
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+ [] [][][]\OT1/LinuxLibertineT-TLF/b/n/10.95 THE MAK-ING OF THE MOD-ERN 
+ []
+
 )
 \tf@toc=\write10
 \openout10 = `notes_template.toc'.
@@ -1305,9 +1319,9 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 Package minitoc(hints) Info: I0045
 (minitoc(hints))             The \dominitoc command 
 (minitoc(hints))             has been invoked more than once 
-(minitoc(hints))              on input line 206.
+(minitoc(hints))              on input line 207.
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM notes_template.toc on input line 206.
+(minitoc)             PREPARING MINITOCS FROM notes_template.toc on input line 207.
 
 showing theorem
 (./notes_template.loe)
@@ -1353,9 +1367,33 @@ Overfull \hbox (2.84009pt too wide) in paragraph at lines 202--203
 []\OT1/LinuxLibertineT-TLF/m/it/10.95 Given known val-ues for the pa-ram-e-ters $\OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 ; ^^L; ^^V; "; ^^T; ^^U; ^^N; ^^Q; ^^Z\OMS/cmsy/m/n/10.95 g$ \OT1/LinuxLibertineT-TLF/m/it/10.95 and the ob-served data $\OMS/cmsy/m/n/10.95 f\U/msb/m/n/10.95 Q\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10.95 H[]\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10.95 H[]\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10.95 K\OML/cmm/m/it/10.95 ; ^^\\OMS/cmsy/m/n/10.95 g$
  []
 
-) [12]
+) (./chapter/chap2.tex [12]
+Chapter 2.
 
-LaTeX Warning: Empty bibliography on input line 247.
+Overfull \hbox (19.51428pt too wide) in paragraph at lines 1--1
+|[][]\OT1/LinuxLibertineT-TLF/b/n/24.88 THE MAK-ING OF THE MOD-ERN METROPO-
+ []
+
+[13
+
+] [14] [15]
+Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input line 148.
+) (./chapter/chap4.tex [16]
+Chapter 3.
+[17
+
+] [18]
+Overfull \hbox (68.82266pt too wide) detected at line 99
+[][][]\OT1/cmr/m/n/10.95 ^^A [][][] = [] [] + [] [] + [] [] + [] []
+ []
+
+[19]
+Package hyperref Info: bookmark level for unknown assumption defaults to 0 on input line 140.
+ [20]) [21] [22
+
+]
+
+LaTeX Warning: Empty bibliography on input line 249.
 
 runsystem(makeindex -s index.ist notes_template.idx)...executed safely (allowed).
 
@@ -1381,24 +1419,24 @@ Package minitoc(hints) Warning: W0024
 
 (./notes_template.aux)
 Package rerunfilecheck Info: File `notes_template.out' has not changed.
-(rerunfilecheck)             Checksum: 8CFCB08BFAB81F3F3B5FDC70623ABFB4;1841.
+(rerunfilecheck)             Checksum: CE180286BF3E62F1E8EB2BDCB24DAEF7;3936.
 Package logreq Info: Writing requests to 'notes_template.run.xml'.
 \openout1 = `notes_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35440 strings out of 478287
- 625292 string characters out of 5849289
- 1471634 words of memory out of 5000000
- 52823 multiletter control sequences out of 15000+600000
+ 35574 strings out of 478287
+ 627465 string characters out of 5849289
+ 1476255 words of memory out of 5000000
+ 52883 multiletter control sequences out of 15000+600000
  501647 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,12n,117p,1399b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on notes_template.pdf (12 pages, 383589 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on notes_template.pdf (22 pages, 464365 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 444 PDF objects out of 1000 (max. 8388607)
+ 382 compressed objects within 4 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

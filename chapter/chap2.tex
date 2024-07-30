@@ -20,7 +20,7 @@ We assume that idiosyncratic amenities $(b_{ni}(\omega))$ are drawn from an inde
     G(b) = e^{-b^{-\varepsilon}}, \varepsilon > 1 \label{eq:frechet}
 \end{equation}
 
-where we normalize the Frechet scale parameter in \eqref{eq:frechet} to $1$ because it enters worker choice probabilities isomorphically to common bilateral amenities $B_{ni}$. The Frechet shape parameter $\varepsilon$ regulates the dispersion of idiosyncratic amenities, which controls the sensitivity of worker location decisions to economic variables. The smaller the shape parameter $\varepsilon$, the greater the heterogeneity in idiosyncratic amenities, and the less sensitive are worker location decisions to economic variables.
+where we normalize the Frechet scale parameter in Equation \eqref{eq:frechet} to $1$ because it enters worker choice probabilities isomorphically to common bilateral amenities $B_{ni}$. The Frechet shape parameter $\varepsilon$ regulates the dispersion of idiosyncratic amenities, which controls the sensitivity of worker location decisions to economic variables. The smaller the shape parameter $\varepsilon$, the greater the heterogeneity in idiosyncratic amenities, and the less sensitive are worker location decisions to economic variables.
 
 We decompose the bilateral common amenities parameter $(B_{ni})$ into a residence component common across all workplaces $(B_n^{\mathcal{R}})$, a workplace component common across all residences $(B_i^L)$, and an idiosyncratic component $(B_{ni}^I)$ specific to an individual residence-workplace pair:
 
@@ -97,7 +97,7 @@ commuter market clearing implies that the measure of workers employed in each lo
 where $\lambda_{ni \mid n}^R$ is the probability of commuting to workplace $i$ conditional on living in residence $n$:
 
 \begin{equation}
-    \lambda_{ni \mid n}^R = \frac{\lambda_{ni}}{\lambda_{n}^R} = \frac{ (\frac{B_{ni} w_i}{\kappa_{ni}^{\varepsilon}   }{  \sum_{\ell \in \mathbb{N}} (\frac{B_{n\ell} w_{\ell}}{\kappa_{n\ell})^{\varepsilon}  }
+    \lambda_{ni \mid n}^R = \frac{ \left(\frac{B_{ni} w_i}{\kappa_{ni}}\right)^{\varepsilon}}{\sum_{\ell \in \mathbb{N}} \left(\frac{B_{n\ell} w_{\ell}}{\kappa_{n\ell}}\right)^{\varepsilon}}
 \end{equation}
 
 where all characteristics of residence $n$ have canceled from the above equation because they do not vary across workplaces for a given residence.

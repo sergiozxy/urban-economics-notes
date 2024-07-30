@@ -9,3 +9,20 @@
 \contentsline {subsection}{\numberline {1.1.4}General Equilibrium With Exogenous Location characteristics}{10}{subsection.1.1.4}%
 \contentsline {subsection}{\numberline {1.1.5}Introducing Agglomenration Forces}{11}{subsection.1.1.5}%
 \contentsline {subsection}{\numberline {1.1.6}Recovering Location Characteristics}{11}{subsection.1.1.6}%
+\contentsline {chapter}{\numberline {2}THE MAKING OF THE MODERN METROPOLIS: EVIDENCE FROM LONDON}{13}{chapter.2}%
+\hypertarget {chap-2}{}
+\contentsline {section}{\numberline {2.1}Theoretical Framework}{13}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Preferences}{13}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Production}{15}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Commuter Market Clearing}{15}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Land Market Clearing}{15}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Quantitative Analysis}{16}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Combined Land and Commuter Market Clearing}{16}{subsection.2.2.1}%
+\contentsline {chapter}{\numberline {3}Spatial Sorting and Inequality}{17}{chapter.3}%
+\hypertarget {chap-3}{}
+\contentsline {section}{\numberline {3.1}Change in SKill Sourting: Framework}{17}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Setup}{17}{subsection.3.1.1}%
+\contentsline {subsubsection}{Preferences}{17}{subsection.3.1.1}%
+\contentsline {subsubsection}{Supply of goods, amenities, and housing}{18}{equation.3.1.3}%
+\contentsline {subsubsection}{Heterogeneous migration elasticity}{21}{equation.3.1.14}%
+\contentsline {subsubsection}{Urban skill premium and sorting}{21}{equation.3.1.15}%

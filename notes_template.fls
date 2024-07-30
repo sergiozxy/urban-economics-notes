@@ -2209,6 +2209,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
 INPUT notes_template.toc
 OUTPUT notes_template.mtc1
+OUTPUT notes_template.mtc2
+OUTPUT notes_template.mtc3
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-ot1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1.tfm
@@ -2254,6 +2256,14 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-ot1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinLibertineTI-tlf-ot1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-ot1--base.tfm
+INPUT ./chapter/chap2.tex
+INPUT chapter/chap2.tex
+INPUT ./chapter/chap2.tex
+INPUT chapter/chap2.tex
+INPUT ./chapter/chap4.tex
+INPUT chapter/chap4.tex
+INPUT ./chapter/chap4.tex
+INPUT chapter/chap4.tex
 INPUT ./notes_template.ind
 INPUT notes_template.ind
 INPUT ./notes_template.ind
@@ -2263,6 +2273,10 @@ INPUT ./notes_template.mtc
 INPUT notes_template.mtc
 INPUT ./notes_template.mtc0
 INPUT notes_template.mtc0
+INPUT ./notes_template.mtc5
+INPUT notes_template.mtc5
+INPUT ./notes_template.mtc4
+INPUT notes_template.mtc4
 INPUT ./notes_template.mtc3
 INPUT notes_template.mtc3
 INPUT ./notes_template.mtc2
@@ -2288,8 +2302,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb

@@ -76,3 +76,114 @@ Similar to productivity, amenities $A_i^{\theta}$ are assumed to be driven by bo
 
 where $A_i$ is the exogenous amenity component of city $i$. Endogenous amenities capture elements of quality of life that change when the size or composition of cities changes.
 
+Finally, we assume that housing is supplied by atomistic absentee landowners and the aggregate housing supply function in city $i$ is:
+
+\begin{equation}
+  H_i = \overline{H}_i r_i^{\eta_i}
+\end{equation}
+
+The housing supply elasticity $\eta_i$ is allowed to be city specific.
+
+A spatial equilibrium of this economy is a set of location choices $\{\lambda_i^{\theta}\}_{i, \theta}$ prices $\{w_i^{\theta}, r_i\}_{i, \theta}$ and amenities and productivity shifters $\{z_i^{\theta}, A_i^{\theta}\}_{i, \theta}$ such that workers and firms optimize, traded good firms make no profits, and markets clear. Since amenities and productivity shifters $\{z_i^{\theta}, A_i^{\theta}\}_{i, \theta}$ typically depend on the equilibrium distribution of economic activity, these local spillovers act as feedback loops that may amplify or dampen concentration and sorting.
+
+We now discuss conditions under which sorting arises in the equilibrium. In using the term spatial sorting, we mean the fact that the skilled and unskilled groups make different location choices, i.e., there exist locations $i$ and $j$ such that, denoting $\Delta X = X_i - X_j$ for any variable $X$,
+
+\begin{equation*}
+  \Delta \log (\frac{L^S}{L^U}) \neq 0
+\end{equation*}
+
+Then relative spatial supply is combined with location choices, combining labor supply and labor demand:
+
+\begin{equation}
+  \Delta \log(\frac{L^S}{L^U}) = \underbrace{\frac{\tilde{\kappa}^S}{\rho} \Delta \log(\frac{z^S}{z^U})}{\equiv \Delta z} + \underbrace{\tilde{\kappa}^S \Delta \log(\frac{A^S}{A^U})}{\equiv \Delta A} + \underbrace{\tilde{\kappa}^S (\alpha^U - \alpha^S) \Delta \log r}{\equiv \Delta \alpha} + \underbrace{\frac{\tilde{\kappa}^S}{\kappa^U}(1 - \frac{\kappa^U}{\kappa^S}) \Delta \log L^U}{\equiv \Delta \kappa}
+\end{equation}
+
+where we denote $\tilde{\kappa}^S = \frac{\kappa^S \rho}{\kappa^S + \rho}$. Conceptually, one can therefore distinguish four sources of sourcing in this framework: We say that soring is shaped by comparative advantage in production when $\Delta \log(\frac{z^S}{z^U}) \neq 0$, by amenities when $\Delta \log(\frac{A^S}{A^U}) \neq 0$ by housing price when $\alpha^S \neq \alpha^U$, and by heterogeneous across groups when $\kappa^U \neq \kappa^S$.
+
+A first takeaway is that, when productivity is separable between a location shifter $Z_i$ and nationwide group productivity $z^{\theta}$ so that $z_i^{\theta} = Z_i z^{\theta}$, the productivity advantage of a location is skill neutral and hence does not drive sorting directly. We now assume, in contrast, that some skill group has comparative advantage in production in some location over another so that $\Delta \log(\frac{z^S}{z^U}) \neq 0$. For simplicity, we assume that local productivity depends on population, which is the most classic way to parameterize agglomeration effects, but with a different intensity $\gamma_P^{\theta}$ for different skill groups, that is,
+
+\begin{equation}
+  z_i^{\theta} = \overline{z}_i^{\theta}(L_i^U + L_i^S)^{\gamma_P^{\theta}} 
+\end{equation}
+
+In this expression, $\overline{z}_i^{\theta}$ are exogenous location-group productivity shifters. Equilibrium sorting is then pinned down by:
+
+\begin{equation*}
+  \Delta \log(\frac{L^S}{L^U}) = \frac{\tilde{\kappa}^S}{\rho} \Delta \log(\frac{\overline{z}^S}{\overline{z}^U}) + \frac{\tilde{\kappa}^S}{\rho}(\gamma_P^S - \gamma_P^U) \Delta \log L + \Delta_A + \Delta_{\alpha} + \Delta_{\kappa}
+\end{equation*}
+
+Changes in sorting due to productivity correspond to the first two terms on the right hand side of the above equation. First, such changes may occur because of changes in exogenous comparative advantage $\Delta \log(\frac{\overline{z}^S}{\overline{z}^U})$. Second, changes in sorting may occur because of changes in relative city sizes $\Delta \log L$ or because of changes in relative agglomeration forces $\gamma_P^S - \gamma_P^U$.
+
+We parameterize utility derived from amenities as a CD aggregator of a vectorof amenities $\{A_{ki}\}_{k}$ in location $i$, with skill group-specific preference parameters $\gamma_{kA}^{\theta}$. This allow both skill groups to have different preferences over each city's amenity bundle:
+
+\begin{equation}
+  A_i^{\theta} = \Pi_k (A_{ki})^{\gamma_{kA}^{\theta}}
+\end{equation}
+
+We allow a component of each amenity in the amenity bundle to be endogenous. We model the endogenous component of amenity as responding to the skill ratio $\frac{L_i^S}{L_i^U}$ of that city; that is,
+
+\begin{equation}
+  A_{ki} = \tilde{A}_{ki} (\frac{L_i^S}{L_i^U})^{\beta_k}
+\end{equation}
+
+where $\tilde{A}_{ki}$ is the exogenous component of amenity $k$ and $\beta_k$ measures how elasticity the supply of amenity $k$ is to the skill ratio. With these formulations, equilibrium sorting is:
+
+\begin{equation*}
+  \Delta \log(\frac{L^S}{L^U}) = \frac{\tilde{\kappa}^S}{1 - \tilde{\kappa}^S(\tilde{\gamma}_A^S - \tilde{\gamma}_A^U)} \Delta \log(\frac{\tilde{A}^S}{\tilde{A}^U}) + \frac{1}{1 - \tilde{\kappa}^S(\tilde{\gamma}_A^S - \tilde{\gamma}_A^U)}[\Delta_z + \Delta_{\alpha} + \Delta_{\kappa}]
+\end{equation*}
+
+where we denote $\tilde{\gamma}_A^{\theta} = \sum_k [\beta_k (\gamma_{kA}^{\theta})]$ and $\frac{\tilde{A}_i^S}{\tilde{A}_i^U} = \Pi_k (\tilde{A}_{ki})^{\gamma_{kA}^S - \gamma_{kA}^U}$. First, amenities are a source of sorting in themselves only to the extent that the first term is nonzero. Second, the endogenous provision of amenities $(\beta_k \neq 0)$ together with their heterogeneous valuation across skills $(\gamma_{kA}^S - \gamma_{kA}^U \neq 0)$ serve only as an amplifier of other sorting forces.
+
+To make clear the specific mechanisms at play here, we shut down the other sources of sorting by making the following assumptions:
+
+\begin{assumption}
+  $\Delta \log(\frac{z^S}{z^U}) = 0, \Delta \log(\frac{A^S}{A^U}) = 0$ and $\kappa^U = \kappa^S$.
+\end{assumption}
+
+Under assumption 1, some cities may still be more productive or have hiigher amenities than others, but in a way that is skill neutral: there exist citywide shifters $Z_i$ and $A_i$ and nationwide group-specific shifters $z^{\theta}, A^{\theta}$ such that $z_i^{\theta} = Z_i z^{\theta}$ and $A_i^{\theta} = A_i A^{\theta}$ for all location $i$. If housing is a necessary, then $\alpha^U - \alpha^S > 0$ and skilled workers are overrepresented in expensive cities. Given the housing supply equation, equilibrium housing prices are implicit solution to:
+
+\begin{equation}
+  \frac{Z_i^{\frac{1 + \kappa}{\rho - 1}}A_i^{\kappa}}{\overline{H}_i} = r_i^{\eta_i} \left[ \sum_{\theta} w^{\theta} f_i(r_i)r_i^{\kappa \alpha^{\theta} \frac{1 - \rho}{\kappa + \rho} - 1} \right]^{-1}
+\end{equation}
+
+where $f_i(r_i)$ captures that, in equilibrium, wages depend on rents. This function can be shown to be equal to $1$ when skills are perfect substitutes, and it is a decreasing function of $r_i$ otherwise. Given that equation, rents $r_i$ increase with $\frac{Z_i^{\frac{1 + \kappa}{\rho - 1}}A_i^{\kappa}}{\overline{H}_i}$ : More productive cities and cities with higher amenities are more expensive in equilibrium. We denote $\mathcal{R}_i(\cdot)$ as the corresponding solution to that equation. Turning to the implication of housing rents for skill sorting, we obtain:
+
+\begin{equation}
+  \Delta \log(\frac{L^S}{L^U}) = (\alpha^U - \alpha^S) \Delta \log \mathcal{R}(\frac{Z^{\frac{1 + \kappa}{\rho - 1}}A^{\kappa}}{\overline{H}} )
+\end{equation}
+
+and high skill sorting into more productive and/or more attractive locations. First, when housing expenditure shares different across groups, Hicks-neutral city advantage is enough to drive sorting through its impact on housing prices. Second, the role of housing in mediating spatial sorting forces is stronger, all else equal, in locations with more inelastic housing supply (lower $\eta$). Inelastic supply directly leads to steeper $\mathcal{R}(\cdot)$, hence to a steeper response of housing price to productivity and amenities, and in turn to a steeper response of the skill ratio.
+
+\subsubsection{Heterogeneous migration elasticity}
+
+Finally, a last possible driver of sorting arises when $\kappa^U \neq \kappa^S$. Empirical findings find that higher-skill workers are more mobile than lower-skill workers, so, $\kappa^S > \kappa^U$.
+
+\begin{assumption}
+  $\Delta \log (\frac{z^S}{z^U}) = 0, \Delta \log(\frac{A^S}{A^U}) = 0$, and $\alpha^U = \alpha^S$.
+\end{assumption}
+
+It is easy to see that:
+
+\begin{equation}
+  \Delta \log(L^S) = \left[ \underbrace{1 + \frac{\rho}{\kappa^S + \rho} (\frac{\kappa^S}{\kappa^U} - 1)}{ > 0} \right] \Delta \log L^U
+\end{equation}
+
+Under Assumption 2, there is no skill-biased amenity or productivity advantage of places. Still, the high-skill population increases faster than the low-skill population in attractive cities because members of the former group are more sensitive to city characteristics. 
+
+\subsubsection{Urban skill premium and sorting}
+
+We now turn to considering how they shape the distribution of the skill wage premium in the cross section of cities, in equilibrium. Solving out for the equilibrium skill premium and its variation over space leads to
+
+\begin{equation}
+  \Delta \log(\frac{w^S}{w^U}) = \frac{1}{\kappa^S}\Delta_z - \frac{1}{\rho} \Delta_A - \frac{1}{\rho} \Delta_{\alpha} - \frac{1}{\rho} \Delta_{\kappa}
+\end{equation}
+
+Comparing this expression with the one that summarizes skill sorting we have:
+
+\begin{equation*}
+  \Delta \log(\frac{L^S}{L^U}) = \Delta_z + \Delta_A + \Delta_{\alpha} + \Delta_{\kappa}
+\end{equation*}
+
+
+
+
