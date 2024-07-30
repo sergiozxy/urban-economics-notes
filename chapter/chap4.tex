@@ -1,0 +1,78 @@
+\chapter{Spatial Sorting and Inequality}
+
+\section{Change in SKill Sourting: Framework}
+
+\subsection{Setup}
+
+On the production side, rather than modelling imperfect trade between locations, we consider an economy that is more stylized spatially, with two types of goods: (a) a homogeneous manufactured good that is freely traded across space and (b) housing, a local nontraded good.
+
+\subsubsection{Preferences}
+
+Consider a spatial equilibrium framework with two skill groups $\theta = U, S$, who choose where to live among locations $i \in [1, \ldots, N]$. Aggregate skill supply for each group, $L^{\theta}$, is exogenously given, and each worker supplies one unit of labor for wage $w_i^{\theta}$ in location $i$. The utility of worker $w$, who is type $\theta$ and lives in location $i$, is:
+
+\begin{equation}
+  u_i^{\theta}(w) = \max_{c, b} \log U^{\theta}(A_i, c, b) + \varepsilon_i^{\theta}(w), \text{ such that } c + r_i b = w_i^{\theta} 
+\end{equation}
+
+Here $\log U^{\theta}(\cdot)$ is the representative utility of a worker of type $\theta$; $c$ is the consumption of the freely traded good and is taken as the numeraire; $b$ denote housing, with price $r_i$ in location $i$; and $A_i$ is a vector of amenities in location $i$. Finally, $\varepsilon_i^{\theta}(w)$ is a worker-specific preference shock for living in location $i$.
+
+First, we make assumption of CD type preferences over traded and nontraded goods. Second, we assume that amenities are separable from consumption. We allow amenities in location $i$ to be valued differently by the two groups, as caputured by a group-specific amenity level $A_i^{\theta}$. Third, preference shocks are typically chosen to be extreme value (EV) distributed. Papers in the tradition of urban and labor economics or industrial organization tend to use logit shocks, with normalized variance $\frac{\pi^2}{6}$ shifted by a factor $\frac{1}{\kappa^{\theta})}$, which together with CD utility lead to the following indirect utility of worker $\theta$ in location $i$:
+
+\begin{equation*}
+  v_i^{\theta}(w) = \log A_i^{\theta} + \log w_i^{\theta} - \alpha^{\theta} \log r_i + \frac{1}{\kappa^{\theta}} \varepsilon_i^{\theta}(w)
+\end{equation*}
+
+Equivalently, papers in the tradition of trade and economic geography typically choose Frechet shocks for $\varepsilon_i^{\theta}(w)$ with scale parameter $\kappa^{\theta} > 1$ that enter utility in a multiplicatively separable way. In that case, the indirect utility of worker $\theta$ in location $i$ is:
+
+\begin{equation*}
+  v_i^{\theta}(w) = \frac{A_i^{\theta} w_i^{\theta}}{r_i^{\alpha^{\theta}}} \varepsilon_i^{\theta}(w).
+\end{equation*}
+
+In either case, location choices in group $\theta$ can be summarized with $\lambda_i^{\theta}$, the share of $\theta$ workers who choose location $i$:
+
+\begin{equation}
+  \lambda_i^{\theta} = \frac{ (\frac{A_i^{\theta} w_i^{\theta}}{r_i^{\alpha^{\theta}}})^{\kappa^{\theta}}}{ \sum_{j=1}^N ( \frac{A_j^{\theta} w_j^{\theta}}{r_j^{\alpha^{\theta}}})^{\kappa^{\theta}} }
+\end{equation}
+
+The parameter $\kappa^{\theta}$ captures the elasticity of population shares with respect to amenity-adjusted real wages and is therefore a measure of mobility of group $\theta$, which we allow to be group specific. Expected utility for a worker in group $\theta$ across locations is:
+
+\begin{equation}
+  W^{\theta} = \delta^{\theta} \left[ \sum_{k=1}^N (\frac{A_i^{\theta} w_i^{\theta}}{r_i^{\alpha^{\theta}}})^{\kappa^{\theta}} \right]^{\frac{1}{\kappa^{\theta}}}
+\end{equation}
+
+where $\delta^{\theta} = \Gamma(\frac{\kappa^{\theta} - 1}{\kappa^{\theta}})$ and $\Gamma(\cdot)$ is the gamma function in the Frechet case.
+
+\subsubsection{Supply of goods, amenities, and housing}
+
+We first write down the labor demand side of the economy. In location $i$, output is produced by perfectly competitive firms. They combine skilled and unskilled labor, who are imperfect substitutes in production:
+
+\begin{equation}
+  Y_i = \left[ (z_i^U)^{\frac{1}{\rho}} (L_i^U)^{\frac{\rho - 1}{\rho}} + (z_i^S)^{\frac{1}{\rho}} (L_i^S)^{\frac{\rho - 1}{\rho}} \right]^{\frac{\rho}{\rho - 1}}
+\end{equation}
+
+In the CES production function, $\rho \geq 1$ is the elasticity of substitution between skills and $z_i^{\theta}$ are location- and skill specific productivity shifters. The shifters can be in part exogenous and in part endogenous, reflecting externalities. We assume that, for $\theta = \{U, S\}$ and $\forall i$,
+
+\begin{equation}
+  z_i^{\theta} = z^{\theta}(\overline{Z}_i, L_i^U, L_i^S) 
+\end{equation}
+
+where $\overline{Z}_i$ is the exogenous productivity component in city $i$. Local productivity spillovers are allowed here to depend not just on city size or density but also on its composition $(L_i^U, L_i^S)$. Given equation, relative labor demand in location $i$ is:
+
+\begin{equation}
+  \log (\frac{L_i^S}{L_i^U}) = \log (\frac{z_i^S}{z_i^U}) - \rho \log(\frac{w_i^S}{w_i^U}) 
+\end{equation}
+
+Furthermore, competition across cities ensures that the unit cost of production in all cities is $1$, the common price of the freely traded good:
+
+\begin{equation*}
+  \sum_{\theta} z_i^{\theta} (w_i^{\theta})^{1 - \rho} = 1, \forall i
+\end{equation*}
+
+Similar to productivity, amenities $A_i^{\theta}$ are assumed to be driven by both exogenous differences, and endogenous differences between cities, that is,
+
+\begin{equation}
+  A_i^{\theta} = A^{\theta}(\overline{A}_i, L_i^U, L_i^S)
+\end{equation}
+
+where $A_i$ is the exogenous amenity component of city $i$. Endogenous amenities capture elements of quality of life that change when the size or composition of cities changes.
+
