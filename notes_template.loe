@@ -4,5 +4,9 @@
 \addvspace {10\p@ }
 \contentsline {lemma}{\ifthmt@listswap \MakeUppercase {l}emma\nobreakspace {}2.1\else \numberline {2.1}\MakeUppercase {l}emma\fi }{16}{lemma.2.1}%
 \addvspace {10\p@ }
-\contentsline {assumption}{\ifthmt@listswap \MakeUppercase {a}ssumption\nobreakspace {}3.1\else \numberline {3.1}\MakeUppercase {a}ssumption\fi }{20}{assumption.3.1}%
-\contentsline {assumption}{\ifthmt@listswap \MakeUppercase {a}ssumption\nobreakspace {}3.2\else \numberline {3.2}\MakeUppercase {a}ssumption\fi }{21}{assumption.3.2}%
+\contentsline {definition}{\ifthmt@listswap \MakeUppercase {d}efinition\nobreakspace {}3.1\else \numberline {3.1}\MakeUppercase {d}efinition\fi \thmtformatoptarg {Specialized City}}{19}{definition.3.1}%
+\contentsline {definition}{\ifthmt@listswap \MakeUppercase {d}efinition\nobreakspace {}3.2\else \numberline {3.2}\MakeUppercase {d}efinition\fi \thmtformatoptarg {Diversified City}}{19}{definition.3.2}%
+\contentsline {lemma}{\ifthmt@listswap \MakeUppercase {l}emma\nobreakspace {}3.1\else \numberline {3.1}\MakeUppercase {l}emma\fi \thmtformatoptarg {Output per Worker}}{19}{lemma.3.1}%
+\addvspace {10\p@ }
+\contentsline {assumption}{\ifthmt@listswap \MakeUppercase {a}ssumption\nobreakspace {}4.1\else \numberline {4.1}\MakeUppercase {a}ssumption\fi }{24}{assumption.4.1}%
+\contentsline {assumption}{\ifthmt@listswap \MakeUppercase {a}ssumption\nobreakspace {}4.2\else \numberline {4.2}\MakeUppercase {a}ssumption\fi }{25}{assumption.4.2}%
