@@ -6,3 +6,90 @@ There are $N$ cities in the economy, where $N$ is endogenous, and a continuum $L
 
 \subsection{Technology}
 
+The ideal production process is firm specific and randomly drawn from a set of $m$ possible discrete processes, with equal probability for each. Each of the $m$ possible processes for each firm requires process specific intermediate inputs from a local sector employing workers of a specific aptitude. We say that two production processes for different firms are of the same type if they require intermediates produced using workers with the same aptitude.
+
+A newly created firm  does not know its ideal production process, but it can find this by trying, one at a time, different processes in the production of prototypes. After producing a prototype with a certain process, the firm knows whether this process is its ideal one or not. Thus in order to switch from prototype to mass production a firm needs to have produced a prototype with its ideal process first, or to have tried all of its $m$ possible processes except one. Furthermore, we allow for the possibility that a firm decides to stop searching before learning its ideal process. Firms have an exogenous probability $\delta$ of closing down each period. Firms also lose one period of production whenever they relocate from one city to another. Thus, the cost of firm relocation increases with the exogenous probability of closure $\delta$.
+
+THe intermediates specific to each type of process are produced by a monopolistically competitive intermediate sector, each such intermediate sector hires workers of aptitude $j$ and sells process-specific nontradable intermediate services to final-good firms using a process of type $j$. These differentiated services enter the production function of final good producers with the same constant elasticity of substitution $\frac{\varepsilon + 1}{\varepsilon}$. The production is:
+
+\begin{equation}
+  \overset{C}{?}_i^j(h) = Q_i^j \overset{x}{?}_i^j (h)
+\end{equation}
+
+\begin{equation}
+  \text{ where } Q_i^j = (l_i^j)^{-\varepsilon} w_i^j, \varepsilon > 0 
+\end{equation}
+
+We distinguish variables corresponding to prototypes from those corresponding to mass-produced goods by an accent in the form of a question mark, ?. INdexing the differentiated varieties of goods by $h$, we denote ouput of prototype $h$ made with a process of type $j$ in city $i$ by $\overset{x}{?}_i^j(h)$. $Q_i^j$ is the unit cost for firms producing prototypes using a process of type $j$  in city $i$ and $w_i^j$ is the wage per unit of labor for the corresponding workers. Note that $Q_i^j$ decreases as $l_i^j$ increases: there are localization economies that reduce unit costs when there is a larger supply of labor with the relevant aptitude in the same city.
+
+When a firm finds its ideal production process, it can engage in mass production at a fraction $\rho$ of the cost of producing a prototype, where $0 < \rho < 1$. Thus the cost function for a firm engaged in mass production is:
+
+\begin{equation}
+  C_i^j(h) = \rho Q_i^j x_i^j(h)
+\end{equation}
+
+where $x_i^j(h)$ denotes the ouput of mass produced good $h$, made with a process of type $j$, in city $i$.
+
+With respect to the internal structure of cities, there are congestion costs in each city incurred in labor time and parameterized by $\tau (> 0)$. Labor supply, $l_i^j$, and production, $L_i^j$, with aptitude $j$ in city $i$ are related by the following expression:
+
+\begin{equation}
+  l_i^j = L_i^j(1 - \tau \sum_{j=1}^m L_i^j).
+\end{equation}
+
+THe expected wage income of a worker with aptitude $j$ in city $i$ is then $(1 - \tau \sum_{j=1}^m L_i^j)w_i^j$, where the higher land rents pair by those living closer to the city center are offset by lower commuting costs.
+
+\subsection{Preferences}
+
+Each period consumers allocate a fraction $\mu$ of their expenditure to prototypes and a fraction of $1 - \mu$ to mass-produced goods. The instantaneous indirect utility of a consumer in city $i$ is:
+
+\begin{equation}
+  V_i = \overset{P}{?}^{-\mu} P^{-(1 - \mu)}e_i^j 
+\end{equation}
+
+where $e_i$ denotes individual expenditure.
+
+\begin{equation}
+  \overset{P}{?} = \left\{ \sum_{j=1}^m \int \int [\overset{p}{?}_i^j (h)]^{1 - \sigma} dh di \right\}^{1/(1 - \sigma)} 
+\end{equation}
+
+\begin{equation}
+  P = \left\{ \sum_{j=1}^m \int \int [p_i^j (h)]^{1 - \sigma} dh di \right\}^{1/(1 - \sigma)} 
+\end{equation}
+
+and the appropriate price indices of prototypes and mass-produced goods respectively, and $\overset{p}{?}_i^j(h)$ and $p_i^j(h)$ denote the price of individual varieties of prototypes and mass-produced goods respectively. All prototypes enter consumer preferences with the same elasticity of substitution $\sigma (> 2)$, and so do all mass produced goods.
+
+\subsection{Income and Migration}
+
+National income, $Y$, is the sum of expenditure and investment:
+
+\begin{equation}
+  Y = \sum_{j=1}^m \int L_i^j e_i^j di + \overset{P}{?}^{\mu} P^{1 - \mu} F \overset{n}{\circ}
+\end{equation}
+
+$L_i^j$ denotes population with aptitude $j$ in city $i$. Investment $\overset{P}{?}^{\mu} P^{1 - \mu}F\overset{n}{\circ}$ comes from aggregation of the start-up costs incurred by newly created firms. To come up with a new product, the firm must spend $F$ on market research, purchasing the same combination of goods bought by the representative consumer. Finally, $\overset{n}{\circ}$ denotes the total number of new firms.
+
+\begin{definition}[Specialized City]
+  A city is said to be fully specialzied if all its workers have the same aptitude, so that all local firms use the same type of production process.
+\end{definition}
+
+\begin{definition}[Diversified City]
+ A city is said to be (fully) diversified if it has the same proportion of workers with each of the $m$ aptitudes, so that there are equal proportions of firms using each of the $m$ types of production process. 
+\end{definition}
+
+\subsection{City Formation}
+
+Each potential site for a city is controlled by a different land development company or land developer, not all of which will be active in equilibrium. Developers have the ability to tax local land rents and to make transfers to local workers. When active, each land developer commits to a contract with any potential worker in its city that specifies the size of the city, whether it has a dominant sector and if so which, and any transfers.
+
+\subsection{Equilibrium Definition}
+
+Finally, a steady state equilibrium in this model is a configuration such that all of the following are true. Each developer offers a contract designed so as to maximize its profits. Each firm chooses a location/production strategy and prices so as to maximize its expected lifetime profits. All profit opportunities are exploited and then urban structure is constant over time.
+
+\section{Equilibrium City Sizes}
+
+\begin{lemma}[Output per Worker]
+  In equilibrium, output per worker by firms using processes of type $j$ in city $i$ in a given period is:
+
+  \begin{equation*}
+    \frac{\overset{n}{?}_i^j \overset{x}{?}_i^j + \rho n_i^j x_i^j}{L_i^j} = (L_i^j)^{\varepsilon} (1 - \tau \sum_{j=1}^m L_i^j)^{\varepsilon + 1}.
+  \end{equation*}
+\end{lemma}
