@@ -1,0 +1,54 @@
+\chapter{Urban Accounting and Welfare}
+
+\section{The Model}
+
+\subsection{Technology}
+
+Consider a model of a system of cities in an economy with $N_t$ workers. Goods are produced in $I$ monocentric circular cities. Cities have a local level of productivity. Production in city $i$ in period $t$ is given by:
+
+\begin{equation*}
+    Y_{it} = A_{it}K_{it}^{\theta}H_{it}^{1 - \theta}
+\end{equation*}
+
+where $A_{it}$ denotes city productivity, $K_{it}$ denotes total capital, and $H_{it}$ denotes total hours worked in the city. We denote the population size of city $i$ by $N_{it}$. The standard first-order conditions of this problem are:
+
+\begin{equation}
+    w_{it} = (1 - \theta)\frac{Y_{it}}{H_{it}} = (1 - \theta) \frac{y_{it}}{h_{it}} \text{ and } r_t = \theta \frac{Y_{it}}{K_{it}} = \theta \frac{y_{it}}{k_{it}}
+\end{equation}
+
+where lowercase letters denote per capita variables. Note that capital is freely mobile across locations so there is a national interest rate $r_t$. Mobility patterns will not be determined solely by the wage, $w_{it}$, so there may be equilibrium differences in wages across cities at any point in time. We can then write down the "efficiency wedge", which is identical to the level of productivity, $A_{it}$, as:
+
+\begin{equation}
+    A_{it} = \frac{Y_{it}}{K_{it}^{\theta}H_{it}^{1 - \theta}} = \frac{y_{it}}{k_{it}^{\theta} h_{it}^{1 - \theta}}
+\end{equation}
+
+\subsection{Preferences}
+
+Agents order consumption and hour sequenecs according to the following utility function:
+
+\begin{equation*}
+    \sum_{t=0}^\infty \beta^t \left[ \log c_{it} + \psi \log(1 - h_{it}) + \gamma_i \right],
+\end{equation*}
+
+where $\gamma_i$ is a city-specific amenity and $\psi$ is a parameter that governs the relative preference for leisure. Each agent lives on one unit of land and commutes from his home to work. Commuting is costly in terms of goods. The problem of an agent in city $i_0$ with cpaital $k_0$ is therefore,
+
+\begin{equation*}
+    \max_{\{c_{i_t, t}, h_{i_t, t}, k_{i_t, t}, i_{t}\}_{t=0}^\infty} \sum_{t=0}^\infty \beta^t \left[ \log c_{it} + \psi \log (1 - h_{it}) + \gamma_i \right]
+\end{equation*}
+
+subject to the budget constraint:
+
+\begin{equation*}
+    \begin{aligned}
+        c_{it} + x_{it} & = r_{t} k_{it} + w_{it} h_{it} (1 - \tau_{it}) - R_{it} - T_{it} \\
+        k_{it + 1} & = (1 - \delta) k_{it} + x_{it}
+    \end{aligned}
+\end{equation*}
+
+where $x_{it}$ is investment, $\tau_{it}$ is a labor tax or friction associated with the cost of building the commuting infrastructure, $R_{it}$ are land rents, and $T_{it}$ are commuting costs.
+
+We assume that we are in steady state so $k_{it + 1} = k_{it}$ and $x_{it} = \delta k_{it}$. Furthermore, we assume $k_{it}$ is such that $r_t = \delta$. The simplified budget constraint of the agent becomes:
+
+\begin{equation}
+    c_{it} = w_{it} h_{it} (1 - \tau_{it}) - R_{it} - T_{it}.
+\end{equation}
