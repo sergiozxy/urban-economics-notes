@@ -52,3 +52,161 @@ We assume that we are in steady state so $k_{it + 1} = k_{it}$ and $x_{it} = \de
 \begin{equation}
     c_{it} = w_{it} h_{it} (1 - \tau_{it}) - R_{it} - T_{it}.
 \end{equation}
+
+The first-order conditions of this problem imply $\psi \frac{c_{it}}{1 - h_{it}} = (1 - \tau_{it}) w_{it}$. Combining the expression with the first equation, we obtain:
+
+\begin{equation}
+    (1 - \tau_{it}) = \frac{\psi_{it}}{(1 - \theta)} \frac{c_{it}}{1 - h_{it}} \frac{h_{it}}{y_{it}}
+\end{equation}
+
+We refer to $\tau_{it}$ as the "labor wedge". Although $\tau_{it}$ is modeled as a labor tax, it should be interpreted more broadly as anything that distorts an agent's optimal labor supply decision. Agents can move freely across cities so utility in each period has to be determined by:
+
+\begin{equation}
+    \overline{u} = \log c_{it} + \psi \log(1 - h_{it}) + \gamma_i
+\end{equation}
+
+for all cities with $N_{it} > 0$, where $\overline{u}$ is the economy-wide per period utility of living in a city.
+
+\subsection{Commuting Cost, Land Rents, and City Equilibrium}
+
+Cities are monocentric, all production happens at the center, and people live in surrounding areas characterized by their distance to the center, $d$. Cities are surroundedby a vast amount of agricultural land that can be freely converted into urban land. We normalize the price of agricultural land to zero. Since land rents are continuous in equilibrium, this implies that at the boundary of a city, $\overline{d}_{it}$, land rents should be zero as well, namely, $R(\overline{d}_{id}) = 0$. Since, all agents in a city are identical, in equilibrium they must be indifferent between they live in a city, which implies that the total cost of rent plus commuting costs should be identical in all areas of a city. So,
+
+\begin{equation*}
+    R_{it}(d) + T(d) = T(\overline{d}_{it}) = \kappa \overline{d}_{it}, \forall d \in [0, \overline{d}_{it}]
+\end{equation*}
+
+since $T(d) = \kappa d$ where $\kappa$ denotes commuting costs per mile.
+
+Everyone lives on one unit of land, $N_{it} = \overline{d}_{it}^2 \pi$, and so $\overline{d}_{it} = (N_{it} / \pi)^{\frac{1}{2}}$. Thus $R_{it} + T(d) = \kappa (N_{it} / \pi)^{\frac{1}{2}}$. This implies that $R_{it}(d) = \kappa(\overline{d}_{it} - d)$ and so total land rents in a city of size $N_{it}$ are given by $TR_{it} = \int_0^{\overline{d}_{it}} (\kappa (\overline{d}_{it} - d) d2\pi)dd = \frac{\kappa}{3} \pi^{-\frac{1}{2}} N_{it}^{\frac{3}{2}}$. Hence, arrange land rents are equal to $AR_{it} = \frac{2\kappa}{3} (\frac{N_{it}}{\pi})^{\frac{1}{2}}$. Taking logs and rearranging terms, we obtain that:
+
+\begin{equation}
+    \log (N_{it}) = o_1 + 2 \log AR_{it}.
+\end{equation}
+
+where $o_1$ is a constant. We can also compute the total miles traveled by commuters in the city, which is given by:
+
+\begin{equation}
+    TC_{it} = \int_0^{\overline{d}_{it}} (d^2 2\pi) dd = \frac{2}{3} \pi^{-\frac{1}{2}} N_{it}^{\frac{3}{2}}
+\end{equation}
+
+\subsection{Government Budget Constraint}
+
+The government levies a labor tax, $\tau_{it}$, to pay for the transportation infrastructure. Let government expenditure be a function of total commuting costs and wages such that:
+
+\begin{equation*}
+    G(h_{it} w_{it}, TC_{it}) = g_{it} h_{it} w_{it} \kappa TC_{it} = g_{it} h_{it} w_{it} \kappa \frac{2}{3} \pi^{-\frac{1}{2}} N_{it}^{\frac{3}{2}}
+\end{equation*}
+
+where $g_{it}$ is a measure of government inefficiency. That is, the government requires $\kappa g_{it}$ workers per mile commuted to build and maintain urban infrastructure. The government budget constraint is then given by:
+
+\begin{equation}
+    \tau_{it} h_{it} N_{it} w_{it} = g_{it} h_{it} w_{it} \kappa \frac{2}{3} \pi^{-\frac{1}{2}} N_{it}^{\frac{3}{2}}
+\end{equation}
+
+which implies that the labor wedge can be written as:
+
+\begin{equation}
+    \tau_{it} = g_{it} \kappa \frac{2}{3} (\frac{N_{it}}{\pi})^{\frac{1}{2}}
+\end{equation}
+
+or
+
+\begin{equation}
+    \log \tau_{it} = o_2 + \frac{1}{2} \log N_{it} + \log g_{it}
+\end{equation}
+
+\subsection{Equilibrium}
+
+The consumer budget constraint is given by:
+
+\begin{equation*}
+    c_{it} = w_{it} h_{it} (1 - \tau_{it}) - R_{it} - T_{it} = (1 - \theta) (1 - \tau_{it}) y_{it} - \kappa (\frac{N_{it}}{\pi})^{\frac{1}{2}}
+\end{equation*}
+
+To determine output we know that the proudction function is given by $y_{it} = A_{it} k_{it}^{\theta} h_{it}^{1 - \theta}$ and the decision of firms to rent capital implies that $r_t k_{it} = \theta y_{it}$. Hence,
+
+\begin{equation*}
+    y_{it} = A_{it} (\frac{\theta y_{it}}{r_t})^{\theta} h_{it}^{1 - \theta} = A_{it}^{\frac{1}{1 - \theta}} (\frac{\theta}{r_t})^{\frac{\theta}{1 - \theta}} h_{it}.
+\end{equation*}
+
+Using the above result, we can derive
+
+\begin{equation*}
+    h_{it} = \frac{1}{1 + \psi} (1 + \frac{\psi(R_{it} + T_{it})}{(1 - \theta)(1 - \tau_{it})} \frac{(\frac{r_t}{\theta})^{\frac{\theta}{1 - \theta}}}{A_{it}^{\frac{1}{1 - \theta}}})
+\end{equation*}
+
+and
+
+\begin{equation*}
+    c_{it} = \frac{1}{1 + \psi} \left[(1 - \theta)(1 - \tau_{it}) (\frac{\theta}{r_t})^{\frac{\theta}{1 - \theta}}A_{it}^{\frac{1}{1 - \theta}} - (R_{it} + T_{it})\right]
+\end{equation*}
+
+The free mobilility assumption in the result implies that $\overline{u}_t = \log c_{it} + \psi \log(1 - h_{it}) + \gamma_{it}$ for some $\overline{u}_{t}$ determined in general equilibrium so:
+
+\begin{equation}
+    \begin{aligned}
+        \overline{u}_{it} & + (1 + \psi) \log(1 + \psi) - \psi \log \psi \\
+        & = \log \left( (1 - \theta) (1 - \kappa g_{it} \frac{2}{3} (\frac{N_{it}}{\pi})^{\frac{1}{2}}\right) \frac{A_{it}^{\frac{1}{1 - \theta}}}{(r_t / \theta)^{\frac{\theta}{1 - \theta}}} - \kappa (\frac{N_{it}}{\pi})^{\frac{1}{2}} \right) \\
+        & + \psi \log \left( 1 - \frac{\kappa (\frac{N_{it}}{\pi})^{\frac{1}{2}}}{(1 - \theta)(1 - \kappa g_{it} \frac{2}{3} (\frac{N_{it}}{\pi})^{\frac{1}{2}})} \frac{(\frac{r_t}{\theta})^{\frac{\theta}{1 - \theta}}}{A_{it}^{\frac{1}{1 - \theta}}} \right) + \gamma_{it}.
+    \end{aligned}
+\end{equation}
+
+The last equation determines the size of the city $N_{it}$ as implicit function of city productivity $A_{it}$, city amenities, $\gamma_{i}$, government inefficiency, $g_{it}$, and economy wide variables like $r_t$ and $\overline{u}_{it}$. In the above euqation, the LHS is decreasing in $N_{it}$. THe LHS is also increasing in $A_{it}$ and $\gamma_i$ and decreasing in $g_{it}$. Hence, we can prove immediately that:
+
+\begin{equation}
+    \frac{\partial N_{it}}{\partial A_{it}} > 0, \frac{\partial N_{it}}{\partial \gamma_i} > 0, \frac{\partial N_{it}}{\partial g_{it}} < 0 \label{eq:decreasing_increasing_condition}
+\end{equation}
+
+The economy wide utility level $\overline{u}_t$ is determined by the labor market clearing conditions
+
+\begin{equation}
+    \sum_{i=1}^I N_{it} = N_t
+\end{equation}
+
+This last equation clarifies that our urban system is closed; we do not consider urban-rural migration.
+
+\section{Evidence of Efficiency, Amenities, and Frictions}
+
+\subsection{Empirical Approach}
+
+We start by estimating the following equation:
+
+\begin{equation}
+    \log N_{it} = \alpha_1 + \beta_1 \log A_{it} + \varepsilon_{it}
+\end{equation}
+
+THe value of $\beta_1$ yields the effect of the "efficiency wedge" on city population. According to the model, $\beta_1 > 0$ by the Equation \eqref{eq:decreasing_increasing_condition}. Furthermore, $\log N_{it}(A_{it}) = \beta_1 \log A_{it}$ is the population size explained by the size of the "efficiency wedge". In contrast, $\varepsilon_{1it}$ is the part of the observed population in the city that is unrelated to the productivity; according to the model it is related to both $g_{it}$ and $\gamma_i$. We can then estimate the following equation: $\tilde{\varepsilon}_{1}(g_{it}, \gamma_{it}) \equiv \varepsilon_{1it}$.
+
+Since the "efficiency wedge" increases population size, total commuting increases, which affects the "labor wedge". This is the standard urban trade-off between productivity and agglomeration. We can estimate the effect of producitvity on the labor wedge and the decomposition of $\log N_{it}$ into $\log \tilde{N}_{it}(A_{it})$ and $\varepsilon_{1it}$. Hence, we estiamte:
+
+\begin{equation}
+    \log \tau_{it} = \alpha_2 + \beta_2 \log \tilde{N}_{it}(A_{it}) + \varepsilon_{2it}
+\end{equation}
+
+We denote the effect of efficiency on distortions by $\log \tilde{\tau}_{it} = \beta_2 \log \tilde{N}_{it}(A_{it})$. We can then estimate the following equation: $\tilde{\varepsilon}_{2it} \equiv \varepsilon_{2it}$. The equation also implies that the error term $\varepsilon_{2it}$ is related to $g_{it}$ and to $\tilde{\varepsilon}_{1}(g_{it}, \gamma_{it})$. Hence, we define $\tilde{\varepsilon}_{2}(g_{it}, \tilde{\varepsilon}_{1}(g_{it}, \gamma_{it})) \equiv \varepsilon_{2it}$.
+
+We now can decompose the effect from all three elements of $(A_{it}, \gamma_{it}, g_{it})$. To do so, we estimate:
+
+\begin{equation}
+    \log (AR_{it}) = \alpha_3 + \beta_3 \log \tilde{\tau}_{it} + \beta_4 + \varepsilon_{1it} + \beta_5 \varepsilon_{2it} + \varepsilon_{3it}
+\end{equation}
+
+using median rents for $AR_{it}$. The effect of $\gamma_{it}$ and $g_{it}$ are determined by the estimates of $\beta_4$ and $\beta_5$. Note that $\varepsilon_{1it}$ and $\varepsilon_{2it}$ depend on both $\gamma_{it}$ and $g_{it}$. However, since $\varepsilon_{2it} = \tilde{\varepsilon}_{2}(g_{it}, \tilde{\varepsilon}_{1}(g_{it}, \gamma_{it}))$ depend only on $\gamma_{it}$ through $\varepsilon_{1it}$ and we are including $\varepsilon_{1it}$ directly in the regression, $\beta_5$ capture only the effect of changes in $g_{it}$ on land rents.
+
+Note that we can then use the equation to relate average rents and population sizes. So we can estiamte the model using 
+
+\begin{equation}
+    \log (N_{it}) = \alpha_4 + \beta_6 \log (AR_{it}) + \varepsilon_{4it}
+\end{equation}
+
+In a circular city $\beta_6 = 2 > 0$.
+
+\subsection{Effects of Efficiency, Amenities, and Frictions on City Size}
+
+We can decompose the labor wedge into taxes and other distortions such that
+
+\begin{equation}
+    (1 - \tau_{it}) = (1 - \tau_{it}^\prime) (\frac{1 - \tau_{ith}}{1 + \tau_{ith}})
+\end{equation}
+
+where $\tau_{it}$ is our measure of the labor wedge, $\tau_{ith}$ is the labor tax rate, $\tau_{itc}$ is the consumption tax rate, and $\tau_{it}^\prime$ are other distortions. Thus expect our measure of the total labor wedge, $(1 - \tau_{it})$, to be correlated with $(1 - \tau_{ith}) / (1 + \tau_{itc})$.

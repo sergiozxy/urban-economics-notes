@@ -1,12 +1,24 @@
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {proposition}{\ifthmt@listswap \MakeUppercase {p}roposition\nobreakspace {}1.1\else \numberline {1.1}\MakeUppercase {p}roposition\fi }{10}{proposition.1.1}%
-\contentsline {proposition}{\ifthmt@listswap \MakeUppercase {p}roposition\nobreakspace {}1.2\else \numberline {1.2}\MakeUppercase {p}roposition\fi }{12}{proposition.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {proposition}{\numberline {1.1}\MakeUppercase {p}roposition}{10}{proposition.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {proposition}{\numberline {1.2}\MakeUppercase {p}roposition}{12}{proposition.1.2}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {lemma}{\ifthmt@listswap \MakeUppercase {l}emma\nobreakspace {}2.1\else \numberline {2.1}\MakeUppercase {l}emma\fi }{16}{lemma.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lemma}{\numberline {2.1}\MakeUppercase {l}emma}{16}{lemma.2.1}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {definition}{\ifthmt@listswap \MakeUppercase {d}efinition\nobreakspace {}3.1\else \numberline {3.1}\MakeUppercase {d}efinition\fi \thmtformatoptarg {Specialized City}}{19}{definition.3.1}%
-\contentsline {definition}{\ifthmt@listswap \MakeUppercase {d}efinition\nobreakspace {}3.2\else \numberline {3.2}\MakeUppercase {d}efinition\fi \thmtformatoptarg {Diversified City}}{19}{definition.3.2}%
-\contentsline {lemma}{\ifthmt@listswap \MakeUppercase {l}emma\nobreakspace {}3.1\else \numberline {3.1}\MakeUppercase {l}emma\fi \thmtformatoptarg {Output per Worker}}{19}{lemma.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {definition}{\numberline {3.1}\MakeUppercase {d}efinition\thmtformatoptarg {Specialized City}}{19}{definition.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {definition}{\numberline {3.2}\MakeUppercase {d}efinition\thmtformatoptarg {Diversified City}}{19}{definition.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lemma}{\numberline {3.1}\MakeUppercase {l}emma\thmtformatoptarg {Output per Worker}}{19}{lemma.3.1}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {assumption}{\ifthmt@listswap \MakeUppercase {a}ssumption\nobreakspace {}4.1\else \numberline {4.1}\MakeUppercase {a}ssumption\fi }{24}{assumption.4.1}%
-\contentsline {assumption}{\ifthmt@listswap \MakeUppercase {a}ssumption\nobreakspace {}4.2\else \numberline {4.2}\MakeUppercase {a}ssumption\fi }{25}{assumption.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {assumption}{\numberline {4.1}\MakeUppercase {a}ssumption}{24}{assumption.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {assumption}{\numberline {4.2}\MakeUppercase {a}ssumption}{25}{assumption.4.2}%
