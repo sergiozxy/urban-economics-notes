@@ -1,0 +1,88 @@
+\chapter{Interacting Agents, Spatial Externalities and the Evolution of residential land use patterns}
+
+\section{Optimal Timing of Development}
+
+Define $A(i, t)$ as the returns to the original, unsubdivided parcel (denoted $i$) in the undeveloped use in time period $t$. We will refer to this as agriculture, broadly defined to include any uses of the land in an undeveloped state. Conversion of parcel $i$ at time $T$ will require the agent to incur costs to reap expected one-time gross returns. Costs include the provision of subdivision infrastructure, as well as permitting and other administrative fees. We denote $\delta$ as the discount factor, defined as $\frac{1}{1 + r}$ where $r$ is the interest rate, and the one-time returns from development minus costs of conversion in time $T$ as $V(i, T)$. Then the net returns from developing parcel $i$ in time $T$ equals the one time net returns minus the present value of foregone agricultural returns and is given by:
+
+\begin{equation}
+    V(i, T) - \sum_{t=0}^\infty A(i, T + t) \delta^t \label{eq:one_time_returns}
+\end{equation}
+
+The net returns from keeping parcel $i$ in an agricultural use in period $T$ and developing in time period $T + 1$, discounted to time $T$, are:
+
+\begin{equation}
+    A(i, T) + \delta V(i, T+ 1) - \sum_{t=0}^\infty A(i, T + 1) \delta^t \label{eq:agricultural_returns}
+\end{equation}
+
+The optimal development time will occur in period $T$ only if the Equation \eqref{eq:one_time_returns} is positive and if Equation \eqref{eq:one_time_returns} is greater than Equation \eqref{eq:agricultural_returns}. The optimal development time is the time period $T$ if:
+
+\begin{equation}
+    V(i, T) - \sum_{t=0}^\infty A(i, T + t) \delta^{T + t} > 0 \label{eq:optimal_development}
+\end{equation}
+
+and
+
+\begin{equation}
+    V(i, T) - A(i, T) \geq \delta V(i, T + 1) \label{eq:optimal_development2}
+\end{equation}
+
+The agent develops in periop $T$ only if (a) the net value of conversion is positive and (b)
+
+\begin{equation*}
+    \frac{V(i, T + 1) - \{V(i, T) - A(i, T)\}}{V(i, T) - A(i, T)} < r
+\end{equation*}
+
+where $r$ is the interest rate. Here we are interested in explaining the scattered pattern of exurban development. Such a pattern would result if net negative interactions were present, e.g., due to congestion externalities, and if these effects were sufficiently strong as to create a `repelling' effect among residential development.
+
+Let $\delta_{s} I_s(i, t)$ represent this spillover effect, where $I_s(i, t)$ is the proportion of neighboring parcels that are in a developed state at time the development decision is made, $\delta_s$ is the interaction parameter, and $s$ indexes the order of the spaital lag, which increases with increasing distance from parcel $i$. Because neighboring developed lands could conceivably have positive and/or negative spillover effects, the parameter $\lambda_s$, which represents the net effect of these spillovers, could be either positive or negative at any given distance $s$.
+
+Rewritting the Equation \eqref{eq:one_time_returns} to incorporate the effect of interactions, the net returns from developing parcel $i$ in time period $T$ equals:
+
+\begin{equation}
+    V(i, T) + \sum_{s} \lambda_s I_s(i, T) - \sum_{t=0}^\infty A(i, T + t) \delta^{T + t} \label{eq:one_time_returns_with_interactions}
+\end{equation}
+
+Rewritting  the conversion rule in Equation \eqref{eq:optimal_development2}, development now occurs in the first period in which:
+
+\begin{equation}
+    V(i, T) - \delta V(i, T + 1) - A(i, T) + \sum_s (1 - \delta) \lambda_s I_s(i, T) \geq 0 \label{eq:optimal_development_with_interactions}
+\end{equation}
+
+where the value of $I(i, T)$ is assumed to be constant between periods $T$ and $T + 1$. 
+
+\section{The Empirical Model}
+
+\subsection{Hazard model of development}
+
+To take account of these differences across agents, define $\varepsilon_i$ as these unobservable factors associated with the owner of parcel $i$. Given that $\varepsilon$ is viewed by the research as a stochastic variable, the following gives the probability that parcel $i$, with surrounding land use pattern $\sum_s I_s(i, T)$ will be converted by period $T$:
+
+\begin{equation}
+    \text{Prob} \{\varepsilon_i < \frac{1}{1 - \delta} (V(i, T) - \delta V(i, T + 1) - A(i, T)) + \sum_s \lambda_s I(i, T)\}
+\end{equation}
+
+This implies that agents with large $\varepsilon$'s, such as those who are particularly good farmers or those that place a particular high value on their undeveloped land as a source of direct utility, will convert later than agents with the same type of parcel but smalle values of $\varepsilon$.
+
+The probability that a parcel with a given set of characteristics will be converted in period $T$ is its hazard rate for period $T$, which is given by:
+
+\begin{equation}
+    h(T) = \frac{F[\varepsilon^*(T + 1)] - F[\varepsilon^*(T)]}{1 - F[\varepsilon^*(T)]}
+\end{equation}
+
+where $F$ is the cumulative distribution function for $\varepsilon$ and define $\varepsilon^*$ as the $\varepsilon$ that makes the equation an equality. In this analysis, we choose Cox's partial likelihood method because it can accomodate time-varying covariates. Assuming that $V(i, t)$ is separable in these factors that are time varying, but spatially constant, we can apply Cox's model to our problem by defining a baseline hazard rate that is a function of time only. Let $\omega(T)$ represent the exponential of this baseline hazard rate and assume that the log of the hazard rate it linear in other arguments. Then the hazard rate for parcel $i$ is given by:
+
+\begin{equation}
+    h(i, T) = \omega(T) \times \exp(Z\beta).
+\end{equation}
+
+where $Z$ is a vector of parcel $i$'s attributes, including $I_s(i, T)$, and $\beta$ is a corresponding parameter vector. Cox's method is a semiparametric approach that relies on formulating the likelihood in such a way that the baseline hazard, $\omega(T)$, drops out and therefore specification of an error distribution is unnecessary. It is the product of $N$ contributions to the likelihood function, where $N$ is the number of developable parcels, and the form of the $n$th contribution is given by:
+
+\begin{equation}
+    L_n = \frac{h(n, T_n)}{\sum_{j=1}^{J_n} h(j, T_n)}
+\end{equation}
+
+By definition, $T_n$ is the time at which the $n$th parcel is converted. In the above equation, $h(n, T_n)$ is the hazard rate for the $n$th parcel, $h(j, T_n)$ is the hazard rate for the $j$th parcel, but evaluated at time $T_n$, and $J_n$ is the set of parcels that have `survived' in the undeveloped state until time $T_n$.
+
+\subsection{The identification Problem}
+
+The vector of $Z(i)$ contains all attributes associated with parcel $i$ and the stochastic term $\varepsilon_i$ captures the existence of idiosyncratic factors associated with agent $i$.
+

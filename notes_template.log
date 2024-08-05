@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.11)  3 AUG 2024 08:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.11)  5 AUG 2024 09:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1281,6 +1281,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing notes_template.mtc5.
 \openout3 = `notes_template.mtc5'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing notes_template.mtc6.
+\openout3 = `notes_template.mtc6'.
+
  [2]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 20.74pt on input line 198.
@@ -1308,13 +1312,13 @@ Package minitoc Info: I0024
 (minitoc)             PREPARING MINITOCS FROM notes_template.toc on input line 207.
 
 showing theorem
-(e:/umich/urban-economics-notes/notes_template.loe)
+(e:/umich/urban-economics-notes/notes_template.loe) [3]
 showing definition
-(e:/umich/urban-economics-notes/notes_template.loe [3])
+[4] (e:/umich/urban-economics-notes/notes_template.loe)
 No file notes_template.gls.
-[4] [5
+[5] [6
 
-] [6] (e:/umich/urban-economics-notes/chapter/chap1.tex
+] [7] [8] (e:/umich/urban-economics-notes/chapter/chap1.tex
 Chapter 1.
 
 Overfull \hbox (5.0207pt too wide) in paragraph at lines 2--2
@@ -1325,14 +1329,14 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 4.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 4.
-[7
+[9
 
-] [8]
+] [10]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 106.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 106.
- [9]
+ [11]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 10.95pt on input line 155.
 Package hyperref Info: bookmark level for unknown proposition defaults to 0 on input line 155.
@@ -1341,7 +1345,7 @@ Overfull \hbox (7.08037pt too wide) in paragraph at lines 155--156
 []\OT1/LinuxLibertineT-TLF/b/n/10.95 Proposition 1.1. []\OT1/LinuxLibertineT-TLF/m/it/10.95 As-sum-ing ex-oge-nous fi-nite, and strictly lo-ca-tion char-ac-ter-is-tics $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 T[] \OMS/cmsy/m/n/10.95 2 \OT1/cmr/m/n/10.95 (0\OML/cmm/m/it/10.95 ; \OMS/cmsy/m/n/10.95 1\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ; E[] \OMS/cmsy/m/n/10.95 2 \OT1/cmr/m/n/10.95 (0\OML/cmm/m/it/10.95 ; \OMS/cmsy/m/n/10.95 1\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ; ^^^[] \OMS/cmsy/m/n/10.95 2
  []
 
-[10] [11]
+[12] [13]
 Overfull \hbox (43.41362pt too wide) in paragraph at lines 201--202
 []\OT1/LinuxLibertineT-TLF/m/it/10.95 Given known val-ues for the pa-ram-e-ters $\OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 ; ^^L; ^^V; "; ^^T\OMS/cmsy/m/n/10.95 g$ \OT1/LinuxLibertineT-TLF/m/it/10.95 and the ob-served data $\OMS/cmsy/m/n/10.95 f\U/msb/m/n/10.95 Q\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10.95 H[]\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10.95 H[]\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10.95 K\OML/cmm/m/it/10.95 ; ^^\\OMS/cmsy/m/n/10.95 g$
  []
@@ -1351,48 +1355,57 @@ Overfull \hbox (2.84009pt too wide) in paragraph at lines 202--203
 []\OT1/LinuxLibertineT-TLF/m/it/10.95 Given known val-ues for the pa-ram-e-ters $\OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 ; ^^L; ^^V; "; ^^T; ^^U; ^^N; ^^Q; ^^Z\OMS/cmsy/m/n/10.95 g$ \OT1/LinuxLibertineT-TLF/m/it/10.95 and the ob-served data $\OMS/cmsy/m/n/10.95 f\U/msb/m/n/10.95 Q\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10.95 H[]\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10.95 H[]\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10.95 K\OML/cmm/m/it/10.95 ; ^^\\OMS/cmsy/m/n/10.95 g$
  []
 
-) (e:/umich/urban-economics-notes/chapter/chap2.tex [12]
+) (e:/umich/urban-economics-notes/chapter/chap2.tex [14]
 Chapter 2.
 
 Overfull \hbox (19.51428pt too wide) in paragraph at lines 1--1
 |[][]\OT1/LinuxLibertineT-TLF/b/n/24.88 THE MAK-ING OF THE MOD-ERN METROPO-
  []
 
-[13
+[15
 
-] [14] [15]
+] [16] [17]
 Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input line 148.
-) (e:/umich/urban-economics-notes/chapter/chap3.tex [16]
+) (e:/umich/urban-economics-notes/chapter/chap3.tex [18]
 Chapter 3.
 
 Overfull \hbox (10.3019pt too wide) in paragraph at lines 1--1
 |[][]\OT1/LinuxLibertineT-TLF/b/n/24.88 Urban Di-ver-sity, Pro-cess In-no-va-tion, and the
  []
 
-[17
+[19
 
-] [18]
+] [20]
 Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 71.
-) (e:/umich/urban-economics-notes/chapter/chap4.tex [19] [20
+) (e:/umich/urban-economics-notes/chapter/chap4.tex [21] [22
 
 ]
 Chapter 4.
-[21] [22]
+[23] [24]
 Overfull \hbox (68.82266pt too wide) detected at line 99
 [][]\OT1/cmr/m/n/10.95 ^^A [][][] = [] [] + [] [] + [] [] + [] []
  []
 
-[23]
+[25]
 Package hyperref Info: bookmark level for unknown assumption defaults to 0 on input line 140.
- [24]) (e:/umich/urban-economics-notes/chapter/chap5.tex [25] [26
+ [26]) (e:/umich/urban-economics-notes/chapter/chap5.tex [27] [28
 
 ]
 Chapter 5.
-[27] [28] [29] [30]) [31] [32
+[29] [30] [31] [32]) (e:/umich/urban-economics-notes/chapter/chap6.tex [33] [34
+
+]
+Chapter 6.
+
+Overfull \hbox (6.68524pt too wide) in paragraph at lines 1--1
+|[][]\OT1/LinuxLibertineT-TLF/b/n/24.88 Interacting Agents, Spa-tial Ex-ter-nal-i-ties and
+ []
+
+[35] [36]) [37] [38
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 253.
+LaTeX Warning: Empty bibliography on input line 255.
 
 runsystem(makeindex -s index.ist notes_template.idx)...executed safely (allowed).
 
@@ -1416,30 +1429,30 @@ Package minitoc(hints) Warning: W0024
 \tf@loe=\write11
 \openout11 = `notes_template.loe'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
 (e:/umich/urban-economics-notes/notes_template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
 Package rerunfilecheck Info: File `notes_template.out' has not changed.
-(rerunfilecheck)             Checksum: 4296D9A1E293EB936E48F86164C66076;2882.
+(rerunfilecheck)             Checksum: 22F1EF0A6080D26C5AFDAC57645893B1;3319.
 Package logreq Info: Writing requests to 'notes_template.run.xml'.
 \openout1 = `notes_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30507 strings out of 480608
- 518761 string characters out of 5904590
- 1361362 words of memory out of 5000000
- 45449 multiletter control sequences out of 15000+600000
+ 30556 strings out of 480608
+ 519658 string characters out of 5904590
+ 1364944 words of memory out of 5000000
+ 45470 multiletter control sequences out of 15000+600000
  564726 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,96p,1354b,789s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/latex/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc}{d:/latex/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{d:/latex/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}<d:/latex/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on e:/umich/urban-economics-notes/notes_template.pdf (32 pages, 499659 bytes).
+Output written on e:/umich/urban-economics-notes/notes_template.pdf (38 pages, 511462 bytes).
 PDF statistics:
- 640 PDF objects out of 1000 (max. 8388607)
- 583 compressed objects within 6 object streams
- 177 named destinations out of 1000 (max. 500000)
- 305 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 729 PDF objects out of 1000 (max. 8388607)
+ 665 compressed objects within 7 object streams
+ 199 named destinations out of 1000 (max. 500000)
+ 345 words of extra memory for PDF output out of 10000 (max. 10000000)
 
