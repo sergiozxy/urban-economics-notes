@@ -34,4 +34,37 @@ Thus $E$ increases as $\rho$ increases. Substituting $z$ and $q(\omega)$ into th
     u = \log\{\alpha_A^{\alpha_A} \alpha_M^{\alpha_M}Yp_A^{\alpha_A}\} + \frac{\alpha_M}{\gamma} \log \left\{ \int_0^n (\omega)^{-\gamma} d\omega \right\}
 \end{equation}
 
-Next, the A-good is assumed to be produced under constant returns, where each unit of A-good consumes a unit of land and $a_A$ units of labor.
+Next, the A-good is assumed to be produced under constant returns, where each unit of A-good consumes a unit of land and $a_A$ units of labor. Each M-good is produced with labor only. All types of M-good have the same production technology under increasing returns such that the total labor input, $L$, for production of quantity $Q$ of any product is given by:
+
+\begin{equation}
+   L = f + \alpha_M Q 
+\end{equation}
+
+where $f$ is the fixed labor requirement and $\alpha_M$ the marginal labor input. We assume, for simplicity, that the transport cost of each good takes Samuelson's iceberg form: if a unit of good $i$ ($i = A \text{ or } M$) is shapped over a distance $d$, only $e^{-t_i d}$ units actually arrive, where $t_i$ is a positive constant.
+
+Owing to scale economics in production, each variety of M-good is assumed to be produced by a single, specialized firm. If a firm locates at $x \in X$ and produces an M-product, it chooses an f.o.b. price $p_M(x)$ so as to maximize its profit at the Chamberlinian equilibrium. By the assumption of iceberg transport technology, the effective (delivered) price, $p_M(y \mid x)$, for consumers at location $y \in X$ of any M-product produced at location $x$ is given by:
+
+\begin{equation}
+  p_M(y \mid x) = p_M(x) e^{t_M |y - x|}
+  \label{eq:M_price_transport}
+\end{equation}
+
+Given the delivered price function above, it can be readily verified that the price elasticity of the total demand for any M-product is independent of the spatial distribution of the demand, and equals the price elasticity, $E$, of each consumer's demand given by above demand function. Thus, given the equilibrium wage rate, $W(x)$, at $x$, by the equality of the marginal revenue and marginal cost, $p_M(x) (1 - E)^{-1} = a_M W(x)$, the optimal f.o.b. price of the firm can be obtained by:
+
+\begin{equation}
+  p_M(x) = a_M W(x) / \rho
+\end{equation}
+
+which represents the familiar result that for each monopolistic firm will chare its f.o.b. price at a markup over the marginal cost $a_M W(x)$. Thus, if $Q$ is the output of the firm, its profit equals:
+
+\begin{equation}
+  \pi(x) = p_M(x) Q - W(x)(f + a_M Q) = a_M \gamma^{-1} W(x)(Q - \gamma f / a_M)
+\end{equation}
+
+Therefore, given any equilibrium configuration of the economy, if an M-firm operates at $x$, then by the zero-profit condition, its output must be equal to
+
+\begin{equation}
+  Q^* = \gamma f / a_M
+\end{equation}
+
+which is a constant independent of location.
