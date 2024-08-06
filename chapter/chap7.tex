@@ -1,0 +1,37 @@
+\chapter{When is the economy monocentric}
+
+\section{A formal model of a spatial economy}
+
+Consider a long-narrow country, in which area is represented by one-dimensional unbounded location space, $X = \mathbb{R}$. The quality of land is homogenous and density of land is equal to $1$ everywhere. The country has a continuum of homogenous workers with a given size, $N$. Each worker is endowed with a unit of labor, and is free to chooose any location and job in the country. The consumers of the country consist of the workers and landlords.
+
+Each consumer consumes a homogenous agricultural good (A-good) together with a continuum of differentiated manufacturing goods (M-goods) of size $n$. Here, $n$ is to be determined endogenously. All consumers have the same utililty function given by:
+
+\begin{equation}
+    u = \alpha_A \log z + \alpha_M \log \left\{ \int_0^n q(\omega)^{\rho} d\omega \right\}^{1 / \rho}
+\end{equation}
+
+where $z$ represents the amount of A-good consumed, $q(\omega)$ is the consumption of each variety $\omega \in [0, n]$ of M-good; and $\alpha_A, \alpha_M$ and $\rho$ are positive constants such that $\alpha_A + \alpha_M = 1$ and $0 < \rho < 1$. Note that a smaller $\rho$ means that consumers have a stronger preference for variety in M-goods.
+
+Suppose that a consumer has an income, $Y$, and faces a set of prices $p_A$ and $p_M(\omega)$. Then for choosing the consumption bundle that maximizes the equation above, subject to the budget constraint $p_A z + \int_0^n p_M(\omega) q(\omega) d\omega = Y$, demand functions of the consumer can be obtained as:
+
+\begin{equation}
+    z = (\alpha_A Y) / p_A
+\end{equation}
+
+\begin{equation}
+    q(\omega) = (\alpha_M Y / p_M(\omega)) \left(p_M(\omega)^{-\gamma} / \int_0^n p_M(\omega)^{-\gamma} d\omega \right) \label{eq:demand_for_q}
+\end{equation}
+
+for each $\omega \in [0, n]$, where $\gamma = \rho / (1 - \rho)$. Note that the Equation \eqref{eq:demand_for_q} that the demand for any variety in M-good has the same price elasticity, $E$, given by:
+
+\begin{equation}
+    E = 1 / (1 - \rho) = 1 + \gamma
+\end{equation}
+
+Thus $E$ increases as $\rho$ increases. Substituting $z$ and $q(\omega)$ into the utility function yields the following indirect utility function:
+
+\begin{equation}
+    u = \log\{\alpha_A^{\alpha_A} \alpha_M^{\alpha_M}Yp_A^{\alpha_A}\} + \frac{\alpha_M}{\gamma} \log \left\{ \int_0^n (\omega)^{-\gamma} d\omega \right\}
+\end{equation}
+
+Next, the A-good is assumed to be produced under constant returns, where each unit of A-good consumes a unit of land and $a_A$ units of labor.
