@@ -52,3 +52,8 @@
 \contentsline {section}{\numberline {6.2}The Empirical Model}{36}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}Hazard model of development}{36}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}The identification Problem}{37}{subsection.6.2.2}%
+\contentsline {chapter}{\numberline {7}When is the economy monocentric}{39}{chapter.7}%
+\hypertarget {chap-7}{}
+\contentsline {section}{\numberline {7.1}A formal model of a spatial economy}{39}{section.7.1}%
+\contentsline {section}{\numberline {7.2}The monocentric equilibrium}{40}{section.7.2}%
+\contentsline {section}{\numberline {7.3}The potential function and location-equilibrium of M-firms}{42}{section.7.3}%

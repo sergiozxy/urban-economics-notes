@@ -2214,6 +2214,7 @@ OUTPUT notes_template.mtc3
 OUTPUT notes_template.mtc4
 OUTPUT notes_template.mtc5
 OUTPUT notes_template.mtc6
+OUTPUT notes_template.mtc7
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-ot1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1.tfm
@@ -2279,6 +2280,10 @@ INPUT ./chapter/chap6.tex
 INPUT chapter/chap6.tex
 INPUT ./chapter/chap6.tex
 INPUT chapter/chap6.tex
+INPUT ./chapter/chap7.tex
+INPUT chapter/chap7.tex
+INPUT ./chapter/chap7.tex
+INPUT chapter/chap7.tex
 INPUT ./notes_template.ind
 INPUT notes_template.ind
 INPUT ./notes_template.ind
@@ -2288,6 +2293,8 @@ INPUT ./notes_template.mtc
 INPUT notes_template.mtc
 INPUT ./notes_template.mtc0
 INPUT notes_template.mtc0
+INPUT ./notes_template.mtc9
+INPUT notes_template.mtc9
 INPUT ./notes_template.mtc8
 INPUT notes_template.mtc8
 INPUT ./notes_template.mtc7

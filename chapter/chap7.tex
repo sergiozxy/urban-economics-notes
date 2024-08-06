@@ -68,3 +68,146 @@ Therefore, given any equilibrium configuration of the economy, if an M-firm oper
 \end{equation}
 
 which is a constant independent of location.
+
+Consequently, the remaining unknown of the model are: (i) the price, $p_A(y)$, of the A-good at each $y$; (ii) the wage rate, $W(y)$, at each $y$; (iii) the land rent, $R(y)$, at each $y$; (iv) the equilibrium utility level, $u$, of workers; (v) the spatial distribution of workers; (vi) the spatial distribution of M-good production; and (vii) the trade pattern of each good. A spatial configuration is in equilibrium if all workers achieve the same highest utility, each active firm earns zero profit, and the equality of the demand and supply of each good is attained.
+
+\section{The monocentric equilibrium}
+
+In this section we determine all unknown assuming that all M-firms locate in the city. Then in the next section, we exaime the location equilibrium conditions under which indeed no M-firms would desire to deviate from the city.
+
+Let the price curve, $p_A(y)$, of the A-good be normalized such that $p_A(0) = 1$. Then since all excess A-goods are to be transported to the city, at each location $y$ in the agricultural hinterland, it must hold that:
+
+\begin{equation}
+  p_A(y) = e^{-t_A |y|}
+\end{equation}
+
+Next, let $p_M = p_M(0)$ be the f.o.b. price of each M-good produced in the city. Then the (delivered) price of each M-good at each location is given by:
+
+\begin{equation}
+  p_M(y) \equiv p_M(y \mid 0) = p_M e^{t_M |y|}
+\end{equation}
+
+Furthermore, let $n$ be the size of the M-industry established in the city; by definition, $n$ is then the number of firms producing M-goods in the city.
+
+Now, let $W(y)$ be the equilibrium wage rate at each $y \in [-l, l]$. Then in equilibrium, since all workers must achieve the same utility level, say $u$, by the indirect utility function we have that:
+
+\begin{equation}
+  W(y) = e^{u} \alpha_A^{-\alpha_A} \alpha_M^{-\alpha_M} n^{-\alpha_M / \gamma} p_M^{\alpha_M} e^{(\alpha_M t_M - \alpha_A t_A) |y|}
+\end{equation}
+
+By the zero-profit condition in A-good production, the land rent at each location can be obtained as:
+
+\begin{equation}
+  R(y) = p_A(y) - a_A W(y) = e^{-t_A|y|} - a_A W(y) \text{ for } y \in [-l, l],
+\end{equation}
+
+since $R(l) = 0$ at the fringe location $l$, it holds by the above result that $e^{-t_A l} = a_A W(y)$, which together with the utility function yields the following wage curve:
+
+\begin{equation*}
+  \begin{aligned}
+  W(y) & = \{a_A^{-1} e^{-t_A l}\} e^{(a_A t_A - \alpha_M t_M)(l - |y|)} \\
+       & = a_A^{-1} e^{-\alpha_M (t_A + t_M)l} e^{(\alpha_M t_M - \alpha_A t_A)|y|}
+  \end{aligned}
+\end{equation*}
+
+Notice that $W(l) = a_A^{-1} e^{-t_A l}$, which determines the wage rate at the fringe location solely as a function of distance $l$. In turn, $W(y)$ gives the equilibrium wage rate at each $y$, which compensates for the prie differences between location $y$ and the fringe location. Substituting the result back to the $p_M$ yileds the following equilibrium price curve of the M-good:
+
+\begin{equation}
+  p_M \equiv p_M(0) = a_M (a_A \rho)^{-1} e^{-\alpha_M (t_A + t_M) l}.
+\end{equation}
+
+Next, to determine the number of firms, $n$, in the city, if we let $N_A$ be the size of agricultural workers and $N_M$ be that of manufacturing workers, then:
+
+\begin{equation}
+  N_A = 2a_A l
+\end{equation}
+
+\begin{equation}
+  N_M = n(f + a_M Q^*) = nf(1 + \gamma)
+\end{equation}
+
+Hence, by the full employment condition, $N_A + N_M = N$, we have:
+
+\begin{equation}
+  n = \frac{N - 2a_A l}{f(1 + \gamma)}
+\end{equation}
+
+Now, if we know $l$, all unknowns will be determined uniquely. The equilibrium value of $l$ can be determined by the equality of demand and supply of the A-good as follows. By the excess supply of the A-good per unit distance at each $y \neq 0$ equals $1 - (\alpha_A Y(y) / p_A(y)) = 1 - \alpha_A = \alpha_M$ (where $Y(y) = \alpha_A W(y) + R(y) = p_A(y)$). Thus, considering the consumption of the A-good in transportation, the total net supply of the A-good to the city equals:
+
+\begin{equation}
+  S_A(0) = \int_{-l}^l \alpha_M e^{-t_A |y|} dy = 2\alpha_M t_A^{-1}(1 - e^{-t_A l})
+\end{equation}
+
+where the total demand of the A-good at the city equals $\alpha_A Y(0) / p_A(0) = \alpha_A W(0) N_M$. Hence, the equality of the supply and demand requires that:
+
+\begin{equation}
+  \frac{S_A(0)}{\alpha_A W(0)} = N_M,
+\end{equation}
+
+or, since $N_M = N - N_A = N - 2 a_A l$, if we define:
+
+\begin{equation}
+  N_C(l) = \frac{S_A(0)}{\alpha_A W(0)} = \frac{2\alpha_M t_A^{-1}(1 - e^{-t_A l})}{\alpha_A a_A^{-1} e^{-\alpha_M (t_A + t_M)l}}
+\end{equation}
+
+\begin{equation}
+  N_M(l) \equiv N - 2a_A l,
+\end{equation}
+
+then the result can be restated as:
+
+\begin{equation}
+  N_C(l) = N_M(l)
+\end{equation}
+
+Here $N_C(l)$ represents the size of urban consumers, which is just sufficient to purchase all A-good units supplied from the hinterland when the wage rate at the city equals $W(0) \equiv a_A^{-1} e^{-\alpha_M (t_A + t_M)l}$, where $N_M(l)$ represents the size of urban workers when the agricultural fringe distance is $l$. We call $N_C(l)$ the A-good exhausting size of urban consumer, or AE urban consumer size, and call $N_M(l)$ the urban-labor force.
+
+Notice that the function $N_C(l)$ is increasing in $l$, $N_C(0) = 0$ and $N_C(\infty) = \infty$. Therefore, $N_C(l)$ and $N_M(l)$ determines the equilibrium fringe distance $l^*$ uniquely. Now substituting $l^*$ into the results, all other unknowns can be determined uniquely. In particular, we have that:
+
+\begin{equation}
+  n^* = \frac{N - 2a_A l^*}{f(1 + \gamma)}
+\end{equation}
+
+\begin{equation}
+\begin{aligned}
+  u^* & = -\alpha_A \alpha_M (t_A + t_M)l^* + \frac{\alpha_M}{\gamma} \log \frac{N - 2a_A l^*}{f(1 + \gamma)} \\
+      & + \log \alpha_A^{\alpha_A} \alpha_M^{\alpha_M} a_A^{-\alpha_A} a_M^{-\alpha_M} \rho^{\alpha_M}
+\end{aligned}
+\end{equation}
+
+\begin{equation}
+  W^*(y) = a_A^{-1} e^{-\alpha_M (t_A + t_M)l^*} e^{(\alpha_M t_M - \alpha_A t_A)|y|}
+\end{equation}
+
+\section{The potential function and location-equilibrium of M-firms}
+
+To make sure the model is in equilibrium, we must make sure (i) no existing M-firms could increase their profit by moving away from the city; (ii) no new M-firm would enter the market.
+
+Suppose an M-firm locates at $x \in \mathbb{R}$. Then given the market wage rate $W^*(y)$ at $x$, the firm will set its f.o.b. price at $a_M W^*(x) \rho^{-1}$. Hence, at each location $y \in \mathbb{R}$, the delivered price, $p_M(y \mid x)$, of the M-good produced by the firm is given by:
+
+\begin{equation}
+  p_M(y \mid x) = a_M W^*(x) \rho^{-1} e^{t_M|y - x|}.
+\end{equation}
+
+Using this equation, as a function of the market wage rate $W^*(x)$ there, the total demand for the firm located at $x$ can be obtained as follows:
+
+\begin{equation}
+  D(x, W^*(x)) = \frac{\alpha_A \gamma f}{2a_M} (\frac{W^*(0)}{W^*(x)})^{1 + \gamma} \phi(x), \text{ for } x \geq 0
+\end{equation}
+
+where $\phi(x) \equiv$ a large equation by the original paper. The resulting firm's profit is:
+
+\begin{equation}
+  \begin{aligned}
+    \pi(x, W^*(x)) & = a_M W^*(x) \rho^{-1} D(x, W^*(x)) - W^*(x)[f + a_M D(x, W^*(x))] \\
+                   & = a_M \gamma_M^{-1} W^*(x) \left\{ D(x, W^*(x)) - \gamma f / \alpha_M \right\}
+  \end{aligned}
+\end{equation}
+
+which implies that $\pi(x, W^*(x)) \geq \leq 0$ as $D(x, W^*(x)) \geq \leq \gamma f / a_M$. Define:
+
+\begin{equation}
+  \Omega(x) \equiv \frac{D(x, W^*(x))}{\gamma f / a_M} 
+\end{equation}
+
+where $\gamma f/a_M$ represents the equilibrium output level determined by the zero-profit condition. we call $\Omega(x)$ the (market) potential function of the M-industry, which represents the relative profitability of each location for M-firms.

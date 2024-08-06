@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.27)  6 AUG 2024 09:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.27)  6 AUG 2024 12:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1309,6 +1309,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing notes_template.mtc6.
 \openout3 = `notes_template.mtc6'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing notes_template.mtc7.
+\openout3 = `notes_template.mtc7'.
+
  [2]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 20.74pt on input line 198.
@@ -1336,7 +1340,10 @@ Package minitoc Info: I0024
 (minitoc)             PREPARING MINITOCS FROM notes_template.toc on input line 207.
 
 showing theorem
-(./notes_template.loe) [3]
+(./notes_template.loe)
+Overfull \vbox (35.83566pt too high) has occurred while \output is active []
+
+ [3]
 showing definition
 [4] (./notes_template.loe)
 No file notes_template.gls.
@@ -1425,11 +1432,15 @@ Overfull \hbox (6.68524pt too wide) in paragraph at lines 1--1
 |[][]\OT1/LinuxLibertineT-TLF/b/n/24.88 Interacting Agents, Spa-tial Ex-ter-nal-i-ties and
  []
 
-[35] [36]) [37] [38
+[35] [36]) (./chapter/chap7.tex [37] [38
+
+]
+Chapter 7.
+[39] [40] [41] [42]) [43] [44
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 255.
+LaTeX Warning: Empty bibliography on input line 257.
 
 runsystem(makeindex -s index.ist notes_template.idx)...executed safely (allowed).
 
@@ -1455,24 +1466,24 @@ Package minitoc(hints) Warning: W0024
 
 (./notes_template.aux)
 Package rerunfilecheck Info: File `notes_template.out' has not changed.
-(rerunfilecheck)             Checksum: D41D022A7ECF3F8A85F453153B4F30E9;8668.
+(rerunfilecheck)             Checksum: 002C39F1A9F2C78BD62030E0FC510B1E;9692.
 Package logreq Info: Writing requests to 'notes_template.run.xml'.
 \openout1 = `notes_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35742 strings out of 478287
- 630227 string characters out of 5849289
- 1482934 words of memory out of 5000000
- 52949 multiletter control sequences out of 15000+600000
+ 35805 strings out of 478287
+ 631148 string characters out of 5849289
+ 1485141 words of memory out of 5000000
+ 52965 multiletter control sequences out of 15000+600000
  501647 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,12n,117p,1399b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on notes_template.pdf (38 pages, 526166 bytes).
+Output written on notes_template.pdf (44 pages, 546251 bytes).
 PDF statistics:
- 746 PDF objects out of 1000 (max. 8388607)
- 665 compressed objects within 7 object streams
- 199 named destinations out of 1000 (max. 500000)
- 345 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 850 PDF objects out of 1000 (max. 8388607)
+ 762 compressed objects within 8 object streams
+ 240 named destinations out of 1000 (max. 500000)
+ 377 words of extra memory for PDF output out of 10000 (max. 10000000)
 
