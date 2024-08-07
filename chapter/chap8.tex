@@ -1,0 +1,27 @@
+\chapter{The endogenous formation of a city: population agglomeration and marketplaces in a location-specific production economy}
+
+\section{A general model}
+
+\subsection{An overview of the economy}
+
+There are $I$ (finite and integer) produced assumption commodities in the economy. There is a finite number of different locations in the economy. The location set is denoted by $J \subset \mathbb{R}^m$, where $m$ is a positive integer representing the dimension of the location space and $J$ is finite. Each location $j \in J$ is just a point, but it contains a positive amount of homogeneous land. Marketplaces can be established in a feasible marketplace location set $D \subset \mathbb{R}^m$. The set $D$ is assumed to be compact. A consumer chooses her location $j$ from $J$ taking into account, for each location, the wage, rent, and commuting cost to the closest marketplace.
+
+\subsection{Marketplaces}
+
+The location of a marketplace can be anywhere in $D$. No marketplace requires land: a marketplace is a point $d \in D$. The locations of the marketplaces are denoted by $\{d_1, d_2, \ldots, d_k\} = \bf{d} \subset D$. Let $K$ be the collection of finite sets in $D(\emptyset \in K)$. We assume that the transportation cost of commodities between marketplaces is negligible, while to access marketplaces consumers have to use their time endowments.
+
+\subsection{Consumers}
+
+There is a continuum of consumers. The set of consumers is denoted $A = [0, 1]$, and a representative element of $A$ is $a$. The consumers from an atomless measure space $(A, \mathcal{A}, v)$, where $\mathcal{A}$ is the Borel sigma algebra of $A$ and $v$ is the Lebesgue measure on $A$. By definition, $v(A) = 1$.
+
+\subsection{Individual transportation}
+
+We assume that travel cost from location $j$ to a marketplace $d$ is represented by $\tilde{\delta}_j(d)$ where $\tilde{\delta}_j(d): D \to \mathbb{R}_+$ is a continuous function. Travel cost is assumed to be independent of the quantity of goods transported. Since a consumer accesses a marketplace that is most convenient, time to travel to a marketplace in a marketplace structure $\bf{d}$ for a consumer residing at $j \in J$ is given by $\delta_j(\bf{d})$, where $\delta_j: K \to \mathbb{R}_+$ is such that $\delta_j(\bf{d}) = \min_{d \in \bf{d}} \tilde{\delta}_j(d)$. The Euclidean distance from location $j$ to the closest marketplace given marketplace structure $\bf{d} \in K$ is an example of $\delta_j(\bf{d})$, i.e., $\delta_j(\bf{d}) = 2 \min_{d \in \bf{d}} \norm{j - d}$.
+
+\subsection{Mass transportation among marketplace}
+
+When there is more than one marketplace, it is necessary to build a mass transportation system to have commodity flows among them. One can imagine the situation where there is a railroad station in front of each marketplace.
+
+\subsection{The trading cost}
+
+It is assumed that each consumer must reside in exactly one location in $J$. Since consumers can choose their locations freely, consumption sets are non-convex, and even disconnected. This fact does not depend on the finitess of the location set $J$. Even if $J$ is a convex subsset of $\mathbb{R}^m$, the trading cost is always non-convex since each consumer needs to choose one location as her residence. Since production is location-specific, we cannot treat labor as a homogeneous good, since it has a different effect on output at different locations. A trading set is a consumption set where the endowment point is normalized to the origin. Let $\Omega = \Omega_c \times \Omega_{\ell} \times \Omega_L \times \Omega_J$ be the potential trading set, which denote potential commodity, leisure, and land trading sets, while $\Omega_J = J$ denotes the potential location choice set, respectively. Consumers' trading sets with no transportation costs are represented by the closed-valued measurable correspondence $X: A \mapsto \Omega$.
