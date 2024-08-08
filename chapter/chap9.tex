@@ -1,0 +1,65 @@
+\chapter{ON THE INTERNAL STRUCTURE OF CITIES}
+
+\section{The Model}
+
+We consider a circular city of fixed radius $S$, located in a large economy. A single traded good is produced within the city, which is sold to the larger economy at a competitive price. Labor is supplied elastically at the reservation utility $\overline{u}$ that prevails in the larger economy. Workers have preferences over units of the produced good and the quantity of residential land that they consume. We would treat land as available at the boundary of the city at a price $q_f$, determined by its value in an agricultural use. We take the radius $S$ of the city as given.
+
+The total land area of the city, $\pi S^2$, is divided between production use and residential use. We describe locations within the city by their pollar coordinates $(r, \phi)$, but for most purposes we consider only symmetric equilibria, where nothing depends on $\phi$, and refer simply to "location $r$". Let $\theta(r)$ be the fraction used for production. Let the employment density - employment per unit of production land - at location $r$ be $n(r)$, implying that total employment at $r$ is $2\pi r \theta(r) n(r)$. Let $N(r)$ be the number of workers housed at $r$, per unit of residential land. Then if each such person occupies $\ell(r)$ units of land, we have $\ell(r) N(r) = 1$.
+
+Production technology involves: ordinary CRS that relates land, labor and the technology level to goods production. There is the external effect that relates technology level at any one location to the employment, weighted by distance, at other locations. Finally, there is a cost - in units of lost labor time - to commuting to and from work.
+
+Production of the traded good at location $r$ is assumed to be a CRS of land, $2 \pi r \theta(r)$, and labor, $2\pi r \theta(r) n(r)$, at that location. Production per unit of land at location $r$ can thus be written as:
+
+\begin{equation}
+    x(r) = g(z(r))f(n(r))
+\end{equation}
+
+the functions $g$ and $f$ are taken to be CD:
+
+\begin{equation}
+    g(z) = z^{\gamma}
+\end{equation}
+
+and
+
+\begin{equation}
+    f(n) = An^{\alpha}
+\end{equation}
+
+The intercept term $g(z(r))$ is a productivity term that reflects an external effect on production at location $(r, 0)$ of employment at neighboring locations $(s, \phi)$. This production externality is assumed to be linear, and to decay exponentially at a rate $\delta$ with the distance between $(r, 0)$ and $(s, \phi)$:
+
+\begin{equation*}
+    z(r) = \delta \int_0^S \int_0^{2\pi} s\theta(s, \phi)n(s, \phi) e^{-\delta x(r, s, \phi)} d\phi ds,
+\end{equation*}
+
+where $x(r, s, \phi) = [r^2 - 2\cos(\phi)rs + s^2]^{1/2}$. Since allocations are assumed to be symmetric, we can write:
+
+\begin{equation}
+    z(r) = \int_0^S \psi(r, s)s \theta(s)n(s)ds,
+\end{equation}
+
+where
+
+\begin{equation}
+    \psi(r, s) = \delta \int_0^{2\pi} e^{-\delta x(r, s, \phi)}d\phi.
+\end{equation}
+
+Each worker is endowed with one unit of labor, which he supplies inelastically to the composite activity producing-and-commuting. The third aspect of the technology is a commuting cost that takes the form of a loss of labor time that depends on the distance traveled to and from work each day. Specifically, if a worker lives at location $s$ and works at location $r$, he delivers:
+
+\begin{equation*}
+    e^{-\kappa |r - s|}
+\end{equation*}
+
+hours of labor at location $r$.
+
+Workers have identical preferences $U(c, \ell)$ over consumption of the produced good $c$ and residential land $\ell$. The function $U$ is CD:
+
+\begin{equation}
+    U(c, \ell) = c^{\beta}\ell^{1 - \beta}
+\end{equation}
+
+Let $c(r)$ and $\ell(r)$ denote the goods and land consumption of everyone housed at $r$. Every consumer-worker at every location must receive the reservation utility level:
+
+\begin{equation}
+    U(c(r), \ell(r)) = \overline{u}
+\end{equation}
