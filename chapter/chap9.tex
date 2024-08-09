@@ -63,3 +63,30 @@ Let $c(r)$ and $\ell(r)$ denote the goods and land consumption of everyone house
 \begin{equation}
     U(c(r), \ell(r)) = \overline{u}
 \end{equation}
+
+In this setting an allocation will mean a collection of functions $(z, \theta, n, N, c, \ell)$ on $[0, S]$ that describe productivity, land use, employment, and consumption at each location $r \in [0, S]$. To be feasible, an allocation must satisfy $\theta(r) \leq 1, N(r)\ell(r) = 1$. We need a test to determine whether any given triple $(\theta(r), n(r), N(r))$ of functions on $[0, S]$ describes an internally consistent pattern of land use, employement, and residential housing. Think of filling up the city, proceeding from the center, $r = 0$, outward to the edge, $r = S$. We define a state variable $H(r)$ with the interpretation as the stock of workers that remain unhoused at $r$, after employment and housing have been determined for locations $s \in [0, r)$. Let
+
+\begin{equation}
+    y(r) = 2\pi r[\theta(r)n(r) - (1 - \theta(r))N(r)]
+\end{equation}
+
+be the excess of people employed at location $r$ over people housed at $r$. Thus positive $y(r)$ values add to the stock $H(r)$ of unhoused workers and negative $y(r)$ values reduce $H(r)$. In addition, even if $y(r) = 0$, if the stock $H(r)$ is positive it will increase by the amount $\kappa H(r) \varepsilon$ over the interval $[r, r + \varepsilon)$ because housing is moved further away from employment: To bring $H(r)$ units of full time equivalent labor to $r$ requires that $e^{\kappa \varepsilon} H(r)$ units be brought to $r + \varepsilon$, provided we are bringing labor toward the center. Combining these two forces, we have that:
+
+\begin{equation}
+    \frac{dH(r)}{dr} = \begin{cases}
+        y(r) - \kappa H(r) \text{ for } H(r) < 0 \\
+        y(r) + \kappa H(r) \text{ for } H(r) > 0
+    \end{cases}
+\end{equation}
+
+The opposite logic applies when $H(r) < 0$. In that case, there are people who are housed at locations $s < r$ who can be employed at locations $s \geq r$: These workers are traveling away from the center to get to work, so carrying the stock outward brings people farther from home on their way to work.
+
+For an assignment of jobs and residences to be feasible, it must be the case that every worker be housed on $[0, S]$, or that:
+
+\begin{equation}
+    H(S) \leq 0
+\end{equation}
+
+The price of goods, set equal to one, and the utility level of workers, $\overline{u}$, are both determined by forces outside the city. It remains to determine the wage paid at location $r$ per unit of labor employed there, and the earnings received at $r$ per person housed at that location.
+
+We will use the same notation, $w(r)$, to denote both the wage rate paid at location $r$ and the earnings of a worker housed at location $r$.
