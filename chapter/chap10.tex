@@ -1,0 +1,31 @@
+\chapter{Market thickness and the impact of unemployment on housing market outcomes}
+
+\section{The Model}
+
+\subsection{The basic setup}
+
+In our model, the number of households in a city, denoted by $M$, is given. A household either lives in her own house or rents an apartment. A house cannot become an apartment. The total number of houses $^H$ in the city is fixed. All houses have the same quality but they differ in characteristics such as design, yard, etc. We use a unit circle to model the characteristics space of houses. Each point on the circle represents a unique characteristic. All households differ in their preferences regarding housing characteristics. They are uniformly distributed around the circle. A buyer's location on the circle means that any house at the location would be a perfect match for the buyer. The buyer's location is private information.
+
+At the beginning of each period, sellers post advertisements and announce the characteristics of their house to the public. We assume each buyer can visit at most one house per period. It is thus optimal for each buyer to choose to visit the house that best matches her. A seller may have multiple visitors. We assume each seller can negotiate with at most one buyer per period; it is then optimal for the seller to choose to negotiate with the visitor who best matches the seller's house and hence shows the strongest interest in the house.
+
+During each period, every hosuehold who lives in her own house may be hit by a shock. When hit by such a shock, the household may choose whether or not to move to a different house. If she moves, she will need to sell her current house and buy a new one. We assume that when a household moves, she will move out of her current house and rent a place to live during the transition if she cannot immediately find a new house to move into. This assumption allows us not to consider the situation in which a household continues living in her current house while it is for sale.
+
+First, at the beginning of time $t$, the number of owner-occupied houses in the city $N_t^{H}$ plus the number of renters, is equal to the number of households in the city; namely $M = N_t^R + N_t^H$. Second, during time $t$, the number of houses for sale on the market $N_t^S$, reduced by the number of sales made $N_t^{sales}$, is equal to the number of houses left unsold at the end of this period: $U_t = N_t^S - N_t^{sales}$. Third, the number of houses for sale during this period is euqal to the number of unsold houses from the previous period $U_{t-1}$, plus those from homeowners who move out of their houses in this period $\mu_t N_t^H$, where $\mu_t$ is a homeowner's probability of moving in this period. Namely, $N_t^S = U_{t - 1} + \mu_t N_t^H$. Finally, the sum of the number of owner-occupied houses at the beginning of this period, $N_t^H$, and the number of unsold houses for sale from last period, $U_{t - 1}$, is equal to the total number of houses in the city; that is, $T^H = N_t^H + U_{t - 1}$.
+
+Next, we introduce the unemployment rate, denoted $urate$, into the model. Both renters and home occupiers are assumed to have the same probability of being unemployed in each period. We assume that unemployed people are not in the market to buy houses because it is difficult for them to obtain mortgages. Therefore, the probability that a potential buyer will actually enter the market as a buyer, denoted as $\gamma$, cannot exceed the employment rate. Moreover, because of the financial constraint, only those households whose income is above a certain fraction of the expected house price will enter the housing market because they expect to be able to afford to buy a house.
+
+\begin{equation}
+    \gamma_t = (1 - urate) \times prob(y_t > (\tau_0 + \tau_1 urate) \times E(P_t) \mid employed).
+\end{equation}
+
+where $y_t$ is a household income, which is assumed to be i.i.d. drawn from a Pareto distribution conditional on being employed; that is, the cdf of income is $F(y) = 1 - (y / y_{min})^{-1/\sigma}$ if employed. $E(P_t)$ is the expected house price; $y> (\tau_0 + \tau_1 urate) \times E(P)$ reflects the financial constraint. A positive $\tau_1$ means the unemployment rate has an additional discouraging effect on the household's probability of entering the market as a buyer.
+
+The total number of buyers in the market during time $t$, therefore, is $\gamma_t$ times the sum of those homeowners who move out of their current houses, $\mu_t N_t^H$, and those people who are currently renters, $N_t^R$; namely, $N_t^B = \gamma_t \mu_t N_t^H + \gamma_t N_t^R$.
+
+\subsection{The seller's problem}
+
+Next, we study the decision of sellers in the search-and-matching process. Suppose at time $t$, seller $i$ meets with buyer $j$ and they negotiate the sale price. The seller's value function is as follows:
+
+\begin{equation}
+    J_R^S
+\end{equation}
