@@ -136,7 +136,7 @@ Since $\sigma$ and $\sigma^*$ are both functions of $p/p^* = w$, the condition $
 The simple proposition: the larger the country, other things equal, will have the higher wage. Suppose that we were to compute $B(w)$ for $w = 1$. In that case, we have $\sigma = \sigma^* < 1$. The expression for the balance of payments reduces to:
 
 \begin{equation}
-  B = LL^* \left[ \frac{1}{\sigma L + L^*} - \frac{1}{L + \sigma L^*}]
+  B = LL^* [ \frac{1}{\sigma L + L^*} - \frac{1}{L + \sigma L^*}]
 \end{equation}
 
 This equation will be positive if $L > L^*$, negative if $L < L^*$. This means that the equilibrium relative wage $w$ must be greater than one if $L > L^*$, less than one if $L < L^*$.
@@ -165,7 +165,7 @@ where $l_i, \tilde{l}_j$ are labor used in production on typical goods in each c
 The demand conditions now depend on the population shares. We have:
 
 \begin{equation}
-  \begin{aligend}
+  \begin{aligned}
   x_i & = Lc_i \quad i = 1, \ldots, n \\
   \tilde{x}_j & = \tilde{L}\tilde{c}_j \quad j = 1, \ldots, \tilde{n}
   \end{aligned}
@@ -177,4 +177,78 @@ The full-employment condition, however, applies to the economy as a whole:
   \sum_{i=1}^n l_i + \sum_{j=1}^{\tilde{n}} \tilde{l}_j = L + \tilde{L}
 \end{equation}
 
-Finally, we continue to assume free entry, driving profits to zero.
+Finally, we continue to assume free entry, driving profits to zero. The only modification we must make to the results of Section 1 is that we must divide the total production into two industries. A simple way of doing this is to note that the sales of each industry must equal the income of the appropriate group in the population:
+
+\begin{equation}
+    npx = wL; \quad \tilde{n}\tilde{p}\tilde{x} = \tilde{w}\tilde{L}
+\end{equation}
+
+But wages of the two groups must be equal, as must the prices and outputs of any products of either industry. So this reduces to the result $n/\tilde{n} = L/\tilde{L}$, the shares of the industries in the value of output equal the shares of the two demographic groups in the population.
+
+\subsection{Demand and the Trade Pattern: A simple Case}
+
+Suppose that there are two countries of the type just described, and that they can trade with trasport costs of the type analyzed in Section II.
+
+In the home country, some fraction $f$ of the population will be consumers of alpha products. The crucial simplification I will make is to assume that the other country is a mirror image of the home country. The labor forces will be assumed to be equal, so that:
+
+\begin{equation}
+    L + \tilde{L} = L^* + \tilde{L}^* = \overline{L}
+\end{equation}
+
+But in the foreign country, the population shares will be reserved, so that we have:
+
+\begin{equation}
+    L = f\overline{L}; L^* = (1 - f)\overline{L}
+\end{equation}
+
+If $f$ is greater than one-half, then the home country has the larger domestic market for the alpha industry's products; and conversely. In this case, there is a very simple home market proposition: that the home country will be a net exporter of the first industry's products if $f > 0.5$.
+
+The first step in showing this is to notice that this is a wholly symmetrical world, so that wage rates will be equal, as will the output and prices of all goods. It follows that the ratio of demand for each imported product to the demand for each domestic product is the same in both countries.
+
+\begin{equation}
+    \sigma = \sigma^*=  g^{\theta / (1 - \theta)} < 1
+\end{equation}
+
+The expenditure on goods in an industry is the sum of domestic residents' and foreigners' expenditures on that goods, so we can write the expression:
+
+\begin{equation}
+    \begin{aligned}
+        npx & = \frac{n}{n + \sigma n^*}wL + \frac{\sigma n}{\sigma n + n^*}wL^* \\
+        n^*px & = \frac{\sigma n^*}{n + \sigma n^*}wL + \frac{n^*}{n \sigma + n^*}wL^*
+    \end{aligned}
+\end{equation}
+
+where the price $p$ of each product and the output $x$ are the same in the two countries. We can use above to determine hte relative number of products produced in each country, $n / n^*$.
+
+To see this, suppose provisionally that some products in the alpha industry are produced in both countries; i.e., $n > 0, n^* > 0$. We can then divide the equations through by $n$ and $n^*$ and rearrange it to get:
+
+\begin{equation}
+    L / L^* = (n + \sigma n^*) / (\sigma n + n^*)
+\end{equation}
+
+which can be arranged to give:
+
+\begin{equation}
+    n / n^* = \frac{L / L^* - \sigma}{1 - \sigma L / L^*}
+\end{equation}
+
+Suppose that the home country produced no alpha products, and that a firm attempted to start production of a single product. This firm's profit-maximizing f.o.b. price would be the same as that of the foreign firm's. But its sales would be less, in the ratio,
+
+\begin{equation*}
+    \frac{\sigma^{-1}L + \sigma L^*}{L + L^*} < 1 
+\end{equation*}
+
+Thus such a firm could not compete. This gives us our first result on the effect of the home market. It says that if the two countries have sufficiently dissimilar tastes each will specialize in the industry for which it has the larger home market. Obviously, also, each will be a net exporter of the class of goods in which it specializes. Thus the idea that the pattern of exports is determined by the home market is quite nicely confirmed.
+
+A final result we can take from this special case concerns the pattern of trade when specialization is incomplete. In this case each country will both import and export products in both classes (though not the same products). But it remains true that, if one country has the larger home market for alpha producers, it will be a net exporter in the alpha class and a net importer in the other. To see this, note that we can write the home country's trade balance in alpha products as
+
+\begin{equation*}
+    \begin{aligned}
+        B_{\alpha} & = \frac{\sigma n}{\sigma n + n^*}wL^* - \frac{\sigma n^*}{n + \sigma n^*}wL \\
+        & = wL^* [\frac{\sigma n}{\sigma n + n^*} - \frac{\sigma n^*}{n + \sigma n^*}\frac{L}{L^*}] \\
+        & = \frac{\sigma wL^*}{\sigma n + n^*} [n - n^*]
+    \end{aligned}
+\end{equation*}
+
+This says that the sign of the trade balance depends on whether the number of alpha products produced in the home country is more or less than the number produced abroad.
+
