@@ -625,6 +625,7 @@ OUTPUT e:/umich/urban-economics-notes/notes_template.mtc8
 OUTPUT e:/umich/urban-economics-notes/notes_template.mtc9
 OUTPUT e:/umich/urban-economics-notes/notes_template.mtc10
 OUTPUT e:/umich/urban-economics-notes/notes_template.mtc11
+OUTPUT e:/umich/urban-economics-notes/notes_template.mtc12
 INPUT d:/latex/texlive/2020/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-ot1.vf
 INPUT d:/latex/texlive/2020/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
 INPUT d:/latex/texlive/2020/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1.tfm
@@ -685,11 +686,14 @@ INPUT e:/umich/urban-economics-notes/chapter/chap8.tex
 INPUT e:/umich/urban-economics-notes/chapter/chap8.tex
 INPUT e:/umich/urban-economics-notes/chapter/chap9.tex
 INPUT e:/umich/urban-economics-notes/chapter/chap9.tex
+INPUT e:/umich/urban-economics-notes/chapter/chap10.tex
+INPUT e:/umich/urban-economics-notes/chapter/chap10.tex
 INPUT e:/umich/urban-economics-notes/notes_template.ind
 INPUT e:/umich/urban-economics-notes/notes_template.ind
 OUTPUT e:/umich/urban-economics-notes/notes_template.maf
 INPUT e:/umich/urban-economics-notes/notes_template.mtc
 INPUT e:/umich/urban-economics-notes/notes_template.mtc0
+INPUT e:/umich/urban-economics-notes/notes_template.mtc14
 INPUT e:/umich/urban-economics-notes/notes_template.mtc13
 INPUT e:/umich/urban-economics-notes/notes_template.mtc12
 INPUT e:/umich/urban-economics-notes/notes_template.mtc11

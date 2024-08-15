@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.11)  15 AUG 2024 08:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.11)  15 AUG 2024 08:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1305,6 +1305,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing notes_template.mtc11.
 \openout3 = `notes_template.mtc11'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing notes_template.mtc12.
+\openout3 = `notes_template.mtc12'.
+
  [2]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 20.74pt on input line 198.
@@ -1465,11 +1469,13 @@ Overfull \hbox (1.12622pt too wide) in paragraph at lines 11--12
 
 [61
 
-] [62]) [63] [64
+] [62]) (e:/umich/urban-economics-notes/chapter/chap10.tex [63] [64
 
 ]
+Chapter 12.
+[65]) [66]
 
-LaTeX Warning: Empty bibliography on input line 265.
+LaTeX Warning: Empty bibliography on input line 267.
 
 runsystem(makeindex -s index.ist notes_template.idx)...executed safely (allowed).
 
@@ -1493,30 +1499,30 @@ Package minitoc(hints) Warning: W0024
 \tf@loe=\write11
 \openout11 = `notes_template.loe'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 268.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 270.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 270.
 (e:/umich/urban-economics-notes/notes_template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 268.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 270.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 270.
 Package rerunfilecheck Info: File `notes_template.out' has not changed.
-(rerunfilecheck)             Checksum: E5746EE6E272475302FA91921DBE55F5;6098.
+(rerunfilecheck)             Checksum: 8BC70D916B010E12C5244C6BA3C71960;6420.
 Package logreq Info: Writing requests to 'notes_template.run.xml'.
 \openout1 = `notes_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30797 strings out of 480608
- 523286 string characters out of 5904590
- 1356278 words of memory out of 5000000
- 45531 multiletter control sequences out of 15000+600000
+ 30820 strings out of 480608
+ 523657 string characters out of 5904590
+ 1357284 words of memory out of 5000000
+ 45539 multiletter control sequences out of 15000+600000
  564726 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,96p,1707b,789s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/latex/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc}{d:/latex/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{d:/latex/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}<d:/latex/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on e:/umich/urban-economics-notes/notes_template.pdf (64 pages, 602800 bytes).
+Output written on e:/umich/urban-economics-notes/notes_template.pdf (66 pages, 609064 bytes).
 PDF statistics:
- 1224 PDF objects out of 1440 (max. 8388607)
- 1129 compressed objects within 12 object streams
- 350 named destinations out of 1000 (max. 500000)
- 625 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1263 PDF objects out of 1440 (max. 8388607)
+ 1166 compressed objects within 12 object streams
+ 359 named destinations out of 1000 (max. 500000)
+ 657 words of extra memory for PDF output out of 10000 (max. 10000000)
 

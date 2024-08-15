@@ -187,3 +187,13 @@
 \hypertarget {chap-11}{}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {11.1}The Model}{61}{section.11.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {12}Market thickness and the impact of unemployment on housing market outcomes}{65}{chapter.12}%
+\defcounter {refsection}{0}\relax 
+\hypertarget {chap-12}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.1}The Model}{65}{section.12.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.1.1}The basic setup}{65}{subsection.12.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.1.2}The seller's problem}{66}{subsection.12.1.2}%
