@@ -3,3 +3,32 @@
 \section{Model}
 
 There are two firms $i \in \{1, 2\}$. Firm $i$ decides a time $t_i \geq 0$ and a location $x_i \in [0, 1]$ to enter the market. Firms incur a fixed cost of entry $F > 0$. Time is continuous and the horizon is infinite. Firms discount future cash flows at an interest rate of $r > 0$.
+
+Consumers are uniformly distributed on the unit interval. They have unit demands and incur transportation costs $b > 0$ per unit of distance. A consumer derives a surplus gross of transportation costs and price $a > 0$ from consupmtion. Suppose that firm $i$ is located at $x_i$ and charges a price $p_i$. Then the utility of a consumer located at $z$ from buying from firm $i$ is:
+
+\begin{equation}
+    a - b(z - x_i)^2 - p_i
+\end{equation}
+
+The total mass of consumers at time $t$ is $m(t)$, where $m^\prime > 0$. We assume market size grows at most exponentially at a rate less than $r$ to ensure that the NPV of future cash flows remains bounded. The marginal cost of production is $c \geq 0$. We assume $\frac{a - c}{b} > 3$ to ensure the market is fully covered. That is, in equilibrium, each consumer prefers buying from either firm $1$ or firm $2$ over not buying. Let $\pi^M$ denote a monopolist's instantaneous profits when market size is normalized to unity. Similarly, let $\pi_i^D$ denote firm $i$'s instantaneous profits when there are two firms in the market and the market size is normalized to unity.
+
+\begin{equation}
+    x^M(x) = \begin{cases}
+        a - c - b(1 - x)^2 \text{ if } x \leq \frac{1}{2} \\
+        a - c - bx^2 \text{ if } x > \frac{1}{2}
+    \end{cases}
+\end{equation}
+
+\begin{equation}
+    \pi_1^D(x_1, x_2) = \begin{cases}
+        \frac{b(x_2 - x_1)}{18} (2 + x_1 + x_2)^2 \text{ if } x_1 \leq x_2, \\
+        \frac{b(x_1 - x_2)}{18} (4 - x_1 - x_2)^2 \text{ if } x_1 > x_2
+    \end{cases}
+\end{equation}
+
+\begin{equation}
+    \pi_2^D(x_1, x_2) = \begin{cases}
+        \frac{b(x_2 - x_1)}{18} (4 - x_1 - x_2)^2 \text{ if } x_1 \leq x_2, \\
+        \frac{b(x_1 - x_2)}{18} (2 + x_1 + x_2)^2 \text{ if } x_1 > x_2
+    \end{cases}
+\end{equation}
