@@ -1,0 +1,66 @@
+\chapter{First Nature, Second Nature, and Metropolitan Location}
+
+\section{A Modeling Approach}
+
+We begin by assuming that everyone in the economy shares a utility function into which both the agricultural good and a manufactures aggregate under:
+
+\begin{equation}
+    U = C_M^{\mu} C_A^{1 - \mu}
+\end{equation}
+
+where $\mu$ is the share of manufactured goods in expenditure. The manufactures aggregate in turn is a CES function of a large number of potential varieties, not all of which will actually be available.
+
+\begin{equation}
+    C_M = \left[ \sum_i C_M^{\sigma - 1/ \sigma}\right]^{\sigma / \sigma - 1}
+\end{equation}
+
+Agricultural goods are produced by a sector-specific factor, agricultural labor. They are produced under constant returns; without loss of generality we assume that the unit labor requirement is one. In the manufacturing sector, however, there are increasing returns; we introduce these by assuming that for any variety that is actually produced, there is a fixed labor input required independent of the volume of output:
+
+\begin{equation}
+    L_{Mi} = \alpha + \beta q_{Mi}
+\end{equation}
+
+Both kinds of labor will be assumed to be fully employed. Thus
+
+\begin{equation}
+    L_M = \sum_i L_{Mi}
+\end{equation}
+
+and
+
+\begin{equation}
+    L_A = C_A.
+\end{equation}
+
+First, agricultural labor will be assumed to be distributed across space; in the next section we will assume that it is evenly spread along a line, in the section following that it is evenly spread across a disk. Second, we assume that although agricultural goods can be costlessly transported. The proportional rate of melting is assumed to be constant per unit of distance, implying that if a single unit of a manufactured good is shipped a distance $D$, the quantity that arrives is only $e^{-\tau D}$, where $\tau$ is the transport cost.
+
+First, we note that given the absence of any transportation costs for agricultural goods, all agricultural workers will receive the same nominal wage. Second, we note that manufacturing will have a monopolistically competitive market structure; the form of the utility function together with the assumption of ``iceberg'' transportation costs implies a constant elasticity of demand, and hence, that the price of each manufactured good at the factory gate will be a constant proportional markup on the wage rate. Third, we note that a fraction $\mu$ of total expenditure will fall on manufactured goods; since profits are competed away, manufacturing workers will receive a share $\mu$ of total income, agricultural workers $1 - \mu$. Finally, we note that the elasticity of substitution between any two manufactured products is $\sigma$.
+
+\section{A One-Dimensional Model}
+
+We assume that agricultural workers are distributed evenly along a line of unit length. The method we will use is to posit an initial situation in which all manufacturing is concentrated at a single location, then ask whether an individual firm will find it advantageous to move to any other location. Suppose, then, that all manufacturing is concentrated at the location $x_C$ along the unit interval. We need to ask whether it is to $x_A$ site. If there is no site at which this hypothetical real wage exceeds the real wage paid a $x_C$, then a defecting firm will be unable to attract workers away from the city and still earn a profit; hence in this case, concentration at $x_C$ is an equilibrium.
+
+Let $w$ be the ratio of the nominal wage rate that a firm at $x_A$ would have to pay to attract workers to that at $x_C$. Given the monopolistically competitive market structure, the ratio of the f.o.b. price charged by a defecting firm choosing to locate at $x_A$ to that of a typical good manufactured at $x_C$ will also be $w$. The price ratio to a consumer at location $x$ will reflect both this f.o.b. price ratio and transport costs, which depend on the consumer's relative distance from $x_A$ and $x_C$. Let $p_x$ be this relative price to a consumer at location $x$: given our assumption about transport costs, it is simply:
+
+\begin{equation}
+    p_x = w e^{\tau(|x_A - x| - |x_C - x|)}
+\end{equation}
+
+Next consider the ratio of scales of a product manufactured at $x_A$ to that of a typical good manufactured at $x_C$. Given the elasiticityy of substitution of $\sigma$, the ratio of consumption by a consumer at location $x$ is:
+
+\begin{equation}
+    c = p_x^{-\sigma}
+\end{equation}
+
+The ratio of value of sales to the consumer at $x$, however, is less sensitive to the price, because volume effects are offset by valuation effects; thus we have for the value ratio
+
+\begin{equation}
+    s = p_x^{1 - \sigma}
+\end{equation}
+
+To calculate the overall ratio of sales of a firm that defects to $x_A$ to that of a typical product from the metropolis, we note that manufacturing workers, who account for a fraction $\mu$ of demand, are all concentrated at $x_C$; while agricultural workers, who account for the rest, are spread evenly along the unit interval. This implies that the overall sales ratio is:
+
+\begin{equation}
+    S = \mu [we^{\tau |x_C - x_A|}]^{1 - \sigma}
+\end{equation}
+ 

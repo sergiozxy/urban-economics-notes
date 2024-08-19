@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.11)  15 AUG 2024 08:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.11)  18 AUG 2024 21:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1519,7 +1519,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,12n,96p,1707b,789s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/latex/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc}{d:/latex/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{d:/latex/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}<d:/latex/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on e:/umich/urban-economics-notes/notes_template.pdf (66 pages, 609064 bytes).
+Output written on e:/umich/urban-economics-notes/notes_template.pdf (66 pages, 609381 bytes).
 PDF statistics:
  1263 PDF objects out of 1440 (max. 8388607)
  1166 compressed objects within 12 object streams
