@@ -159,3 +159,19 @@ and the relative real wage at the alternate location is:
 \begin{equation}
     \omega = w e^{-\mu \tau D_{AC}}
 \end{equation}
+
+Since the central bull-eyes is also the point of peak market potential, a central metropolis is an equilibrium. But a somewhat off-center metropolis may also be an equilibrium. The contour lines are dragged off to the east by the metropolis's economic mass; the metropolis is still the best location, and thus this proposed geography is also in equilibrium.
+
+Suppose we posit a metropolis at $(x_C, 0)$ with $x_C > 0$. If there is a better location for a small group of workers, it will be toward the center; thus we need only consider alternative locations with $x_A < x_C$ and $y_A = 0$. For local stability, the derivative of $\omega$ with respect to $x_A$ must be positive for $x_A$ slightly less than $x_C$. Letting $L$ represent this derivative, we have:
+
+\begin{eqnarray}
+    L = \frac{\tau}{\tau} [\mu (2 \sigma - 1) + \frac{1 - \mu}{\pi}(\sigma - 1) \int_{-1}^1 \int_{-\sqrt{1 - x^2}}^{\sqrt{1 - x^2}}(x - x_A)[(x_A - x)^2 + y^2]^{-1/2}dy dx]
+\end{eqnarray}
+
+There are two terms inside, the first term captures the foward and backward linkage effects, and is always positive. The second term is always negative: one can see this by thinking of the term as representing the weighted sum of a series of values of $x - x_A$. The further the metropolis is from the geometry center of the disk, the stronger are tehse centrifugal forces. Differentiating with respect to $x_A = x_C$, we find:
+
+\begin{equation}
+    \frac{dL}{dx_C} = -\frac{\tau}{\sigma} \frac{1 - \mu}{\pi} (\sigma - 1) \int_{-1}^1 \int_{-\sqrt{1 - x^2}}^{\sqrt{1 - x^2}} \frac{y^2}{(x - x_C)^2 + y^2} \sqrt{(x - x_C)^2 + y^2}dy dx
+\end{equation}
+
+The maximum distance, and thus the area of potential metropolitan sites, depends on $\mu$ and $\sigma$ and $\frac{dL}{d\mu} > 0$, which implies that the radius of the range of potential metropolitan sites is increasing in $\mu$.
