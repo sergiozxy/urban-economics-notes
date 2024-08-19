@@ -61,6 +61,101 @@ The ratio of value of sales to the consumer at $x$, however, is less sensitive t
 To calculate the overall ratio of sales of a firm that defects to $x_A$ to that of a typical product from the metropolis, we note that manufacturing workers, who account for a fraction $\mu$ of demand, are all concentrated at $x_C$; while agricultural workers, who account for the rest, are spread evenly along the unit interval. This implies that the overall sales ratio is:
 
 \begin{equation}
-    S = \mu [we^{\tau |x_C - x_A|}]^{1 - \sigma}
+    S = \mu [we^{\tau |x_C - x_A|}]^{1 - \sigma} + (1 - \mu) \int_0^1 [we^{\tau(|x_A - x| - |x_C - x|)}]^{1 - \sigma} dx
 \end{equation}
  
+or rearranging terms:
+
+\begin{equation}
+    S = w^{-(\sigma - 1)}[\mu[e^{-\tau|x_C - x_A|}]^{\sigma - 1} + (1 - \mu)\int_0^1 [e^{\tau (|x_C - x| - |x_A - x|)}]^{\sigma - 1} dx]
+\end{equation}
+
+The above equation determines relative sales as a function of the relative wage rate. First, note that by assumption all firms at $x_C$ are earning zero profits, with their operating surpuses just covering their fixed costs. A firm at $x_C$ must do the same. But the operating surplus of a firm in the Dixit-Stiglitz model is proportional to its sales, while the fixed costs are incurred in manufacturing labor, which at $x_A$ receives a relative wage $w$. It follows, then, that if there are to be zero profits we must have:
+
+\begin{equation}
+    S = w.
+\end{equation}
+
+Putting the above two equations together, we have our expression for the nominal wage rate that a firm at $x_A$ can afford to pay:
+
+\begin{equation}
+    w = [\mu [e^{-\tau |x_C - x_A|}]^{\sigma - 1} + (1 - \mu) \int_0^1 [e^{\tau (|x_C - x| - |x_A - x|)}]^{\sigma - 1} dx]^{1 / \sigma}
+\end{equation}
+
+To determine whether a concentration of manufactures at $x_C$ is an equilibrium, however, we need to compare not the relative nominal wage but the relative real wage. The difference between the two comes from the fact that manufactured goods produced at $x_C$ are part of workers' consumption basket, with a weight $\mu$. Taking this into account, we note that the relative real wage rate is:
+
+\begin{equation}
+    \omega = w e^{-\mu \tau |x_A - x_C|}
+\end{equation}
+
+equations above determine the real wage that a defecting firm could afford to pay if it were to locate at a site $x_A$ when all other manufacturing workers are concentrated at $x_C$. Rearranging above, we immediately have a simple definition of an equilibrium metropolitan location. A metropolis at $x_C$ is an equilibrium, if given that location, the maximum of the function is also at $x_C$.
+
+It might seem that a metropolis at the center of the region is always a possible equilibrium. Unfortunately, this is not quite right, because there may exist no equilibrium with only a single metropolis. If transportation costs are high enough, then even if one posits a concentration of all manufacturing at the center, firms will find it advantageous to move away from the center to get better access to the rural market.
+
+Symmetry ensures that the derivative of the integral is zero in this case, and all the exponential terms become nity, so that this derivative to the right is simply:
+
+\begin{equation}
+    R = -\tau \mu - \frac{\sigma - 1}{\sigma} \tau \mu
+\end{equation}
+
+If we take the derivative for $x_A$ slightly less than $x_C$, however, we find the derivative to the left to be:
+
+\begin{equation}
+    L = \tau \mu + \tau \mu \frac{\sigma - 1}{\sigma} = -R
+\end{equation}
+
+Thus, if there is a discontinuity in the slope of the market potential function.
+
+We can solve analytically for this range by applying a criterion of local stability: a necessary condition for a metropolitan site to be an equilibrium site is that given a hypothetical metropolis at that site, the market potential has a local maximum there. Given the symmetry of the problem, we need only consider locations to the left of center, obviously in that case a more desirable alternative site, if it exists, will lie to the right. So the defining criterion for the range of potential sites is: if we posit a metropolis at some $x_C < 0.5$ then $d\omega / dx_A$ for $x_A$ slightly greater than $x_C$ must be negative.
+
+All the absolute value terms become unambiguously signed, and when the expression is evaluated in the vicinity of $x_A = x_C$ all of the exponential terms become unity. Thus letting $R$ be the derivative of the relative wage with respect to $x_A$, when $x_A$ is just slightly greater than $x_C$, we have:
+
+\begin{equation}
+    R = \frac{\tau}{\sigma}[-\mu \sigma - \mu(\sigma - 1) + (1 - \mu)(\sigma - 1)(1 - 2x_C)]
+\end{equation}
+
+Bearing in mind that for an equilibrium metropolitan location we must have $R < 0$, we note that the above euqation contains two negative terms and one positive. The criterion $R < 0$ defines the range of potential metropolitan sites. For a metropolis to the left center, we have:
+
+\begin{equation}
+    1 - 2x_C < \frac{\mu}{1 - \mu} \frac{2\sigma - 1}{\sigma - 1}
+\end{equation}
+
+The larger is the right hand side, the wider the range of potential sites; if the right-hand side exceeds $1$, any point on the line can accommodate a metropolis.
+
+\section{A Two-Dimensional Model}
+
+In the one-dimensional case this range was a central portion of the line segment; in the two-dimensional case it will be a central disk within the regional disk. Let us posit a metropolis at $x_C, y_C$; assuming $y_C = 0$. We want to consider the attractiveness of an alternative location $x_A, y_A$. To calculate this, we need to know three distances. let $D_{AC}$ be the distance between the alternative location and the metropolis; we have:
+
+\begin{equation}
+    D_{AC} = \sqrt{(x_A - x_C)^2 + (y_A - y_C)^2} = \sqrt{(x_A - x_C)^2 + y_A^2}
+\end{equation}
+
+Let $D_C(x, y)$ be the distance from the metropolis to some other location $(x, y)$:
+
+\begin{equation}
+    D_C(x, y) = \sqrt{(x_C - x)^2 + y^2}
+\end{equation}
+
+and let $D_A(x, y)$ be the distance from the alternative location to $(x, y)$:
+
+\begin{equation}
+    D_A(x, y) = \sqrt{(x - x_A)^2 + (y - y_A)^2}
+\end{equation}
+
+By analogy with the one-dimensional case, the sales of a firm at the alternative location relative to those of one in the metropolis are:
+
+\begin{equation}
+    S = \mu[w e^{-\tau D_{AC}}] + \frac{1 - \mu}{\pi} \int_{-1}^1 \int_{-\sqrt{1 - x^2}}^{\sqrt{1 - x^2}} [w e^{\tau [D_X(x, y) - D_A(x, y)]}]^{\sigma - 1} dy dx
+\end{equation}
+
+The zero-profit condition once again requires that $S = w$. Thus we have:
+
+\begin{equation}
+    w = [\mu e^{-\tau(\sigma - 1) D_{AC}} + \frac{1 - \mu}{\pi} \int_{-1}^1 \int_{-\sqrt{1 - x^2}}^{\sqrt{1 - x^2}} e^{\tau(\sigma - 1) [D_X(x, y) - D_A(x, y)]} dy dx]^{1 / \sigma}
+\end{equation}
+
+and the relative real wage at the alternate location is:
+
+\begin{equation}
+    \omega = w e^{-\mu \tau D_{AC}}
+\end{equation}
