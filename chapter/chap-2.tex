@@ -107,13 +107,13 @@ The above equations may be regarded as a system that determines $w_1$ and $w_2$.
 In the long run, workers are interested not in nominal wages but in real wages, and workers in the region with the larger population will face a lower price for manufacturing goods. Let $f = L_1 / \mu$, the share of the manufacutring labor force in region $1$. Then the true price index of manufacutring goods for consumers residing in region $1$ is:
 
 \begin{equation}
-  P_1 = \left[f w_1^{-\sigma + 1} + (1 - f)(\frac{w_2}{\tau})^{1 - \sigma}]^{1/(1 - \sigma)}
+  P_1 = \left[f w_1^{-\sigma + 1} + (1 - f)(\frac{w_2}{\tau})^{1 - \sigma}\right]^{1/(1 - \sigma)}
   \end{equation}
 
 that for consumers residing in region $2$ is:
 
 \begin{equation}
-  P_2 = \left[f (\frac{w_1}{\tau})^{-\sigma + 1} + (1 - f)(w_2^{1 - \sigma}]^{1/(1 - \sigma)}
+  P_2 = \left[f (\frac{w_1}{\tau})^{-\sigma + 1} + (1 - f)(w_2^{1 - \sigma})\right]^{1/(1 - \sigma)}
 \end{equation}
 
 The real wage of workers in each region are:
@@ -124,3 +124,42 @@ The real wage of workers in each region are:
 
 \section{Necessary Conditions for Manufacutring Concentration}
 
+Consider a situation in which all workers are concentrated in region $1$. Region $1$ will then constitute a larger market than region $2$. Since a share of total income $\mu$ is spent on the manufactures and all this income goes to region $1$, we have:
+
+\begin{equation}
+  \frac{Y_2}{Y_1} = \frac{1 - \mu}{1  +\mu}
+\end{equation}
+
+Let $n$ be the total number of manufacturing firms; then each firm will have a value of sales equal to:
+
+\begin{equation}
+  V_1 = (\frac{\mu}{n}) (Y_1 + Y_2)
+\end{equation}
+
+which is just enough to allow each firm to make zero profits. In order to produce in region $2$, a firm must be able to attract workers. TO do so, it must compensate them for the fact that all manufactures must be imported; thus we must have:
+
+\begin{equation}
+  \frac{w_2}{w_1} = (\frac{1}{\tau})^{\mu}
+\end{equation}
+
+Given this higher wage, the firm will charge a profit-maximizing price that is higher than that of other firms in the same proportion. We can use this fact to derive the value of the firm's sales. In region $1$, the defecting firm's value of sales will be the value of sales of a representative firm times $(w_2/w_1 \tau)^{-(\sigma - 1)}$. In region $2$, its value of sales will be that of a representative fir times $(w_2\tau / w_1)^{-(\sigma - 1)}$, so the total value of the defecting firm's sales will be:
+
+\begin{equation}
+  V_2 = (\frac{\mu}{n}) \left[ (\frac{w_2}{w_1 \tau})^{1 - \sigma}Y_1 + (\frac{w_2 \tau}{w_1})^{1 - \sigma}Y_2 \right].
+\end{equation}
+
+Notice that transportation costs work to the firm's disadvantage in its sales to region $1$ consumers but work to its advantages in sales to region $2$ consumers. From the above equations, we can derive the ratio of the value of sales by this defecting firm to the sales of firms in region $1$:
+
+\begin{equation}
+  \frac{V_2}{V_1} = \frac{1}{2} \tau^{\mu(\sigma - 1)}\left[(1 + \mu)\tau^{\sigma - 1} + (1 - \mu)\tau^{-(\sigma - 1)}\right]
+\end{equation}
+
+One might think that it is profitable for a firm to defect as long as $V_2 / V_1 > 1$, since firms will collect a constant function of any sales as a markup over marginal costs.
+
+First note what we want to do with the above equation. It defines a boundary: a set of critical parameter values that mark the division between concentration and nonconcentration. We note that:
+
+\begin{equation}
+  \frac{\partial v}{\partial \mu} = v\sigma (\log \tau) + \frac{1}{2} \tau^{\sigma \mu} [\tau^{\sigma - 1} - \tau^{-(\sigma - 1)}] < 0
+\end{equation}
+
+That is, the larger the share of income spent on manufacutred goods, the lower the relative slaes of the defecting firm. First, workers demand a larger wage premium in order to move to the second region; this ``forward linkage'' effect is reflected in the first term. Second, the larger teh share of expenditure on manufactures, the larger the relative size of the region $1$ market and hence the stronger the home market effect.
