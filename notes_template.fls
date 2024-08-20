@@ -2315,10 +2315,17 @@ INPUT ./chapter/chap9.tex
 INPUT chapter/chap9.tex
 INPUT ./chapter/chap9.tex
 INPUT chapter/chap9.tex
+INPUT /usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ts1.tfm
 INPUT ./chapter/chap10.tex
 INPUT chapter/chap10.tex
 INPUT ./chapter/chap10.tex
 INPUT chapter/chap10.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-ts1.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ts1--base.tfm
 INPUT ./notes_template.ind
 INPUT notes_template.ind
 INPUT ./notes_template.ind
@@ -2366,6 +2373,7 @@ INPUT ./notes_template.out
 INPUT ./notes_template.out
 INPUT notes_template.run.xml
 OUTPUT notes_template.run.xml
+INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc

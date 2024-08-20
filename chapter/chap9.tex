@@ -89,4 +89,98 @@ For an assignment of jobs and residences to be feasible, it must be the case tha
 
 The price of goods, set equal to one, and the utility level of workers, $\overline{u}$, are both determined by forces outside the city. It remains to determine the wage paid at location $r$ per unit of labor employed there, and the earnings received at $r$ per person housed at that location.
 
-We will use the same notation, $w(r)$, to denote both the wage rate paid at location $r$ and the earnings of a worker housed at location $r$.
+We will use the same notation, $w(r)$, to denote both the wage rate paid at location $r$ and the earnings of a worker housed at location $r$. If $r$ is a purely business location, $w(r)$ denotes the wage paid by firms operating there, and a worker who commutes to $r$ from $s$ has earnings $w(s) = e^{-\kappa |r - s|}w(r)$ available to spend at his place of residence. If $r$ is a purely residential location, then $(r)$ denotes the earnings of people who live there, and a resident at $r$ who works at $s$ must receive $w(s) = e^{\kappa |r - s|}w(r)$ per unit of labor supplied at $s$. Finally, if $r$ is a mixed-use location, people who live there also work there, and $w(r)$ denotes both the wage rate and net earnings at $r$.
+
+let $q(r)$ be firm profit per unit of land at location $r$; let $Q(r)$ be the rent per unit of residential land at $r$. A firm located at $r$ chooses employment to maximize profit:
+
+\begin{equation}
+    q(r) = g(z(r))f(n(r)) - w(r)n(r) = \max_n \{g(z(r))f(n) - w(r)n\}.
+\end{equation}
+
+The maximized value is $q(r)$. Since the decision problem at location $r$ is completely determined by the technology level and wage rate at $r$, we can solve the first-order condition for the maximum problem to obtain $n = \hat{n}(w, z)$. The maximized value can be written as $q = \hat{q}(w, z)$. This is the budget bid rent, given $(w, z)$: the rent per unit of land that a firm would be willing to pay to opearate with these cost and productivity parameters.
+
+\begin{equation*}
+    \hat{n}(w, z) = (\frac{\alpha A z^{\gamma}}{w})^{1/(1 - \alpha)}
+\end{equation*}
+
+and
+
+\begin{equation*}
+    \hat{q}(w, z) = (1 - \alpha) (\frac{\alpha}{w})^{\alpha / (1 - \alpha)} A^{1 / (1 - \alpha)} z^{\gamma / (1 - \alpha)}
+\end{equation*}
+
+A consumer who lives at $r$ divides his earnings $w(r)$ over goods consumption $c$ and residential land $\ell$, at the prices $1$ and $Q(r)$. His earnings must be enough to yield him utility $\overline{u}$. Thus,
+
+\begin{equation}
+    w(r) = c(r) + Q(r)\ell(r) = \min_{c, \ell} [c + Q(r)\ell].
+\end{equation}
+
+subject to
+
+\begin{equation*}
+    U(c, \ell) \geq \overline{u}
+\end{equation*}
+
+The minimum values depend on $Q$ and $\overline{u}$. Suppressing the latter, we write them $\tilde{c}(Q)$ and $\tilde{\ell}(Q)$: Given these functions, we can solve:
+
+\begin{equation*}
+    w = \tilde{c}(Q) + Q\tilde{\ell}(Q)
+\end{equation*}
+
+for $Q = \hat{Q}(w)$, say, then define $\hat{c}(w) = \tilde{c}(Q(w))$ and $\hat{\ell}(w) = \tilde{\ell}(\hat{Q}(w))$. Since the market clearing condition for residential land is $N\ell = 1$, we also have $\hat{N}(w) \equiv 1/\hat{\ell}(w)$. Therefore,
+
+\begin{equation*}
+    \hat{N}(w) = \beta^{(\beta / (1 - \beta)}\overline{u}^{-1/(1 - \beta)}w^{\beta / (1 - \beta)}
+\end{equation*}
+
+and
+
+\begin{equation*}
+    \hat{Q}(w) = \beta^{\beta / (1 - \beta)} (1 - \beta) (\frac{w}{\overline{u}})^{1 / (1 - \beta)}
+\end{equation*}
+
+It will be assumed that land is allocated to its highest-value use. In context, this means that:
+
+\begin{equation}
+    \theta(r) > 0 \text{ implies } q(r) \geq Q(r)
+\end{equation}
+
+and
+
+\begin{equation}
+    \theta(r) < 1 \text{ implies } q(r) \leq Q(r)
+\end{equation}
+
+Finally, free mobility of labor implies a sharp restriction on equilibrium wages $w(r)$:
+
+\begin{equation}
+    e^{-\kappa |r - s|} w(s) \leq w(r) \leq e^{\kappa |r- s|} w(s) \text{ for all } s, r \in [0, S] \label{eq:equilibrium_wage_rates}
+\end{equation}
+
+This wage arbitrage condition says that no one can gain by changing his job location, incurring the loss in labor endowment that such a change may entail.
+
+\begin{definition}
+Let $\hat{n}(w, z)$ and $\hat{q}(w, z)$ be the employment and bid-rent functions defined by the firm's problem and let $\hat{N}(w)$ and $\hat{Q}(w)$ be the residential density and bid-rent functions defined by the household's problem. Then an equilibrium is a pair of piecewise continuous functions $\theta$ and $y$, and a collection $(z, n, N, w, q, Q, H)$ of continuous functions, all on $[0, S]$, such that for all $r$:
+
+\begin{itemize}
+\item $w(r)$ satisfies Equation \eqref{eq:equilibrium_wage_rates}.
+\item $n(r) = \hat{n}(w(r), z(r))$ and $q(r) = \hat{q}(w(r), z(r))$.
+\item $N(r) = \hat{N}(w(r))$ and $Q(r) = \hat{Q}(w(r))$.
+\item $\theta(r), q(r)$ and $Q(r)$ satisfy $0 \leq \theta(r) \leq 1$;
+\item $y(r), n(r), N(r), \theta(r)$ and $H(r)$ satisfy $H(0) = 0$ and;
+\item $H(S) = 0$, and;
+\item $z, \theta$ and $n$ satisfy the condition allocation of symmetry.
+\end{itemize}
+\end{definition}
+
+\begin{assumption}
+    (i) The functions $\hat{n}, \hat{q}: \mathbb{R}_+^2 \to \mathbb{R}_+$ and $\hat{N}, \hat{Q}: \mathbb{R}_+ \to \mathbb{R}_+$, are continuously differentiable. Both $\hat{n}$ and $\hat{q}$ are decreasing in $w$ and increasing in $z$; both $\hat{N}$ and $\hat{Q}$ are increasing in $w$. The first derivative $\hat{n}_z(w, z)$ satisfies (ii)
+
+    \begin{equation*}
+        \lim_{n \to \infty} \hat{n}_z(w, z) = 0,
+    \end{equation*}
+
+    for all $w > 0$. (iii) The function $U(c, \ell)$ is strictly increasing in $c$ and $\ell$.
+\end{assumption}
+
+\section{Equilibrium With Productivity Fixed}

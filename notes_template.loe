@@ -10,3 +10,6 @@
 \addvspace {10\p@ }
 \contentsline {assumption}{\ifthmt@listswap \MakeUppercase {a}ssumption\nobreakspace {}8.1\else \numberline {8.1}\MakeUppercase {a}ssumption\fi }{50}{assumption.8.1}%
 \contentsline {assumption}{\ifthmt@listswap \MakeUppercase {a}ssumption\nobreakspace {}8.2\else \numberline {8.2}\MakeUppercase {a}ssumption\fi }{51}{assumption.8.2}%
+\addvspace {10\p@ }
+\contentsline {definition}{\ifthmt@listswap \MakeUppercase {d}efinition\nobreakspace {}13.1\else \numberline {13.1}\MakeUppercase {d}efinition\fi }{74}{definition.13.1}%
+\contentsline {assumption}{\ifthmt@listswap \MakeUppercase {a}ssumption\nobreakspace {}13.1\else \numberline {13.1}\MakeUppercase {a}ssumption\fi }{74}{assumption.13.1}%
