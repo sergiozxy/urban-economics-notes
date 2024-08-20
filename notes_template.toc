@@ -1,110 +1,221 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {part}{I\hspace {1em}urban economics}{7}{part.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {xpart}{urban economics}{9}{part.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}First Nature, Second Nature, and Metropolitan Location}{9}{chapter.1}%
+\defcounter {refsection}{0}\relax 
 \hypertarget {chap-1}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}A Modeling Approach}{9}{section.1.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}A One-Dimensional Model}{10}{section.1.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}A Two-Dimensional Model}{12}{section.1.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Increasing Returns and Economic Geography}{15}{chapter.2}%
+\defcounter {refsection}{0}\relax 
 \hypertarget {chap-2}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}A TWo-Region Model}{15}{section.2.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Short-Run and Long-Run Equilibrium}{16}{section.2.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Necessary Conditions for Manufacutring Concentration}{17}{section.2.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Scale Economics, Product Differentiation, and the Pattern of Trade}{19}{chapter.3}%
+\defcounter {refsection}{0}\relax 
 \hypertarget {chap-3}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Model}{19}{section.3.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.1}Assumptions of the Model}{19}{subsection.3.1.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.2}Equilibrium in a Closed Economy}{20}{subsection.3.1.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.3}Effects of Trade}{20}{subsection.3.1.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Transport Costs}{21}{section.3.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Individual Behavior}{21}{subsection.3.2.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}Determination of Equilibrium}{21}{subsection.3.2.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}"Home Market" Effects on the Pattern of Trade}{22}{section.3.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.1}Two-Industry Economy}{22}{subsection.3.3.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.2}Demand and the Trade Pattern: A simple Case}{23}{subsection.3.3.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Growth, speculation and sprawl in a monocentric city}{25}{chapter.4}%
+\defcounter {refsection}{0}\relax 
 \hypertarget {chap-4}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}The Model}{25}{section.4.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Perfect Foresight Planning}{26}{section.4.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.1}First-Period Equations}{26}{subsection.4.2.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.2}Second-Period Equations}{27}{subsection.4.2.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.3}The Equilibrium}{28}{subsection.4.2.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.4}Comparative Statics}{28}{subsection.4.2.4}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Uncertainty and Speculation}{29}{section.4.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.1}Second-Period Equilibrium}{29}{subsection.4.3.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.2}First-Period Equilibrium}{32}{subsection.4.3.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}THE ECONOMICS OF DENSITY: EVIDENCE FROM THE BERLIN WALL}{33}{chapter.5}%
+\defcounter {refsection}{0}\relax 
 \hypertarget {chap-5}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}THEORETICAL MODEL}{33}{section.5.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.1}Workers}{33}{subsection.5.1.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.2}Production}{35}{subsection.5.1.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.3}Land Market Cleaning}{35}{subsection.5.1.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.4}General Equilibrium With Exogenous Location characteristics}{36}{subsection.5.1.4}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.5}Introducing Agglomenration Forces}{37}{subsection.5.1.5}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.6}Recovering Location Characteristics}{37}{subsection.5.1.6}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}THE MAKING OF THE MODERN METROPOLIS: EVIDENCE FROM LONDON}{39}{chapter.6}%
+\defcounter {refsection}{0}\relax 
 \hypertarget {chap-6}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}Theoretical Framework}{39}{section.6.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.1}Preferences}{39}{subsection.6.1.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.2}Production}{41}{subsection.6.1.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.3}Commuter Market Clearing}{41}{subsection.6.1.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.4}Land Market Clearing}{41}{subsection.6.1.4}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.2}Quantitative Analysis}{42}{section.6.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.1}Combined Land and Commuter Market Clearing}{42}{subsection.6.2.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Urban Diversity, Process Innovation, and the Life Cycle of Products}{43}{chapter.7}%
+\defcounter {refsection}{0}\relax 
 \hypertarget {chap-7}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}The model}{43}{section.7.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.1.1}Technology}{43}{subsection.7.1.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.1.2}Preferences}{44}{subsection.7.1.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.1.3}Income and Migration}{44}{subsection.7.1.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.1.4}City Formation}{45}{subsection.7.1.4}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.1.5}Equilibrium Definition}{45}{subsection.7.1.5}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.2}Equilibrium City Sizes}{45}{section.7.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Spatial Sorting and Inequality}{47}{chapter.8}%
+\defcounter {refsection}{0}\relax 
 \hypertarget {chap-8}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.1}Change in SKill Sourting: Framework}{47}{section.8.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.1.1}Setup}{47}{subsection.8.1.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Preferences}{47}{subsection.8.1.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Supply of goods, amenities, and housing}{48}{equation.8.1.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Heterogeneous migration elasticity}{51}{equation.8.1.14}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Urban skill premium and sorting}{51}{equation.8.1.15}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {9}Urban Accounting and Welfare}{53}{chapter.9}%
+\defcounter {refsection}{0}\relax 
 \hypertarget {chap-9}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.1}The Model}{53}{section.9.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {9.1.1}Technology}{53}{subsection.9.1.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {9.1.2}Preferences}{53}{subsection.9.1.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {9.1.3}Commuting Cost, Land Rents, and City Equilibrium}{54}{subsection.9.1.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {9.1.4}Government Budget Constraint}{55}{subsection.9.1.4}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {9.1.5}Equilibrium}{55}{subsection.9.1.5}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.2}Evidence of Efficiency, Amenities, and Frictions}{56}{section.9.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {9.2.1}Empirical Approach}{56}{subsection.9.2.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {9.2.2}Effects of Efficiency, Amenities, and Frictions on City Size}{57}{subsection.9.2.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {10}Interacting Agents, Spatial Externalities and the Evolution of residential land use patterns}{59}{chapter.10}%
+\defcounter {refsection}{0}\relax 
 \hypertarget {chap-10}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {10.1}Optimal Timing of Development}{59}{section.10.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {10.2}The Empirical Model}{60}{section.10.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.2.1}Hazard model of development}{60}{subsection.10.2.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.2.2}The identification Problem}{61}{subsection.10.2.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {11}When is the economy monocentric}{63}{chapter.11}%
+\defcounter {refsection}{0}\relax 
 \hypertarget {chap-11}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {11.1}A formal model of a spatial economy}{63}{section.11.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {11.2}The monocentric equilibrium}{64}{section.11.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {11.3}The potential function and location-equilibrium of M-firms}{66}{section.11.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {12}The endogenous formation of a city: population agglomeration and marketplaces in a location-specific production economy}{69}{chapter.12}%
+\defcounter {refsection}{0}\relax 
 \hypertarget {chap-12}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {12.1}A general model}{69}{section.12.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {12.1.1}An overview of the economy}{69}{subsection.12.1.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {12.1.2}Marketplaces}{69}{subsection.12.1.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {12.1.3}Consumers}{69}{subsection.12.1.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {12.1.4}Individual transportation}{69}{subsection.12.1.4}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {12.1.5}Mass transportation among marketplace}{70}{subsection.12.1.5}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {12.1.6}The trading cost}{70}{subsection.12.1.6}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {13}ON THE INTERNAL STRUCTURE OF CITIES}{71}{chapter.13}%
+\defcounter {refsection}{0}\relax 
 \hypertarget {chap-13}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {13.1}The Model}{71}{section.13.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {13.2}Equilibrium With Productivity Fixed}{74}{section.13.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {14}Market thickness and the impact of unemployment on housing market outcomes}{75}{chapter.14}%
+\defcounter {refsection}{0}\relax 
 \hypertarget {chap-14}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {14.1}The Model}{75}{section.14.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {14.1.1}The basic setup}{75}{subsection.14.1.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {14.1.2}The seller's problem}{76}{subsection.14.1.2}%
